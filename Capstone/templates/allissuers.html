@@ -1,0 +1,6 @@
+{% for issuer in issuers: %}
+	<li>{{ issuer.Name }}</li>
+	{% for formd in issuer.FormD %}
+		<li>{{ formd.TotalOfferingAmount }}</li>
+	{% endfor %}
+{% endfor %}

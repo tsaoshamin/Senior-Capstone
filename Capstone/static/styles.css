@@ -1,0 +1,198 @@
+﻿body{
+	background: #778899;
+	color:white; 
+	min-width:700px;
+}	
+#top img{
+	float: left; 
+	background-color:black;
+	height:81px;
+	
+}
+#top{
+	
+width: 100%;
+	line-height: 81px; 
+	background-color:black;
+	color:white;
+	font-size:25pt;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow: auto;
+	padding-bottom: 0px;
+}
+
+
+#ischool img{
+float:right;
+background-color:white;
+width:160px;
+height:auto;
+margin-top:40px;
+margin-bottom:0px;
+margin-right:5px;
+padding:5px;
+}
+
+
+#globalNav{
+	
+	width: 100%;
+	padding-top:10px;
+	margin-top:0px;
+	background:rgb(51, 51, 51);
+}
+
+a{
+	color:#FFEB73;
+}
+
+a:hover{
+   color:#FF6840;
+}
+
+#menu {
+	
+	background:url(http://www2.blackrock.com/include/global/css/images/blk_global_nav_level1_bg.png) repeat-x rgb(93, 107, 114);
+	height: 40px;
+	position: relative;
+	/*margin-top: 0;
+	background-color: #9966CC;*/
+}
+
+ul{
+padding-left:0px;
+}
+
+ul li{
+display: inline;
+padding: 3px;
+margin: 0px 0px 0px 30px;
+border-style:dotted;
+border-width:2px;
+border-color: white;
+/*color: rgb(255, 255, 255);*/
+}
+
+#menu li {
+	/*display: inline;*/
+	color: white;
+	font-size: 11pt;
+	font-family: Georgia, Sans-Serif;
+}
+
+/*#menu li a:visited {
+	color: #CD853F;
+}*/
+
+
+#filterformds {
+
+}
+
+select {
+	border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+	background: #778899;
+	display:inline-block;
+	/*width:260px;*/
+   	padding: 5px;
+   	font-size: 16px;
+   	height: 34px;
+   	-webkit-appearance: none;
+	color:white;
+}
+
+/*.options{
+color:black;
+}*/
+.button {
+	margin: 1em;
+	margin-left: 30px;
+   	width: 110px;
+	border: 1px solid;
+	padding: .3em;
+	border: 1.5px solid white;
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;	
+	display:block;
+}
+
+.button:hover {
+    border-color: #039;
+	
+}
+
+
+.default{
+	color: white;
+}
+
+#welcome{
+	
+}
+.content{
+	font-family:"Arial";
+	background-color: #363636;
+	border:solid;
+	border-color:white;
+	padding:30px 40px 40px 40px;
+	margin:50px;
+}
+
+.data{
+	color:white;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 30px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-q1
+{
+	background: #b9c9fe url('table-images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #b9c9fe url('table-images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('table-images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}

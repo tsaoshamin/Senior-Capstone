@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class='content'>
+<div id='filterformds'>
+<h2>Slice and dice Form Ds here. </h2>
+<form method='post' action='{{ url_for('formd') }}'>
+	<select name="date_select">
+		<option selected="selected" value="">All Dates</option>
+		<option value="{{ dates["today"] }}">Today</option>
+		<option value="{{ dates["lastweek"] }}">Last Week</option>
+		<option value="{{ dates["lastmonth"] }}">Last Month</option>
+	<!-- <option value="Last Year">Last Year</option> -->
+	</select>
+	<select name="offering_select">
+		<option selected="selected" value="0-100000000000">All Definite Offering Amounts</option>
+		<option value="0-1000000">Below $1 Million</option>
+		<option value="1000000-5000000">$1 - $5 Million</option>
+		<option value="5000000-10000000">$5 - $10 Million</option>
+		<option value="10000000-100000000">$10 - $100 Million</option>
+		<option value="100000000-100000000000">$100+ Million</option>
+		<option value="Indefinite">Indefinite</option>
+	</select>
+		<select name="new_amended_select">
+		<option value="newandamended">New & Amended</option>
+		<option value="new">New Filings</option>
+		<option value="amended">Amended Filings</option>
+	</select>
+		<select name="investment_type_select">
+		<option value="Hedge Fund">Hedge Funds</option>
+		<option value="Venture Capital Fund">Venture Capital Funds</option>
+		<option value="Private Equity Fund">Private Equity Funds</option>
+		<option value="Other Investment Fund">Other Investment Funds</option>
+	</select>
+	<input type='submit' value='Look for Forms!' class='button' />
+</form>
+</div>
+
+{% if formds %}
+	<table id="rounded-corner" class="sortable">
+	<thead>
+	<th scope="col" class="rounded-q1">Company</th>
+	<th scope="col">Submission Date</th>
+	<th scope="col">Offering Amount</th>
+	<th scope="col" class="rounded-q4">Remaining Amount</th>
+	</thead>
+	<tfoot>
+    	<tr>
+        	<td colspan="3" class="rounded-foot-left">&nbsp;</td>
+        	<td class="rounded-foot-right">&nbsp;</td>
+        </tr>
+	</tfoot>
+	{% for formd in formds %}
+		<tr>
+		<td>{{ formd.Issuer.Name }}</td>
+		<td>{{ formd.SubmissionDate }}</td>
+		<td>{{ formd.TotalOfferingAmount }}</td>
+		<td>{{ formd.TotalRemaining }}</td>
+		</tr>
+	{% endfor %}
+	</table>
+</div>
+{% endif %}
+{% endblock %}
