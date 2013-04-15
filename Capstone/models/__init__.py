@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Table, ForeignKey, DateTime, Boolean, Date
+from sqlalchemy import Column, Integer, String, Table, ForeignKey, DateTime, Boolean, Date, Numeric
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.ext.associationproxy import association_proxy
 from Capstone.database import Base
@@ -31,4 +31,23 @@ class FormD(Base):
     TotalRemaining = Column(Integer)
     IsTotalRemainingIndefinite = Column(Boolean)
 
+class Ticker(Base):
+	__tablename__ = 'Ticker'
+	id = Column(Integer, primary_key=True)
+	Name = Column(String(50))
+	Class = Column(String(50))
+	Form497 = relationship("Form497", backref="Ticker")
+
+
+class Form497(Base):
+	__tablename__ = 'Form497'
+	id = Column(Integer, primary_key=True)
+	TickerID = Column(Integer, ForeignKey('Ticker.Name'))
+	ManagementFeesOverAssets = Column(Numeric)
+	DistributionAndService12b1FeesOverAssets = Column(Numeric)
+	AcquiredFundFeesAndExpensesOverAssets = Column(Numeric) 
+	ExpensesOverAssets = Column(Numeric) 
+	AnnualReturn2010 = Column(Numeric)
+	AnnualReturn2011 = Column(Numeric)
+	FeeWaiverOrReimbursementOverAssets = Column(Numeric)
 
