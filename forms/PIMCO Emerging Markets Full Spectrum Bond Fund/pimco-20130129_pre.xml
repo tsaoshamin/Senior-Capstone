@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XBRL document created with DocuBuilder 4.7 by Data Communique, Inc. -->
+<link:linkbase xmlns:pimco="http://pimco/20130130" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-types="http://xbrl.us/us-types/2009-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:rr="http://xbrl.sec.gov/rr/2010-02-28" xmlns:dei="http://xbrl.us/dei/2009-01-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Defaults" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#Defaults"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Class" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ClassOnly"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Series" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#SeriesOnly"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/RiskReturn" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#RiskReturn"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/RiskReturnDetailData" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#RiskReturnDetailData"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Prospectus" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ProspectusOnly"/>
+  <link:roleRef roleURI="http://xbrl.us/us-gaap/role/label/negated" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2008-03-31.xsd#negated"/>
+  <link:roleRef roleURI="http://pimco/role/AAAA" xlink:type="simple" xlink:href="pimco-20130129.xsd#AAAA"/>
+  <link:roleRef roleURI="http://pimco/role/BBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#BBBB"/>
+  <link:roleRef roleURI="http://pimco/role/ExpenseExampleAAAA" xlink:type="simple" xlink:href="pimco-20130129.xsd#ExpenseExampleAAAA"/>
+  <link:roleRef roleURI="http://pimco/role/OperatingExpensesDataAAAA" xlink:type="simple" xlink:href="pimco-20130129.xsd#OperatingExpensesDataAAAA"/>
+  <link:roleRef roleURI="http://pimco/role/ExpenseExampleBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#ExpenseExampleBBBB"/>
+  <link:roleRef roleURI="http://pimco/role/OperatingExpensesDataBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#OperatingExpensesDataBBBB"/>
+  <link:roleRef roleURI="http://pimco/role/ShareholderFeesDataBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#ShareholderFeesDataBBBB"/>
+  <link:roleRef roleURI="http://pimco/role/ExpenseExampleNoRedemptionBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#ExpenseExampleNoRedemptionBBBB"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/RiskReturn">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskReturnAbstract" xlink:label="RiskReturnAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentInformationDocumentAxis" xlink:label="DocumentInformationDocumentAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="DocumentInformationDocumentAxis" order="45.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_AAAAMember" xlink:label="AAAAMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="AAAAMember" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_BBBBMember" xlink:label="BBBBMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="BBBBMember" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_LegalEntityAxis" xlink:label="LegalEntityAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="LegalEntityAxis" order="175.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_EntityDomain" xlink:label="EntityDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="EntityDomain" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_S000039671Member" xlink:label="S000039671Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="S000039671Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/ExpenseExampleAAAA">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122921Member" xlink:label="C000122921Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122921Member" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122922Member" xlink:label="C000122922Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122922Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122923Member" xlink:label="C000122923Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122923Member" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122924Member" xlink:label="C000122924Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122924Member" use="optional" order="4.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleAbstract" xlink:label="ExpenseExampleAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleByYearColumnName" xlink:label="ExpenseExampleByYearColumnName"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleByYearColumnName" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear01" xlink:label="ExpenseExampleYear01"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear01" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear03" xlink:label="ExpenseExampleYear03"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear03" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear05" xlink:label="ExpenseExampleYear05"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear05" use="optional" order="4.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear10" xlink:label="ExpenseExampleYear10"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear10" use="optional" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ProspectusShareClassAxis" order="6.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/OperatingExpensesDataAAAA">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" order="29.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122921Member" xlink:label="C000122921Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122921Member" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122922Member" xlink:label="C000122922Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122922Member" use="optional" order="8.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122923Member" xlink:label="C000122923Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122923Member" use="optional" order="15.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122924Member" xlink:label="C000122924Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122924Member" use="optional" order="22.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OperatingExpensesAbstract" xlink:label="OperatingExpensesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OperatingExpensesColumnName" xlink:label="OperatingExpensesColumnName"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="OperatingExpensesColumnName" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ManagementFeesOverAssets" xlink:label="ManagementFeesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="ManagementFeesOverAssets" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_DistributionAndService12b1FeesOverAssets" xlink:label="DistributionAndService12b1FeesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="DistributionAndService12b1FeesOverAssets" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_DistributionOrSimilarNon12b1FeesOverAssets" xlink:label="DistributionOrSimilarNon12b1FeesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="DistributionOrSimilarNon12b1FeesOverAssets" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_Component1OtherExpensesOverAssets" xlink:label="Component1OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="Component1OtherExpensesOverAssets" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_Component2OtherExpensesOverAssets" xlink:label="Component2OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="Component2OtherExpensesOverAssets" use="optional" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_Component3OtherExpensesOverAssets" xlink:label="Component3OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="Component3OtherExpensesOverAssets" use="optional" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OtherExpensesOverAssets" xlink:label="OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="OtherExpensesOverAssets" use="optional" order="8.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_AcquiredFundFeesAndExpensesOverAssets" xlink:label="AcquiredFundFeesAndExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="AcquiredFundFeesAndExpensesOverAssets" use="optional" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpensesOverAssets" xlink:label="ExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="ExpensesOverAssets" use="optional" order="10.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_FeeWaiverOrReimbursementOverAssets" xlink:label="FeeWaiverOrReimbursementOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="FeeWaiverOrReimbursementOverAssets" use="optional" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_NetExpensesOverAssets" xlink:label="NetExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="NetExpensesOverAssets" use="optional" order="12.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="ProspectusShareClassAxis" order="14.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/ExpenseExampleBBBB">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122925Member" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122926Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122927Member" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleAbstract" xlink:label="ExpenseExampleAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleByYearColumnName" xlink:label="ExpenseExampleByYearColumnName"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleByYearColumnName" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear01" xlink:label="ExpenseExampleYear01"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear01" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear03" xlink:label="ExpenseExampleYear03"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear03" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear05" xlink:label="ExpenseExampleYear05"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear05" use="optional" order="4.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleYear10" xlink:label="ExpenseExampleYear10"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ExpenseExampleYear10" use="optional" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleAbstract" xlink:to="ProspectusShareClassAxis" order="6.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/OperatingExpensesDataBBBB">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" order="22.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122925Member" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122926Member" use="optional" order="8.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122927Member" use="optional" order="15.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OperatingExpensesAbstract" xlink:label="OperatingExpensesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OperatingExpensesColumnName" xlink:label="OperatingExpensesColumnName"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="OperatingExpensesColumnName" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ManagementFeesOverAssets" xlink:label="ManagementFeesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="ManagementFeesOverAssets" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_DistributionAndService12b1FeesOverAssets" xlink:label="DistributionAndService12b1FeesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="DistributionAndService12b1FeesOverAssets" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_DistributionOrSimilarNon12b1FeesOverAssets" xlink:label="DistributionOrSimilarNon12b1FeesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="DistributionOrSimilarNon12b1FeesOverAssets" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_Component1OtherExpensesOverAssets" xlink:label="Component1OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="Component1OtherExpensesOverAssets" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_Component2OtherExpensesOverAssets" xlink:label="Component2OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="Component2OtherExpensesOverAssets" use="optional" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_Component3OtherExpensesOverAssets" xlink:label="Component3OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="Component3OtherExpensesOverAssets" use="optional" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OtherExpensesOverAssets" xlink:label="OtherExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="OtherExpensesOverAssets" use="optional" order="8.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_AcquiredFundFeesAndExpensesOverAssets" xlink:label="AcquiredFundFeesAndExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="AcquiredFundFeesAndExpensesOverAssets" use="optional" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpensesOverAssets" xlink:label="ExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="ExpensesOverAssets" use="optional" order="10.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_FeeWaiverOrReimbursementOverAssets" xlink:label="FeeWaiverOrReimbursementOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="FeeWaiverOrReimbursementOverAssets" use="optional" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_NetExpensesOverAssets" xlink:label="NetExpensesOverAssets"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="NetExpensesOverAssets" use="optional" order="12.0" preferredLabel="http://www.xbrl.org/2003/role/totalLabel"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="OperatingExpensesAbstract" xlink:to="ProspectusShareClassAxis" order="14.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/ShareholderFeesDataBBBB">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122925Member" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122926Member" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122927Member" use="optional" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareholderFeesAbstract" xlink:label="ShareholderFeesAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareholderFeesColumnName" xlink:label="ShareholderFeesColumnName"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="ShareholderFeesColumnName" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MaximumCumulativeSalesChargeOverOfferingPrice" xlink:label="MaximumCumulativeSalesChargeOverOfferingPrice"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="MaximumCumulativeSalesChargeOverOfferingPrice" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MaximumCumulativeSalesChargeOverOther" xlink:label="MaximumCumulativeSalesChargeOverOther"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="MaximumCumulativeSalesChargeOverOther" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:label="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MaximumDeferredSalesChargeOverOfferingPrice" xlink:label="MaximumDeferredSalesChargeOverOfferingPrice"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="MaximumDeferredSalesChargeOverOfferingPrice" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MaximumDeferredSalesChargeOverOther" xlink:label="MaximumDeferredSalesChargeOverOther"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="MaximumDeferredSalesChargeOverOther" use="optional" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:label="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" use="optional" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RedemptionFeeOverRedemption" xlink:label="RedemptionFeeOverRedemption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="RedemptionFeeOverRedemption" use="optional" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RedemptionFee" xlink:label="RedemptionFee"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="RedemptionFee" use="optional" order="9.0"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ShareholderFeesAbstract" xlink:to="ProspectusShareClassAxis" order="10.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/ExpenseExampleNoRedemptionBBBB">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122925Member" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122926Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122927Member" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionAbstract" xlink:label="ExpenseExampleNoRedemptionAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionYear01" xlink:label="ExpenseExampleNoRedemptionYear01"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleNoRedemptionAbstract" xlink:to="ExpenseExampleNoRedemptionYear01" use="optional" priority="1" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionYear03" xlink:label="ExpenseExampleNoRedemptionYear03"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleNoRedemptionAbstract" xlink:to="ExpenseExampleNoRedemptionYear03" use="optional" priority="1" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionYear05" xlink:label="ExpenseExampleNoRedemptionYear05"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleNoRedemptionAbstract" xlink:to="ExpenseExampleNoRedemptionYear05" use="optional" priority="1" order="4.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionYear10" xlink:label="ExpenseExampleNoRedemptionYear10"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleNoRedemptionAbstract" xlink:to="ExpenseExampleNoRedemptionYear10" use="optional" priority="1" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ExpenseExampleNoRedemptionAbstract" xlink:to="ProspectusShareClassAxis" order="10.0"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/Prospectus">
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentInformationDocumentAxis" xlink:label="DocumentInformationDocumentAxis"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_AAAAMember" xlink:label="AAAAMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="AAAAMember" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_BBBBMember" xlink:label="BBBBMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="BBBBMember" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/AAAA">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskReturnAbstract" xlink:label="RiskReturnAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskReturnHeading" xlink:label="RiskReturnHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskReturnHeading" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ObjectiveHeading" xlink:label="ObjectiveHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ObjectiveHeading" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ObjectivePrimaryTextBlock" xlink:label="ObjectivePrimaryTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ObjectivePrimaryTextBlock" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ObjectiveSecondaryTextBlock" xlink:label="ObjectiveSecondaryTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ObjectiveSecondaryTextBlock" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseHeading" xlink:label="ExpenseHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseHeading" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseNarrativeTextBlock" xlink:label="ExpenseNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseNarrativeTextBlock" use="optional" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareholderFeesCaption" xlink:label="ShareholderFeesCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ShareholderFeesCaption" use="optional" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareholderFeesTableTextBlock" xlink:label="ShareholderFeesTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ShareholderFeesTableTextBlock" use="optional" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OperatingExpensesCaption" xlink:label="OperatingExpensesCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="OperatingExpensesCaption" use="optional" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_AnnualFundOperatingExpensesTableTextBlock" xlink:label="AnnualFundOperatingExpensesTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="AnnualFundOperatingExpensesTableTextBlock" use="optional" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseFootnotesTextBlock" xlink:label="ExpenseFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseFootnotesTextBlock" use="optional" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpensesDeferredChargesTextBlock" xlink:label="ExpensesDeferredChargesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpensesDeferredChargesTextBlock" use="optional" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpensesRangeOfExchangeFeesTextBlock" xlink:label="ExpensesRangeOfExchangeFeesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpensesRangeOfExchangeFeesTextBlock" use="optional" order="13.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleHeading" xlink:label="ExpenseExampleHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleHeading" use="optional" order="14.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleByYearHeading" xlink:label="ExpenseExampleByYearHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleByYearHeading" use="optional" order="15.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNarrativeTextBlock" xlink:label="ExpenseExampleNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNarrativeTextBlock" use="optional" order="16.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleByYearCaption" xlink:label="ExpenseExampleByYearCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleByYearCaption" use="optional" order="17.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleWithRedemptionTableTextBlock" xlink:label="ExpenseExampleWithRedemptionTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleWithRedemptionTableTextBlock" use="optional" order="18.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionNarrativeTextBlock" xlink:label="ExpenseExampleNoRedemptionNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNoRedemptionNarrativeTextBlock" use="optional" order="19.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionByYearCaption" xlink:label="ExpenseExampleNoRedemptionByYearCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNoRedemptionByYearCaption" use="optional" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionTableTextBlock" xlink:label="ExpenseExampleNoRedemptionTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNoRedemptionTableTextBlock" use="optional" order="21.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleFootnotesTextBlock" xlink:label="ExpenseExampleFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleFootnotesTextBlock" use="optional" order="22.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleClosingTextBlock" xlink:label="ExpenseExampleClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleClosingTextBlock" use="optional" order="23.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PortfolioTurnoverHeading" xlink:label="PortfolioTurnoverHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PortfolioTurnoverHeading" use="optional" order="24.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PortfolioTurnoverTextBlock" xlink:label="PortfolioTurnoverTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PortfolioTurnoverTextBlock" use="optional" order="25.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_StrategyHeading" xlink:label="StrategyHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="StrategyHeading" use="optional" order="26.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_StrategyNarrativeTextBlock" xlink:label="StrategyNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="StrategyNarrativeTextBlock" use="optional" order="27.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskHeading" xlink:label="RiskHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskHeading" use="optional" order="28.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskNarrativeTextBlock" xlink:label="RiskNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskNarrativeTextBlock" use="optional" order="29.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskFootnotesTextBlock" xlink:label="RiskFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskFootnotesTextBlock" use="optional" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskClosingTextBlock" xlink:label="RiskClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskClosingTextBlock" use="optional" order="31.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartAndPerformanceTableHeading" xlink:label="BarChartAndPerformanceTableHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartAndPerformanceTableHeading" use="optional" order="32.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceNarrativeTextBlock" xlink:label="PerformanceNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceNarrativeTextBlock" use="optional" order="33.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartNarrativeTextBlock" xlink:label="BarChartNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartNarrativeTextBlock" use="optional" order="34.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartHeading" xlink:label="BarChartHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartHeading" use="optional" order="35.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartTableTextBlock" xlink:label="BarChartTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartTableTextBlock" use="optional" order="36.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartFootnotesTextBlock" xlink:label="BarChartFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartFootnotesTextBlock" use="optional" order="37.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartClosingTextBlock" xlink:label="BarChartClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartClosingTextBlock" use="optional" order="38.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableHeading" xlink:label="PerformanceTableHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableHeading" use="optional" order="39.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableNarrativeTextBlock" xlink:label="PerformanceTableNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableNarrativeTextBlock" use="optional" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableTextBlock" xlink:label="PerformanceTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableTextBlock" use="optional" order="41.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MarketIndexPerformanceTableTextBlock" xlink:label="MarketIndexPerformanceTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="MarketIndexPerformanceTableTextBlock" use="optional" order="42.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableFootnotesTextBlock" xlink:label="PerformanceTableFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableFootnotesTextBlock" use="optional" order="43.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableClosingTextBlock" xlink:label="PerformanceTableClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableClosingTextBlock" use="optional" order="44.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentInformationDocumentAxis" xlink:label="DocumentInformationDocumentAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="DocumentInformationDocumentAxis" order="45.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_AAAAMember" xlink:label="AAAAMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="AAAAMember" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_LegalEntityAxis" xlink:label="LegalEntityAxis"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_S000039671Member" xlink:label="S000039671Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="S000039671Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://pimco/role/BBBB">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskReturnAbstract" xlink:label="RiskReturnAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskReturnHeading" xlink:label="RiskReturnHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskReturnHeading" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ObjectiveHeading" xlink:label="ObjectiveHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ObjectiveHeading" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ObjectivePrimaryTextBlock" xlink:label="ObjectivePrimaryTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ObjectivePrimaryTextBlock" use="optional" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ObjectiveSecondaryTextBlock" xlink:label="ObjectiveSecondaryTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ObjectiveSecondaryTextBlock" use="optional" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseHeading" xlink:label="ExpenseHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseHeading" use="optional" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseNarrativeTextBlock" xlink:label="ExpenseNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseNarrativeTextBlock" use="optional" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareholderFeesCaption" xlink:label="ShareholderFeesCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ShareholderFeesCaption" use="optional" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareholderFeesTableTextBlock" xlink:label="ShareholderFeesTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ShareholderFeesTableTextBlock" use="optional" order="8.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_OperatingExpensesCaption" xlink:label="OperatingExpensesCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="OperatingExpensesCaption" use="optional" order="9.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_AnnualFundOperatingExpensesTableTextBlock" xlink:label="AnnualFundOperatingExpensesTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="AnnualFundOperatingExpensesTableTextBlock" use="optional" order="10.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseFootnotesTextBlock" xlink:label="ExpenseFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseFootnotesTextBlock" use="optional" order="11.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpensesDeferredChargesTextBlock" xlink:label="ExpensesDeferredChargesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpensesDeferredChargesTextBlock" use="optional" order="12.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpensesRangeOfExchangeFeesTextBlock" xlink:label="ExpensesRangeOfExchangeFeesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpensesRangeOfExchangeFeesTextBlock" use="optional" order="13.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleHeading" xlink:label="ExpenseExampleHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleHeading" use="optional" order="14.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleByYearHeading" xlink:label="ExpenseExampleByYearHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleByYearHeading" use="optional" order="15.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNarrativeTextBlock" xlink:label="ExpenseExampleNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNarrativeTextBlock" use="optional" order="16.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleByYearCaption" xlink:label="ExpenseExampleByYearCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleByYearCaption" use="optional" order="17.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleWithRedemptionTableTextBlock" xlink:label="ExpenseExampleWithRedemptionTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleWithRedemptionTableTextBlock" use="optional" order="18.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionNarrativeTextBlock" xlink:label="ExpenseExampleNoRedemptionNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNoRedemptionNarrativeTextBlock" use="optional" order="19.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionByYearCaption" xlink:label="ExpenseExampleNoRedemptionByYearCaption"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNoRedemptionByYearCaption" use="optional" order="20.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleNoRedemptionTableTextBlock" xlink:label="ExpenseExampleNoRedemptionTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleNoRedemptionTableTextBlock" use="optional" order="21.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleFootnotesTextBlock" xlink:label="ExpenseExampleFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleFootnotesTextBlock" use="optional" order="22.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ExpenseExampleClosingTextBlock" xlink:label="ExpenseExampleClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ExpenseExampleClosingTextBlock" use="optional" order="23.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PortfolioTurnoverHeading" xlink:label="PortfolioTurnoverHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PortfolioTurnoverHeading" use="optional" order="24.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PortfolioTurnoverTextBlock" xlink:label="PortfolioTurnoverTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PortfolioTurnoverTextBlock" use="optional" order="25.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_StrategyHeading" xlink:label="StrategyHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="StrategyHeading" use="optional" order="26.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_StrategyNarrativeTextBlock" xlink:label="StrategyNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="StrategyNarrativeTextBlock" use="optional" order="27.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskHeading" xlink:label="RiskHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskHeading" use="optional" order="28.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskNarrativeTextBlock" xlink:label="RiskNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskNarrativeTextBlock" use="optional" order="29.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskFootnotesTextBlock" xlink:label="RiskFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskFootnotesTextBlock" use="optional" order="30.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskClosingTextBlock" xlink:label="RiskClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="RiskClosingTextBlock" use="optional" order="31.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartAndPerformanceTableHeading" xlink:label="BarChartAndPerformanceTableHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartAndPerformanceTableHeading" use="optional" order="32.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceNarrativeTextBlock" xlink:label="PerformanceNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceNarrativeTextBlock" use="optional" order="33.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartNarrativeTextBlock" xlink:label="BarChartNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartNarrativeTextBlock" use="optional" order="34.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartHeading" xlink:label="BarChartHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartHeading" use="optional" order="35.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartTableTextBlock" xlink:label="BarChartTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartTableTextBlock" use="optional" order="36.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartFootnotesTextBlock" xlink:label="BarChartFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartFootnotesTextBlock" use="optional" order="37.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_BarChartClosingTextBlock" xlink:label="BarChartClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="BarChartClosingTextBlock" use="optional" order="38.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableHeading" xlink:label="PerformanceTableHeading"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableHeading" use="optional" order="39.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableNarrativeTextBlock" xlink:label="PerformanceTableNarrativeTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableNarrativeTextBlock" use="optional" order="40.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableTextBlock" xlink:label="PerformanceTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableTextBlock" use="optional" order="41.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_MarketIndexPerformanceTableTextBlock" xlink:label="MarketIndexPerformanceTableTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="MarketIndexPerformanceTableTextBlock" use="optional" order="42.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableFootnotesTextBlock" xlink:label="PerformanceTableFootnotesTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableFootnotesTextBlock" use="optional" order="43.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceTableClosingTextBlock" xlink:label="PerformanceTableClosingTextBlock"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceTableClosingTextBlock" use="optional" order="44.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentInformationDocumentAxis" xlink:label="DocumentInformationDocumentAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="DocumentInformationDocumentAxis" order="45.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_BBBBMember" xlink:label="BBBBMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="BBBBMember" use="optional" order="1.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_LegalEntityAxis" xlink:label="LegalEntityAxis"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_S000039671Member" xlink:label="S000039671Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="S000039671Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/Series">
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_LegalEntityAxis" xlink:label="LegalEntityAxis"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_S000039671Member" xlink:label="S000039671Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="S000039671Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/Class">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122921Member" xlink:label="C000122921Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122921Member" use="optional" order="6.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122922Member" xlink:label="C000122922Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122922Member" use="optional" order="7.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122923Member" xlink:label="C000122923Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122923Member" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122924Member" xlink:label="C000122924Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122924Member" use="optional" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122925Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122926Member" use="optional" order="4.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122927Member" use="optional" order="8.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+  </link:presentationLink>
+  <link:presentationLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/RiskReturnDetailData">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_RiskReturnAbstract" xlink:label="RiskReturnAbstract"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentInformationDocumentAxis" xlink:label="DocumentInformationDocumentAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="DocumentInformationDocumentAxis" order="174.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentDomain" xlink:label="DocumentDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="DocumentDomain" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_AAAAMember" xlink:label="AAAAMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="AAAAMember" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_BBBBMember" xlink:label="BBBBMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="DocumentInformationDocumentAxis" xlink:to="BBBBMember" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_LegalEntityAxis" xlink:label="LegalEntityAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="LegalEntityAxis" order="175.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_EntityDomain" xlink:label="EntityDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="EntityDomain" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_S000039671Member" xlink:label="S000039671Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="LegalEntityAxis" xlink:to="S000039671Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="ProspectusShareClassAxis" order="176.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="ShareClassDomain" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122921Member" xlink:label="C000122921Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122921Member" use="optional" order="6.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122922Member" xlink:label="C000122922Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122922Member" use="optional" order="7.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122923Member" xlink:label="C000122923Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122923Member" use="optional" order="3.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122924Member" xlink:label="C000122924Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122924Member" use="optional" order="5.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122925Member" use="optional" order="2.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122926Member" use="optional" order="4.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="ProspectusShareClassAxis" xlink:to="C000122927Member" use="optional" order="8.0" preferredLabel="http://www.xbrl.org/2003/role/terseLabel"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceMeasureAxis" xlink:label="PerformanceMeasureAxis"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="RiskReturnAbstract" xlink:to="PerformanceMeasureAxis" order="177.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_PerformanceMeasureDomain" xlink:label="PerformanceMeasureDomain"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="PerformanceMeasureAxis" xlink:to="PerformanceMeasureDomain" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_AfterTaxesOnDistributionsMember" xlink:label="AfterTaxesOnDistributionsMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="PerformanceMeasureAxis" xlink:to="AfterTaxesOnDistributionsMember" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_AfterTaxesOnDistributionsAndSalesMember" xlink:label="AfterTaxesOnDistributionsAndSalesMember"/>
+    <link:presentationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="PerformanceMeasureAxis" xlink:to="AfterTaxesOnDistributionsAndSalesMember" use="optional" order="3.0"/>
+  </link:presentationLink>
+</link:linkbase>

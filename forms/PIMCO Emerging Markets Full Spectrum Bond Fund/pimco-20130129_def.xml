@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XBRL document created with DocuBuilder 4.7 by Data Communique, Inc. -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:pimco="http://pimco/20130130" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Series" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#SeriesOnly"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Class" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ClassOnly"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/Prospectus" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ProspectusOnly"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/ExpenseExample" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ExpenseExample"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/OperatingExpensesData" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#OperatingExpensesData"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/ShareholderFeesData" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ShareholderFeesData"/>
+  <link:roleRef roleURI="http://xbrl.sec.gov/rr/role/ExpenseExampleNoRedemption" xlink:type="simple" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#ExpenseExampleNoRedemption"/>
+  <link:roleRef roleURI="http://pimco/role/ExpenseExampleAAAA" xlink:type="simple" xlink:href="pimco-20130129.xsd#ExpenseExampleAAAA"/>
+  <link:roleRef roleURI="http://pimco/role/OperatingExpensesDataAAAA" xlink:type="simple" xlink:href="pimco-20130129.xsd#OperatingExpensesDataAAAA"/>
+  <link:roleRef roleURI="http://pimco/role/ExpenseExampleBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#ExpenseExampleBBBB"/>
+  <link:roleRef roleURI="http://pimco/role/OperatingExpensesDataBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#OperatingExpensesDataBBBB"/>
+  <link:roleRef roleURI="http://pimco/role/ShareholderFeesDataBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#ShareholderFeesDataBBBB"/>
+  <link:roleRef roleURI="http://pimco/role/ExpenseExampleNoRedemptionBBBB" xlink:type="simple" xlink:href="pimco-20130129.xsd#ExpenseExampleNoRedemptionBBBB"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/Prospectus">
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_DocumentDomain" xlink:label="DocumentDomain"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_AAAAMember" xlink:label="AAAAMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DocumentDomain" xlink:to="AAAAMember" use="optional" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_BBBBMember" xlink:label="BBBBMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DocumentDomain" xlink:to="BBBBMember" use="optional" order="3.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/Series">
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd#dei_EntityDomain" xlink:label="EntityDomain"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_S000039671Member" xlink:label="S000039671Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="EntityDomain" xlink:to="S000039671Member" order="2.0"/>
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.sec.gov/rr/role/Class">
+    <link:loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2010/rr-2010-02-28.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122925Member" xlink:label="C000122925Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122925Member" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122923Member" xlink:label="C000122923Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122923Member" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122926Member" xlink:label="C000122926Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122926Member" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122924Member" xlink:label="C000122924Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122924Member" order="5.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122921Member" xlink:label="C000122921Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122921Member" order="6.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122922Member" xlink:label="C000122922Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122922Member" order="7.0"/>
+    <link:loc xlink:type="locator" xlink:href="pimco-20130129.xsd#pimco_C000122927Member" xlink:label="C000122927Member"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ShareClassDomain" xlink:to="C000122927Member" order="8.0"/>
+  </link:definitionLink>
+</link:linkbase>

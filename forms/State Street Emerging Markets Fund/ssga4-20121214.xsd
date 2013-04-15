@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created by RR Donnelley IM Processor 6.0.0.0 using Fujitsu Interstage XWand-->
+<schema targetNamespace="http://www.ssgafunds.com/20121214" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ssga4="http://www.ssgafunds.com/20121214" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric">
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ssga4-20121214_pre.xml" xlink:title="Presentation Links, all" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ssga4-20121214_cal.xml" xlink:title="Calculation Links, all" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ssga4-20121214_def.xml" xlink:title="Definition Links, all" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="ssga4-20121214_lab.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentDocumentandEntityInformation" id="DocumentDocumentandEntityInformation">
+        <link:definition>000000 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAMoneyMarketFund" id="DocumentRiskReturnSummaryUnlabeledSSgAMoneyMarketFund">
+        <link:definition>000011 - Document - Risk/Return Summary {Unlabeled} - SSgA Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAMoneyMarketFund" id="ScheduleShareholderFeesSSgAMoneyMarketFund">
+        <link:definition>000012 - Schedule - Shareholder Fees {- SSgA Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAMoneyMarketFund" id="ScheduleAnnualFundOperatingExpensesSSgAMoneyMarketFund">
+        <link:definition>000013 - Schedule - Annual Fund Operating Expenses {- SSgA Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAMoneyMarketFund" id="ScheduleExpenseExampleTransposedSSgAMoneyMarketFund">
+        <link:definition>000014 - Schedule - Expense Example {Transposed} {- SSgA Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAMoneyMarketFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAMoneyMarketFund">
+        <link:definition>000015 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAMoneyMarketFundBarChart" id="ScheduleAnnualTotalReturnsSSgAMoneyMarketFundBarChart">
+        <link:definition>000016 - Schedule - Annual Total Returns - SSgA Money Market Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAMoneyMarketFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAMoneyMarketFund">
+        <link:definition>000017 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAMoneyMarketFund" id="DocumentRiskReturnDetailUnlabeledSSgAMoneyMarketFund">
+        <link:definition>000018 - Document - Risk/Return Detail {Unlabeled} - SSgA Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAMoneyMarketFund" id="DisclosureRiskReturnDetailDataElementsSSgAMoneyMarketFund">
+        <link:definition>000019 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAU.S.GovernmentMoneyMarketFund" id="DocumentRiskReturnSummaryUnlabeledSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000021 - Document - Risk/Return Summary {Unlabeled} - SSgA U.S. Government Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAU.S.GovernmentMoneyMarketFund" id="ScheduleShareholderFeesSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000022 - Schedule - Shareholder Fees {- SSgA U.S. Government Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAU.S.GovernmentMoneyMarketFund" id="ScheduleAnnualFundOperatingExpensesSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000023 - Schedule - Annual Fund Operating Expenses {- SSgA U.S. Government Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAU.S.GovernmentMoneyMarketFund" id="ScheduleExpenseExampleTransposedSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000024 - Schedule - Expense Example {Transposed} {- SSgA U.S. Government Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAU.S.GovernmentMoneyMarketFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000025 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA U.S. Government Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAU.S.GovernmentMoneyMarketFundBarChart" id="ScheduleAnnualTotalReturnsSSgAUSGovernmentMoneyMarketFundBarChart">
+        <link:definition>000026 - Schedule - Annual Total Returns - SSgA U.S. Government Money Market Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAU.S.GovernmentMoneyMarketFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000027 - Schedule - Average Annual Total Returns {Transposed} {- SSgA U.S. Government Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAU.S.GovernmentMoneyMarketFund" id="DocumentRiskReturnDetailUnlabeledSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000028 - Document - Risk/Return Detail {Unlabeled} - SSgA U.S. Government Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAU.S.GovernmentMoneyMarketFund" id="DisclosureRiskReturnDetailDataElementsSSgAUSGovernmentMoneyMarketFund">
+        <link:definition>000029 - Disclosure - Risk/Return Detail Data {Elements} - SSgA U.S. Government Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgABondMarketFund" id="DocumentRiskReturnSummaryUnlabeledSSgABondMarketFund">
+        <link:definition>000031 - Document - Risk/Return Summary {Unlabeled} - SSgA Bond Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgABondMarketFund" id="ScheduleShareholderFeesSSgABondMarketFund">
+        <link:definition>000032 - Schedule - Shareholder Fees {- SSgA Bond Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgABondMarketFund" id="ScheduleAnnualFundOperatingExpensesSSgABondMarketFund">
+        <link:definition>000033 - Schedule - Annual Fund Operating Expenses {- SSgA Bond Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgABondMarketFund" id="ScheduleExpenseExampleTransposedSSgABondMarketFund">
+        <link:definition>000034 - Schedule - Expense Example {Transposed} {- SSgA Bond Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgABondMarketFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgABondMarketFund">
+        <link:definition>000035 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Bond Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgABondMarketFundBarChart" id="ScheduleAnnualTotalReturnsSSgABondMarketFundBarChart">
+        <link:definition>000036 - Schedule - Annual Total Returns - SSgA Bond Market Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgABondMarketFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgABondMarketFund">
+        <link:definition>000037 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Bond Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgABondMarketFund" id="DocumentRiskReturnDetailUnlabeledSSgABondMarketFund">
+        <link:definition>000038 - Document - Risk/Return Detail {Unlabeled} - SSgA Bond Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgABondMarketFund" id="DisclosureRiskReturnDetailDataElementsSSgABondMarketFund">
+        <link:definition>000039 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Bond Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAIntermediateFund" id="DocumentRiskReturnSummaryUnlabeledSSgAIntermediateFund">
+        <link:definition>000041 - Document - Risk/Return Summary {Unlabeled} - SSgA Intermediate Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAIntermediateFund" id="ScheduleShareholderFeesSSgAIntermediateFund">
+        <link:definition>000042 - Schedule - Shareholder Fees {- SSgA Intermediate Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAIntermediateFund" id="ScheduleAnnualFundOperatingExpensesSSgAIntermediateFund">
+        <link:definition>000043 - Schedule - Annual Fund Operating Expenses {- SSgA Intermediate Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAIntermediateFund" id="ScheduleExpenseExampleTransposedSSgAIntermediateFund">
+        <link:definition>000044 - Schedule - Expense Example {Transposed} {- SSgA Intermediate Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAIntermediateFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAIntermediateFund">
+        <link:definition>000045 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Intermediate Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAIntermediateFundBarChart" id="ScheduleAnnualTotalReturnsSSgAIntermediateFundBarChart">
+        <link:definition>000046 - Schedule - Annual Total Returns - SSgA Intermediate Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAIntermediateFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAIntermediateFund">
+        <link:definition>000047 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Intermediate Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAIntermediateFund" id="DocumentRiskReturnDetailUnlabeledSSgAIntermediateFund">
+        <link:definition>000048 - Document - Risk/Return Detail {Unlabeled} - SSgA Intermediate Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAIntermediateFund" id="DisclosureRiskReturnDetailDataElementsSSgAIntermediateFund">
+        <link:definition>000049 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Intermediate Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAHighYieldBondFund" id="DocumentRiskReturnSummaryUnlabeledSSgAHighYieldBondFund">
+        <link:definition>000051 - Document - Risk/Return Summary {Unlabeled} - SSgA High Yield Bond Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAHighYieldBondFund" id="ScheduleShareholderFeesSSgAHighYieldBondFund">
+        <link:definition>000052 - Schedule - Shareholder Fees {- SSgA High Yield Bond Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAHighYieldBondFund" id="ScheduleAnnualFundOperatingExpensesSSgAHighYieldBondFund">
+        <link:definition>000053 - Schedule - Annual Fund Operating Expenses {- SSgA High Yield Bond Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAHighYieldBondFund" id="ScheduleExpenseExampleTransposedSSgAHighYieldBondFund">
+        <link:definition>000054 - Schedule - Expense Example {Transposed} {- SSgA High Yield Bond Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAHighYieldBondFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAHighYieldBondFund">
+        <link:definition>000055 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA High Yield Bond Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAHighYieldBondFundBarChart" id="ScheduleAnnualTotalReturnsSSgAHighYieldBondFundBarChart">
+        <link:definition>000056 - Schedule - Annual Total Returns - SSgA High Yield Bond Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAHighYieldBondFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAHighYieldBondFund">
+        <link:definition>000057 - Schedule - Average Annual Total Returns {Transposed} {- SSgA High Yield Bond Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAHighYieldBondFund" id="DocumentRiskReturnDetailUnlabeledSSgAHighYieldBondFund">
+        <link:definition>000058 - Document - Risk/Return Detail {Unlabeled} - SSgA High Yield Bond Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAHighYieldBondFund" id="DisclosureRiskReturnDetailDataElementsSSgAHighYieldBondFund">
+        <link:definition>000059 - Disclosure - Risk/Return Detail Data {Elements} - SSgA High Yield Bond Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgADynamicSmallCapFund" id="DocumentRiskReturnSummaryUnlabeledSSgADynamicSmallCapFund">
+        <link:definition>000061 - Document - Risk/Return Summary {Unlabeled} - SSgA Dynamic Small Cap Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgADynamicSmallCapFund" id="ScheduleShareholderFeesSSgADynamicSmallCapFund">
+        <link:definition>000062 - Schedule - Shareholder Fees {- SSgA Dynamic Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgADynamicSmallCapFund" id="ScheduleAnnualFundOperatingExpensesSSgADynamicSmallCapFund">
+        <link:definition>000063 - Schedule - Annual Fund Operating Expenses {- SSgA Dynamic Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgADynamicSmallCapFund" id="ScheduleExpenseExampleTransposedSSgADynamicSmallCapFund">
+        <link:definition>000064 - Schedule - Expense Example {Transposed} {- SSgA Dynamic Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgADynamicSmallCapFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgADynamicSmallCapFund">
+        <link:definition>000065 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Dynamic Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgADynamicSmallCapFundBarChart" id="ScheduleAnnualTotalReturnsSSgADynamicSmallCapFundBarChart">
+        <link:definition>000066 - Schedule - Annual Total Returns - SSgA Dynamic Small Cap Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgADynamicSmallCapFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgADynamicSmallCapFund">
+        <link:definition>000067 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Dynamic Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgADynamicSmallCapFund" id="DocumentRiskReturnDetailUnlabeledSSgADynamicSmallCapFund">
+        <link:definition>000068 - Document - Risk/Return Detail {Unlabeled} - SSgA Dynamic Small Cap Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgADynamicSmallCapFund" id="DisclosureRiskReturnDetailDataElementsSSgADynamicSmallCapFund">
+        <link:definition>000069 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Dynamic Small Cap Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAIAMSHARESFund" id="DocumentRiskReturnSummaryUnlabeledSSgAIAMSHARESFund">
+        <link:definition>000071 - Document - Risk/Return Summary {Unlabeled} - SSgA IAM SHARES Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAIAMSHARESFund" id="ScheduleShareholderFeesSSgAIAMSHARESFund">
+        <link:definition>000072 - Schedule - Shareholder Fees {- SSgA IAM SHARES Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAIAMSHARESFund" id="ScheduleAnnualFundOperatingExpensesSSgAIAMSHARESFund">
+        <link:definition>000073 - Schedule - Annual Fund Operating Expenses {- SSgA IAM SHARES Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAIAMSHARESFund" id="ScheduleExpenseExampleTransposedSSgAIAMSHARESFund">
+        <link:definition>000074 - Schedule - Expense Example {Transposed} {- SSgA IAM SHARES Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAIAMSHARESFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAIAMSHARESFund">
+        <link:definition>000075 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA IAM SHARES Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAIAMSHARESFundBarChart" id="ScheduleAnnualTotalReturnsSSgAIAMSHARESFundBarChart">
+        <link:definition>000076 - Schedule - Annual Total Returns - SSgA IAM SHARES Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAIAMSHARESFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAIAMSHARESFund">
+        <link:definition>000077 - Schedule - Average Annual Total Returns {Transposed} {- SSgA IAM SHARES Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAIAMSHARESFund" id="DocumentRiskReturnDetailUnlabeledSSgAIAMSHARESFund">
+        <link:definition>000078 - Document - Risk/Return Detail {Unlabeled} - SSgA IAM SHARES Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAIAMSHARESFund" id="DisclosureRiskReturnDetailDataElementsSSgAIAMSHARESFund">
+        <link:definition>000079 - Disclosure - Risk/Return Detail Data {Elements} - SSgA IAM SHARES Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAEnhancedSmallCapFund" id="DocumentRiskReturnSummaryUnlabeledSSgAEnhancedSmallCapFund">
+        <link:definition>000081 - Document - Risk/Return Summary {Unlabeled} - SSgA Enhanced Small Cap Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAEnhancedSmallCapFund" id="ScheduleShareholderFeesSSgAEnhancedSmallCapFund">
+        <link:definition>000082 - Schedule - Shareholder Fees {- SSgA Enhanced Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAEnhancedSmallCapFund" id="ScheduleAnnualFundOperatingExpensesSSgAEnhancedSmallCapFund">
+        <link:definition>000083 - Schedule - Annual Fund Operating Expenses {- SSgA Enhanced Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAEnhancedSmallCapFund" id="ScheduleExpenseExampleTransposedSSgAEnhancedSmallCapFund">
+        <link:definition>000084 - Schedule - Expense Example {Transposed} {- SSgA Enhanced Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAEnhancedSmallCapFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAEnhancedSmallCapFund">
+        <link:definition>000085 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Enhanced Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAEnhancedSmallCapFundBarChart" id="ScheduleAnnualTotalReturnsSSgAEnhancedSmallCapFundBarChart">
+        <link:definition>000086 - Schedule - Annual Total Returns - SSgA Enhanced Small Cap Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAEnhancedSmallCapFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAEnhancedSmallCapFund">
+        <link:definition>000087 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Enhanced Small Cap Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAEnhancedSmallCapFund" id="DocumentRiskReturnDetailUnlabeledSSgAEnhancedSmallCapFund">
+        <link:definition>000088 - Document - Risk/Return Detail {Unlabeled} - SSgA Enhanced Small Cap Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAEnhancedSmallCapFund" id="DisclosureRiskReturnDetailDataElementsSSgAEnhancedSmallCapFund">
+        <link:definition>000089 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Enhanced Small Cap Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAEmergingMarketsFund" id="DocumentRiskReturnSummaryUnlabeledSSgAEmergingMarketsFund">
+        <link:definition>000091 - Document - Risk/Return Summary {Unlabeled} - SSgA Emerging Markets Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAEmergingMarketsFund" id="ScheduleShareholderFeesSSgAEmergingMarketsFund">
+        <link:definition>000092 - Schedule - Shareholder Fees {- SSgA Emerging Markets Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAEmergingMarketsFund" id="ScheduleAnnualFundOperatingExpensesSSgAEmergingMarketsFund">
+        <link:definition>000093 - Schedule - Annual Fund Operating Expenses {- SSgA Emerging Markets Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAEmergingMarketsFund" id="ScheduleExpenseExampleTransposedSSgAEmergingMarketsFund">
+        <link:definition>000094 - Schedule - Expense Example {Transposed} {- SSgA Emerging Markets Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAEmergingMarketsFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAEmergingMarketsFund">
+        <link:definition>000095 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Emerging Markets Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAEmergingMarketsFundBarChart" id="ScheduleAnnualTotalReturnsSSgAEmergingMarketsFundBarChart">
+        <link:definition>000096 - Schedule - Annual Total Returns - SSgA Emerging Markets Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAEmergingMarketsFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAEmergingMarketsFund">
+        <link:definition>000097 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Emerging Markets Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAEmergingMarketsFund" id="DocumentRiskReturnDetailUnlabeledSSgAEmergingMarketsFund">
+        <link:definition>000098 - Document - Risk/Return Detail {Unlabeled} - SSgA Emerging Markets Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAEmergingMarketsFund" id="DisclosureRiskReturnDetailDataElementsSSgAEmergingMarketsFund">
+        <link:definition>000099 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Emerging Markets Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAInternationalStockSelectionFund" id="DocumentRiskReturnSummaryUnlabeledSSgAInternationalStockSelectionFund">
+        <link:definition>000101 - Document - Risk/Return Summary {Unlabeled} - SSgA International Stock Selection Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAInternationalStockSelectionFund" id="ScheduleShareholderFeesSSgAInternationalStockSelectionFund">
+        <link:definition>000102 - Schedule - Shareholder Fees {- SSgA International Stock Selection Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAInternationalStockSelectionFund" id="ScheduleAnnualFundOperatingExpensesSSgAInternationalStockSelectionFund">
+        <link:definition>000103 - Schedule - Annual Fund Operating Expenses {- SSgA International Stock Selection Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAInternationalStockSelectionFund" id="ScheduleExpenseExampleTransposedSSgAInternationalStockSelectionFund">
+        <link:definition>000104 - Schedule - Expense Example {Transposed} {- SSgA International Stock Selection Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAInternationalStockSelectionFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAInternationalStockSelectionFund">
+        <link:definition>000105 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA International Stock Selection Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAInternationalStockSelectionFundBarChart" id="ScheduleAnnualTotalReturnsSSgAInternationalStockSelectionFundBarChart">
+        <link:definition>000106 - Schedule - Annual Total Returns - SSgA International Stock Selection Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAInternationalStockSelectionFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAInternationalStockSelectionFund">
+        <link:definition>000107 - Schedule - Average Annual Total Returns {Transposed} {- SSgA International Stock Selection Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAInternationalStockSelectionFund" id="DocumentRiskReturnDetailUnlabeledSSgAInternationalStockSelectionFund">
+        <link:definition>000108 - Document - Risk/Return Detail {Unlabeled} - SSgA International Stock Selection Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAInternationalStockSelectionFund" id="DisclosureRiskReturnDetailDataElementsSSgAInternationalStockSelectionFund">
+        <link:definition>000109 - Disclosure - Risk/Return Detail Data {Elements} - SSgA International Stock Selection Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAU.S.TreasuryMoneyMarketFund" id="DocumentRiskReturnSummaryUnlabeledSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000111 - Document - Risk/Return Summary {Unlabeled} - SSgA U.S. Treasury Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAU.S.TreasuryMoneyMarketFund" id="ScheduleShareholderFeesSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000112 - Schedule - Shareholder Fees {- SSgA U.S. Treasury Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAU.S.TreasuryMoneyMarketFund" id="ScheduleAnnualFundOperatingExpensesSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000113 - Schedule - Annual Fund Operating Expenses {- SSgA U.S. Treasury Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAU.S.TreasuryMoneyMarketFund" id="ScheduleExpenseExampleTransposedSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000114 - Schedule - Expense Example {Transposed} {- SSgA U.S. Treasury Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAU.S.TreasuryMoneyMarketFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000115 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA U.S. Treasury Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAU.S.TreasuryMoneyMarketFundBarChart" id="ScheduleAnnualTotalReturnsSSgAUSTreasuryMoneyMarketFundBarChart">
+        <link:definition>000116 - Schedule - Annual Total Returns - SSgA U.S. Treasury Money Market Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAU.S.TreasuryMoneyMarketFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000117 - Schedule - Average Annual Total Returns {Transposed} {- SSgA U.S. Treasury Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAU.S.TreasuryMoneyMarketFund" id="DocumentRiskReturnDetailUnlabeledSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000118 - Document - Risk/Return Detail {Unlabeled} - SSgA U.S. Treasury Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAU.S.TreasuryMoneyMarketFund" id="DisclosureRiskReturnDetailDataElementsSSgAUSTreasuryMoneyMarketFund">
+        <link:definition>000119 - Disclosure - Risk/Return Detail Data {Elements} - SSgA U.S. Treasury Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAPrimeMoneyMarketFund" id="DocumentRiskReturnSummaryUnlabeledSSgAPrimeMoneyMarketFund">
+        <link:definition>000121 - Document - Risk/Return Summary {Unlabeled} - SSgA Prime Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAPrimeMoneyMarketFund" id="ScheduleShareholderFeesSSgAPrimeMoneyMarketFund">
+        <link:definition>000122 - Schedule - Shareholder Fees {- SSgA Prime Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAPrimeMoneyMarketFund" id="ScheduleAnnualFundOperatingExpensesSSgAPrimeMoneyMarketFund">
+        <link:definition>000123 - Schedule - Annual Fund Operating Expenses {- SSgA Prime Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAPrimeMoneyMarketFund" id="ScheduleExpenseExampleTransposedSSgAPrimeMoneyMarketFund">
+        <link:definition>000124 - Schedule - Expense Example {Transposed} {- SSgA Prime Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAPrimeMoneyMarketFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAPrimeMoneyMarketFund">
+        <link:definition>000125 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Prime Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAPrimeMoneyMarketFundBarChart" id="ScheduleAnnualTotalReturnsSSgAPrimeMoneyMarketFundBarChart">
+        <link:definition>000126 - Schedule - Annual Total Returns - SSgA Prime Money Market Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAPrimeMoneyMarketFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAPrimeMoneyMarketFund">
+        <link:definition>000127 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Prime Money Market Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAPrimeMoneyMarketFund" id="DocumentRiskReturnDetailUnlabeledSSgAPrimeMoneyMarketFund">
+        <link:definition>000128 - Document - Risk/Return Detail {Unlabeled} - SSgA Prime Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAPrimeMoneyMarketFund" id="DisclosureRiskReturnDetailDataElementsSSgAPrimeMoneyMarketFund">
+        <link:definition>000129 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Prime Money Market Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgATuckermanActiveREITFund" id="DocumentRiskReturnSummaryUnlabeledSSgATuckermanActiveREITFund">
+        <link:definition>000131 - Document - Risk/Return Summary {Unlabeled} - SSgA Tuckerman Active REIT Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgATuckermanActiveREITFund" id="ScheduleShareholderFeesSSgATuckermanActiveREITFund">
+        <link:definition>000132 - Schedule - Shareholder Fees {- SSgA Tuckerman Active REIT Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgATuckermanActiveREITFund" id="ScheduleAnnualFundOperatingExpensesSSgATuckermanActiveREITFund">
+        <link:definition>000133 - Schedule - Annual Fund Operating Expenses {- SSgA Tuckerman Active REIT Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgATuckermanActiveREITFund" id="ScheduleExpenseExampleTransposedSSgATuckermanActiveREITFund">
+        <link:definition>000134 - Schedule - Expense Example {Transposed} {- SSgA Tuckerman Active REIT Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgATuckermanActiveREITFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgATuckermanActiveREITFund">
+        <link:definition>000135 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Tuckerman Active REIT Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgATuckermanActiveREITFundBarChart" id="ScheduleAnnualTotalReturnsSSgATuckermanActiveREITFundBarChart">
+        <link:definition>000136 - Schedule - Annual Total Returns - SSgA Tuckerman Active REIT Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgATuckermanActiveREITFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgATuckermanActiveREITFund">
+        <link:definition>000137 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Tuckerman Active REIT Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgATuckermanActiveREITFund" id="DocumentRiskReturnDetailUnlabeledSSgATuckermanActiveREITFund">
+        <link:definition>000138 - Document - Risk/Return Detail {Unlabeled} - SSgA Tuckerman Active REIT Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgATuckermanActiveREITFund" id="DisclosureRiskReturnDetailDataElementsSSgATuckermanActiveREITFund">
+        <link:definition>000139 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Tuckerman Active REIT Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAS&amp;P500IndexFund" id="DocumentRiskReturnSummaryUnlabeledSSgASP500IndexFund">
+        <link:definition>000141 - Document - Risk/Return Summary {Unlabeled} - SSgA S&amp;P 500 Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgASP500IndexFund" id="ScheduleShareholderFeesSSgASP500IndexFund">
+        <link:definition>000142 - Schedule - Shareholder Fees {- SSgA S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgASP500IndexFund" id="ScheduleAnnualFundOperatingExpensesSSgASP500IndexFund">
+        <link:definition>000143 - Schedule - Annual Fund Operating Expenses {- SSgA S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgASP500IndexFund" id="ScheduleExpenseExampleTransposedSSgASP500IndexFund">
+        <link:definition>000144 - Schedule - Expense Example {Transposed} {- SSgA S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAS&amp;P500IndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSSgASP500IndexFund">
+        <link:definition>000145 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgASP500IndexFundBarChart" id="ScheduleAnnualTotalReturnsSSgASP500IndexFundBarChart">
+        <link:definition>000146 - Schedule - Annual Total Returns - SSgA S&amp;P 500 Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgASP500IndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSSgASP500IndexFund">
+        <link:definition>000147 - Schedule - Average Annual Total Returns {Transposed} {- SSgA S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAS&amp;P500IndexFund" id="DocumentRiskReturnDetailUnlabeledSSgASP500IndexFund">
+        <link:definition>000148 - Document - Risk/Return Detail {Unlabeled} - SSgA S&amp;P 500 Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgASP500IndexFund" id="DisclosureRiskReturnDetailDataElementsSSgASP500IndexFund">
+        <link:definition>000149 - Disclosure - Risk/Return Detail Data {Elements} - SSgA S&amp;P 500 Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnSummaryUnlabeledSSgAEmergingMarketsFundSelectClass" id="DocumentRiskReturnSummaryUnlabeledSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000151 - Document - Risk/Return Summary {Unlabeled} - SSgA Emerging Markets Fund Select Class</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleShareholderFeesSSgAEmergingMarketsFundSelectClass" id="ScheduleShareholderFeesSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000152 - Schedule - Shareholder Fees {- SSgA Emerging Markets Fund Select Class}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualFundOperatingExpensesSSgAEmergingMarketsFundSelectClass" id="ScheduleAnnualFundOperatingExpensesSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000153 - Schedule - Annual Fund Operating Expenses {- SSgA Emerging Markets Fund Select Class}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleTransposedSSgAEmergingMarketsFundSelectClass" id="ScheduleExpenseExampleTransposedSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000154 - Schedule - Expense Example {Transposed} {- SSgA Emerging Markets Fund Select Class}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSSgAEmergingMarketsFundSelectClass" id="ScheduleExpenseExampleNoRedemptionTransposedSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000155 - Schedule - Expense Example, No Redemption {Transposed} {- SSgA Emerging Markets Fund Select Class}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAnnualTotalReturnsSSgAEmergingMarketsFundSelectClassBarChart" id="ScheduleAnnualTotalReturnsSSgAEmergingMarketsFundSelectClassBarChart">
+        <link:definition>000156 - Schedule - Annual Total Returns - SSgA Emerging Markets Fund Select Class [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSSgAEmergingMarketsFundSelectClass" id="ScheduleAverageAnnualTotalReturnsTransposedSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000157 - Schedule - Average Annual Total Returns {Transposed} {- SSgA Emerging Markets Fund Select Class}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DocumentRiskReturnDetailUnlabeledSSgAEmergingMarketsFundSelectClass" id="DocumentRiskReturnDetailUnlabeledSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000158 - Document - Risk/Return Detail {Unlabeled} - SSgA Emerging Markets Fund Select Class</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.ssgafunds.com/role/DisclosureRiskReturnDetailDataElementsSSgAEmergingMarketsFundSelectClass" id="DisclosureRiskReturnDetailDataElementsSSgAEmergingMarketsFundSelectClass">
+        <link:definition>000159 - Disclosure - Risk/Return Detail Data {Elements} - SSgA Emerging Markets Fund Select Class</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <import namespace="http://xbrl.sec.gov/dei/2012-01-31" schemaLocation="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd" />
+  <import namespace="http://xbrl.sec.gov/rr/2012-01-31" schemaLocation="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd" />
+  <import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <element name="S000005163Member" id="ssga4_S000005163Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014133Member" id="ssga4_C000014133Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005174Member" id="ssga4_S000005174Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014147Member" id="ssga4_C000014147Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005186Member" id="ssga4_S000005186Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014164Member" id="ssga4_C000014164Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014163Member" id="ssga4_C000014163Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="BarclaysCapitalUsAggregateBondIndexMember" id="ssga4_BarclaysCapitalUsAggregateBondIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005165Member" id="ssga4_S000005165Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014136Member" id="ssga4_C000014136Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="BarclaysCapitalUsIntermediateGovernmentCreditBondIndexMember" id="ssga4_BarclaysCapitalUsIntermediateGovernmentCreditBondIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005171Member" id="ssga4_S000005171Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014143Member" id="ssga4_C000014143Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="BarclaysCapitalUsHighYieldTwoPercentageIssuerCappedIndexMember" id="ssga4_BarclaysCapitalUsHighYieldTwoPercentageIssuerCappedIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005184Member" id="ssga4_S000005184Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014161Member" id="ssga4_C000014161Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014160Member" id="ssga4_C000014160Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellTwentyHundredIndexMember" id="ssga4_RussellTwentyHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005173Member" id="ssga4_S000005173Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014146Member" id="ssga4_C000014146Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="SAndPFiveHundredIndexMember" id="ssga4_SAndPFiveHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005178Member" id="ssga4_S000005178Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014151Member" id="ssga4_C000014151Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="InstitutionalSharesMember" id="ssga4_InstitutionalSharesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005187Member" id="ssga4_S000005187Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014165Member" id="ssga4_C000014165Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEmergingMarketsIndexGrossMember" id="ssga4_MsciEmergingMarketsIndexGrossMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEmergingMarketsIndexNetMember" id="ssga4_MsciEmergingMarketsIndexNetMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005168Member" id="ssga4_S000005168Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014140Member" id="ssga4_C000014140Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014139Member" id="ssga4_C000014139Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEafeNetDividendIndexMember" id="ssga4_MsciEafeNetDividendIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005188Member" id="ssga4_S000005188Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014166Member" id="ssga4_C000014166Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005166Member" id="ssga4_S000005166Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000034521Member" id="ssga4_C000034521Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014137Member" id="ssga4_C000014137Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005169Member" id="ssga4_S000005169Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014141Member" id="ssga4_C000014141Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="DowJonesUsSelectReitIndexMember" id="ssga4_DowJonesUsSelectReitIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005183Member" id="ssga4_S000005183Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000014159Member" id="ssga4_C000014159Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="SelectClassSharesMember" id="ssga4_SelectClassSharesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000033262Member" id="ssga4_C000033262Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+</schema>

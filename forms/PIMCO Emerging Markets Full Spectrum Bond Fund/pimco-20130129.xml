@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XBRL document created with DocuBuilder 4.7 by Data Communique, Inc. -->
+<xbrli:xbrl xmlns:pimco="http://pimco/20130130" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-types="http://xbrl.us/us-types/2009-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:rr="http://xbrl.sec.gov/rr/2010-02-28" xmlns:dei="http://xbrl.us/dei/2009-01-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<link:schemaRef xlink:type="simple" xlink:href="pimco-20130129.xsd"/>
+	<xbrli:context id="c">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_AAAA">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:AAAAMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122921_AAAA">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122921Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:AAAAMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122922_AAAA">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122922Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:AAAAMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122923_AAAA">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122923Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:AAAAMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122924_AAAA">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122924Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:AAAAMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_BBBB">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:BBBBMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122925_BBBB">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122925Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:BBBBMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122926_BBBB">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122926Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:BBBBMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:context id="c_S000039671_C000122927_BBBB">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.sec.gov/CIK">0000810893</xbrli:identifier>
+			<xbrli:segment>
+				<xbrldi:explicitMember dimension="dei:LegalEntityAxis">pimco:S000039671Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="rr:ProspectusShareClassAxis">pimco:C000122927Member</xbrldi:explicitMember>
+				<xbrldi:explicitMember dimension="dei:DocumentInformationDocumentAxis">pimco:BBBBMember</xbrldi:explicitMember>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2013-01-29</xbrli:startDate>
+			<xbrli:endDate>2013-01-29</xbrli:endDate>
+		</xbrli:period>
+	</xbrli:context>
+	<xbrli:unit id="Ratio">
+		<xbrli:measure>xbrli:pure</xbrli:measure>
+	</xbrli:unit>
+	<xbrli:unit id="USD">
+		<xbrli:measure>iso4217:USD</xbrli:measure>
+	</xbrli:unit>
+	<xbrli:unit id="Shares">
+		<xbrli:measure>xbrli:shares</xbrli:measure>
+	</xbrli:unit>
+	<xbrli:unit id="USDperShare">
+		<xbrli:divide>
+			<xbrli:unitNumerator>
+				<xbrli:measure>iso4217:USD</xbrli:measure>
+			</xbrli:unitNumerator>
+			<xbrli:unitDenominator>
+				<xbrli:measure>xbrli:shares</xbrli:measure>
+			</xbrli:unitDenominator>
+		</xbrli:divide>
+	</xbrli:unit>
+	<dei:DocumentType contextRef="c">485BPOS</dei:DocumentType>
+	<dei:DocumentPeriodEndDate contextRef="c">2013-01-29</dei:DocumentPeriodEndDate>
+	<dei:EntityRegistrantName contextRef="c">PIMCO FUNDS</dei:EntityRegistrantName>
+	<dei:EntityCentralIndexKey contextRef="c">0000810893</dei:EntityCentralIndexKey>
+	<dei:AmendmentFlag contextRef="c">false</dei:AmendmentFlag>
+	<rr:ProspectusDate contextRef="c">2013-01-29</rr:ProspectusDate>
+	<dei:DocumentCreationDate contextRef="c">2013-01-28</dei:DocumentCreationDate>
+	<dei:DocumentEffectiveDate contextRef="c">2013-01-29</dei:DocumentEffectiveDate>
+	<rr:RiskReturnDetailTableTextBlock contextRef="c">&lt;div style="display: none"&gt;~ http://xbrl.sec.gov/rr/role/RiskReturnDetailData
+column period compact *
+row dei_DocumentInformationDocumentAxis compact *
+row dei_LegalEntityAxis compact *
+row rr_ProspectusShareClassAxis compact *
+row rr_PerformanceMeasureAxis compact *
+row primary compact * ~&lt;/div&gt;</rr:RiskReturnDetailTableTextBlock>
+	<rr:ObjectiveHeading contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Investment Objective
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ObjectiveHeading>
+	<rr:ObjectivePrimaryTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund seeks maximum total return, consistent with prudent investment management.&lt;/p&gt;
+
+      </rr:ObjectivePrimaryTextBlock>
+	<rr:ExpenseHeading contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Fees and Expenses of the Fund
+
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ExpenseHeading>
+	<rr:ExpenseNarrativeTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;This table describes the fees and expenses that you may pay if you buy and hold shares of the Fund:&lt;/p&gt;
+
+      </rr:ExpenseNarrativeTextBlock>
+	<rr:ShareholderFeesCaption contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+
+                     &lt;b&gt;Shareholder Fees (fees paid directly from your investment): None
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ShareholderFeesCaption>
+	<rr:OperatingExpensesCaption contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+
+                     Annual Fund Operating Expenses (expenses that you pay each year as a percentage of the value of your investment):
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:OperatingExpensesCaption>
+	<rr:ExpenseExampleNarrativeTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Example&lt;/b&gt;. The Example is intended to help you compare the cost of investing in Institutional Class, Class P, Administrative Class or Class D shares of the Fund with the costs of investing in other mutual funds. The Example assumes that you invest $10,000 in the noted class of shares for the time periods indicated, and then redeem all your shares at the end of those periods. The Example also assumes that your investment has a 5% return each year and that the Fund's operating expenses remain the same. Although your actual costs may be higher or lower, the Example shows what your costs would be based on these assumptions.&lt;/p&gt;
+
+      </rr:ExpenseExampleNarrativeTextBlock>
+	<rr:PortfolioTurnoverHeading contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Portfolio Turnover
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:PortfolioTurnoverHeading>
+	<rr:PortfolioTurnoverTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               The Fund pays transaction costs when it buys and sells securities (or "turns over" its portfolio). A higher portfolio turnover rate may indicate higher transaction costs and may result in higher taxes when Fund shares are held in a taxable account. These costs, which are not reflected in the Annual Fund Operating Expenses or in the Example tables, affect the Fund's performance. The Fund has not yet commenced operations as of the most recent fiscal year end. Thus, no portfolio turnover rate is provided for the Fund.
+            &lt;/p&gt;
+
+      </rr:PortfolioTurnoverTextBlock>
+	<rr:StrategyHeading contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Principal Investment Strategies
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:StrategyHeading>
+	<rr:StrategyNarrativeTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund is designed to provide dynamic exposure to a broad range of emerging market fixed income asset classes, such as external debt obligations of sovereign, quasi-sovereign, and corporate entities; currencies, and local currency-denominated obligations of sovereigns, quasi-sovereigns, and corporate issuers. PIMCO uses a three-step active management approach in seeking to achieve the Fund's investment objective: 1) develop a target asset allocation to implement across the eligible investments; 2) identify additional opportunities for country and security selection designed to add value beyond the target asset allocation within each of the eligible investments; and 3) employ additional investment strategies designed to either mitigate or emphasize risks resulting from the implementation of the target asset allocation. This active management approach is driven by PIMCO's global macroeconomic views, emerging markets expertise and experience across a wide range of investment instruments. The Fund's assets are allocated in a manner that reflects PIMCO's views regarding the attractiveness of key investment risk factors, considering both return potential and volatility, and includes an assessment of aggregate country, issuer and currency exposures.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;PIMCO evaluates these three steps daily and uses varying combinations of Acquired Funds (defined below) and/or direct investments in efforts to achieve the most efficient execution of PIMCO's investment views. Specifically, "Acquired Funds" refers to the following: funds of the Trust and funds of PIMCO Equity Series and PIMCO ETF Trust, affiliated open-end investment companies, except funds of funds ("Underlying PIMCO Funds") and other affiliated and unaffiliated funds in which the Fund may invest. Acquired Funds may or may not be registered under the Investment Company Act of 1940 (the "1940 Act"). To the extent Underlying PIMCO Funds of the Trust or PIMCO Equity Series are held, Institutional Class or Class M shares will be held. The Fund's investments may also include Fixed Income Instruments of varying maturities, forwards or derivatives, such as options, futures contracts or swap agreements. "Fixed Income Instruments" include bonds, debt securities and other similar instruments issued by various U.S. and non-U.S. public or private-sector entities. The Fund will invest in such funds, securities, instruments and other investments to the extent permitted under the 1940 Act, or any exemptive relief therefrom. The Fund is non-diversified, which means that it may invest its assets in a smaller number of issuers than a diversified fund.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund invests under normal circumstances at least 80% of its assets in investments economically tied to emerging market countries and 80% of its assets in Fixed Income Instruments, which may be represented by direct or indirect (through an Acquired Fund) investments. The Fund may invest, without limitation, in securities denominated in foreign currencies and in U.S. dollar-denominated securities of foreign issuers. In addition, the Fund may invest in both investment-grade securities and high yield securities ("junk bonds") rated at least Caa by Moody's Investors Service, Inc. ("Moody's"), or equivalently rated by Standard &amp;amp; Poor's Rating Services ("S&amp;amp;P") or Fitch, Inc. ("Fitch"), or, if unrated, determined by PIMCO to be of comparable quality. The Fund's benchmark index is a blend of 50% JPMorgan Global Bond Index Emerging Markets- Global Diversified, 25% JPMorgan Emerging Markets Bond Index Global and 25% JPMorgan Corporate Emerging Market Bond Index Diversified (the "Benchmark"). The Fund will normally limit its foreign currency exposure (from non-U.S. dollar-denominated securities or currencies) to between 20% and 80% of its assets. The average portfolio duration of this Fund normally varies within two years (plus or minus) of the portfolio duration of the securities comprising the Benchmark, as calculated by PIMCO, which as of December 31, 2012 was 5.76 years. The Fund may purchase and sell securities on a when-issued, delayed delivery or forward commitment basis and may engage in short sales.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund's assets are not allocated according to a predetermined blend of investment exposures or mix of instruments. PIMCO has the flexibility to reallocate the Fund's assets among any or all of the investment exposures represented by affiliated or unaffiliated funds, or invest directly in securities, instruments and other investments, based on its ongoing analyses of the global economy and financial markets. While these analyses are performed daily, material shifts in investment exposures typically take place over longer periods of time, unless in response to a perceived short-term opportunity or market dislocation. The "total return" sought by the Fund consists of income earned on the Fund's investments, plus capital appreciation, if any, which generally arises from decreases in interest rates, foreign currency appreciation, or improving credit fundamentals for a particular sector or security.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;Additional information for the Underlying PIMCO Funds can be found in the Statement of Additional Information and/ or the Underlying PIMCO Funds' prospectuses and financial reports. Additional Underlying PIMCO Funds may be added or deleted in the future without shareholder notification.&lt;/p&gt;
+
+      </rr:StrategyNarrativeTextBlock>
+	<rr:RiskHeading contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Principal Risks
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:RiskHeading>
+	<rr:RiskNarrativeTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;It is possible to lose money on an investment in the Fund. The principal risks of investing in the Fund include risks from direct investments and/or indirect exposure through investment in Acquired Funds. The principal risks of investing in the Fund, which could adversely affect its net asset value, yield and total return are:&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Allocation Risk:&lt;/b&gt; the risk that a Fund could lose money as a result of less than optimal or poor asset allocation decisions as to how its assets are allocated or reallocated&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Acquired Fund Risk:&lt;/b&gt; the risk that a Fund's performance is closely related to the risks associated with the securities and other investments held by the Acquired Funds and that the ability of a Fund to achieve its investment objective will depend upon the ability of the Acquired Funds to achieve their investment objectives&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Interest Rate Risk:&lt;/b&gt; the risk that fixed income securities will decline in value because of an increase in interest rates; a fund with a longer average portfolio duration will be more sensitive to changes in interest rates than a fund with a shorter average portfolio duration&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Credit Risk:&lt;/b&gt; the risk that the Fund could lose money if the issuer or guarantor of a fixed income security, or the counterparty to a derivative contract, is unable or unwilling to meet its financial obligations&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;High Yield Risk:&lt;/b&gt; the risk that high yield securities and unrated securities of similar credit quality (commonly known as "junk bonds") are subject to greater levels of credit and liquidity risks. High yield securities are considered primarily speculative with respect to the issuer's continuing ability to make principal and interest payments
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Distressed Company Risk:&lt;/b&gt;
+               the risk that securities of distressed companies may be subject to greater levels of credit, issuer and liquidity risk than a portfolio that does not invest in such securities. Securities of distressed companies include both debt and equity securities. Debt securities of distressed companies are considered predominantly speculative with respect to the issuers' continuing ability to make principal and interest payments
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Market Risk:&lt;/b&gt; the risk that the value of securities owned by the Fund may go up or down, sometimes rapidly or unpredictably, due to factors affecting securities markets generally or particular industries&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Issuer Risk:&lt;/b&gt; the risk that the value of a security may decline for a reason directly related to the issuer, such as management performance, financial leverage and reduced demand for the issuer's goods or services&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Liquidity Risk:&lt;/b&gt; the risk that a particular investment may be difficult to purchase or sell and that the Fund may be unable to sell illiquid securities at an advantageous time or price or achieve its desired level of exposure to a certain sector&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Derivatives Risk:&lt;/b&gt; the risk of investing in derivative instruments, including liquidity, interest rate, market, credit and management risks, mispricing or improper valuation. Changes in the value of the derivative may not correlate perfectly with the underlying asset, rate or index, and the Fund could lose more than the principal amount invested&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Commodity Risk:&lt;/b&gt; the risk that investing in commodity-linked derivative instruments may subject the Fund to greater volatility than investments in traditional securities. The value of commodity-linked derivative instruments may be affected by changes in overall market movements, commodity index volatility, changes in interest rates, or factors affecting a particular industry or commodity, such as drought, floods, weather, livestock disease, embargoes, tariffs and international economic, political and regulatory developments
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Equity Risk:&lt;/b&gt; the risk that the value of equity securities, such as common stocks and preferred stocks, may decline due to general market conditions which are not specifically related to a particular company or to factors affecting a particular industry or industries. Equity securities generally have greater price volatility than fixed income securities&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Mortgage-Related and Other Asset-Backed Risk:&lt;/b&gt; the risk of investing in mortgage-related and other asset-backed securities, including interest rate risk, extension risk and prepayment risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Foreign (Non-U.S.) Investment Risk:&lt;/b&gt; the risk that investing in foreign (non-U.S.) securities may result in the Fund experiencing more rapid and extreme changes in value than a fund that invests exclusively in securities of U.S. companies, due to smaller markets, differing reporting, accounting and auditing standards, and nationalization, expropriation or confiscatory taxation, currency blockage, or political changes or diplomatic developments. Foreign securities may also be less liquid and more difficult to value than securities of U.S. issuers
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Real Estate Risk:&lt;/b&gt; the risk that a Fund's investments in Real Estate Investment Trusts ("REITs") or real estate-linked derivative instruments will subject the Fund to risks similar to those associated with direct ownership of real estate, including losses from casualty or condemnation, and changes in local and general economic conditions, supply and demand, interest rates, zoning laws, regulatory limitations on rents, property taxes and operating expenses. A Fund's investments in REITs or real estate-linked derivative instruments subject it to management and tax risks&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Emerging Markets Risk:&lt;/b&gt; the risk of investing in emerging market securities, primarily increased foreign (non-U.S.) investment risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Currency Risk:&lt;/b&gt; the risk that foreign currencies will decline in value relative to the U.S. dollar and affect the Fund's investments in foreign (non-U.S.) currencies or in securities that trade in, and receive revenues in, or in derivatives that provide exposure to, foreign (non-U.S.) currencies&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Smaller Company Risk:&lt;/b&gt; the risk that the value of securities issued by a smaller company may go up or down, sometimes rapidly and unpredictably as compared to more widely held securities, due to narrow markets and limited resources of smaller companies. A Fund's investments in smaller companies subject it to greater levels of credit, market and issuer risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Leveraging Risk:&lt;/b&gt; the risk that certain transactions of the Fund, such as reverse repurchase agreements, loans of portfolio securities, and the use of when-issued, delayed delivery or forward commitment transactions, or derivative instruments, may give rise to leverage, causing the Fund to be more volatile than if it had not been leveraged&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Management Risk:&lt;/b&gt; the risk that the investment techniques and risk analyses applied by PIMCO will not produce the desired results and that legislative, regulatory, or tax developments may affect the investment techniques available to PIMCO and the individual portfolio manager in connection with managing the Fund. There is no guarantee that the investment objective of the Fund will be achieved&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Issuer Non-Diversification Risk:&lt;/b&gt; the risk of focusing investments in a small number of issuers, including being more susceptible to risks associated with a single economic, political or regulatory occurrence than a more diversified portfolio might be. Funds that are "non-diversified" may invest a greater percentage of their assets in the securities of a single issuer (such as bonds issued by a particular foreign government) than funds that are "diversified"&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Short Sale Risk:&lt;/b&gt; the risk of entering into short sales, including the potential loss of more money than the actual cost of the investment, and the risk that the third party to the short sale may fail to honor its contract terms, causing a loss to the Fund&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Tax Risk:&lt;/b&gt; the risk that the tax treatment of swap agreements and other derivative instruments, such as commodity-linked derivative instruments, including commodity index-linked notes, swap agreements, commodity options, futures, and options on futures, may be affected by future regulatory or legislative changes that could affect whether income from such investments is "qualifying income" under Subchapter M of the Internal Revenue Code, or otherwise affect the character, timing and/or amount of the Fund's taxable income or gains and distributions&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Subsidiary Risk:&lt;/b&gt; the risk that, by investing in certain Underlying PIMCO Funds that invest in a subsidiary (each a "Subsidiary"), the Fund is indirectly exposed to the risks associated with a Subsidiary's investments. The Subsidiaries are not registered under the 1940 Act and may not be subject to all the investor protections of the 1940 Act. There is no guarantee that the investment objective of a Subsidiary will be achieved&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Value Investing Risk:&lt;/b&gt; a value stock may decrease in price or may not increase in price as anticipated by PIMCO if it continues to be undervalued by the market or the factors that the portfolio manager believes will cause the stock price to increase do not occur&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Arbitrage Risk:&lt;/b&gt; the risk that securities purchased pursuant to an arbitrage strategy intended to take advantage of a perceived relationship between the value of two securities may not perform as expected&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Convertible Securities Risk:&lt;/b&gt; as convertible securities share both fixed income and equity characteristics, they are subject to risks to which fixed income and equity investments are subject. These risks include equity risk, interest rate risk and credit risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;Please see "Description of Principal Risks" in the Fund's prospectus for a more detailed description of the risks of investing in the Fund. An investment in the Fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency.&lt;/p&gt;
+
+      </rr:RiskNarrativeTextBlock>
+	<rr:BarChartAndPerformanceTableHeading contextRef="c_S000039671_AAAA">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Performance Information
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:BarChartAndPerformanceTableHeading>
+	<rr:PerformanceNarrativeTextBlock contextRef="c_S000039671_AAAA">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund does not have a full calendar year of performance. Thus, no bar chart or Average Annual Total Returns table is included for the Fund. Performance for the Fund is updated daily and quarterly and may be obtained as follows: daily updates on the net asset value and performance page at &lt;u&gt;http://investments.pimco.com/DailyPerformance&lt;/u&gt; and quarterly updates at &lt;u&gt;http://investments.pimco.com/QuarterlyPerformance&lt;/u&gt;.&lt;/p&gt;
+
+      </rr:PerformanceNarrativeTextBlock>
+	<rr:AnnualFundOperatingExpensesTableTextBlock contextRef="c_S000039671_AAAA">&lt;div style="display:none"&gt;~ http://pimco/role/OperatingExpensesDataAAAA column period compact * column rr_ProspectusShareClassAxis compact * row primary compact * row dei_LegalEntityAxis compact pimco_S000039671Member ~&lt;/div&gt;</rr:AnnualFundOperatingExpensesTableTextBlock>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio">0.0099</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets xsi:nil="true" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio"/>
+	<rr:OtherExpensesOverAssets id="d3e00011629" decimals="INF" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00021629" decimals="INF" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio">0.0195</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e00031629" decimals="INF" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122921_AAAA" unitRef="Ratio">0.0099</rr:NetExpensesOverAssets>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio">0.0109</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets xsi:nil="true" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio"/>
+	<rr:OtherExpensesOverAssets id="d3e00041629" decimals="INF" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00051629" decimals="INF" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio">0.0205</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e00061629" decimals="INF" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122922_AAAA" unitRef="Ratio">0.0109</rr:NetExpensesOverAssets>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">0.0099</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">0.0025</rr:DistributionAndService12b1FeesOverAssets>
+	<rr:OtherExpensesOverAssets id="d3e00071629" decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00081629" decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">0.022</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e0091629" decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122923_AAAA" unitRef="Ratio">0.0124</rr:NetExpensesOverAssets>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">0.0114</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">0.0025</rr:DistributionAndService12b1FeesOverAssets>
+	<rr:OtherExpensesOverAssets id="d3e00101629" decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00111629" decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">0.0235</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e00121629" decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122924_AAAA" unitRef="Ratio">0.0139</rr:NetExpensesOverAssets>
+	<rr:ExpenseExampleWithRedemptionTableTextBlock contextRef="c_S000039671_AAAA">&lt;div style="display:none"&gt;~ http://pimco/role/ExpenseExampleAAAA column period compact * column rr_ProspectusShareClassAxis compact * row primary compact * row dei_LegalEntityAxis compact pimco_S000039671Member ~&lt;/div&gt;</rr:ExpenseExampleWithRedemptionTableTextBlock>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122921_AAAA" unitRef="USD">101</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122922_AAAA" unitRef="USD">111</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122923_AAAA" unitRef="USD">126</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122924_AAAA" unitRef="USD">142</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122921_AAAA" unitRef="USD">315</rr:ExpenseExampleYear03>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122922_AAAA" unitRef="USD">347</rr:ExpenseExampleYear03>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122923_AAAA" unitRef="USD">393</rr:ExpenseExampleYear03>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122924_AAAA" unitRef="USD">440</rr:ExpenseExampleYear03>
+	<rr:ObjectiveHeading contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Investment Objective
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ObjectiveHeading>
+	<rr:ObjectivePrimaryTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund seeks maximum total return, consistent with prudent investment management.&lt;/p&gt;
+
+      </rr:ObjectivePrimaryTextBlock>
+	<rr:ExpenseHeading contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Fees and Expenses of the Fund
+
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ExpenseHeading>
+	<rr:ExpenseNarrativeTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;This table describes the fees and expenses that you may pay if you buy and hold shares of the Fund:&lt;/p&gt;
+
+      </rr:ExpenseNarrativeTextBlock>
+	<rr:ShareholderFeesCaption contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+
+                     &lt;b&gt;Shareholder Fees (fees paid directly from your investment):
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ShareholderFeesCaption>
+	<rr:OperatingExpensesCaption contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+                  &lt;b&gt;
+                     Annual Fund Operating Expenses (expenses that you pay each year as a percentage of the value of your investment):
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:OperatingExpensesCaption>
+	<rr:ExpenseExampleNarrativeTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Example.&lt;/b&gt; The Example is intended to help you compare the cost of investing in Class A, Class C, or Class R shares of the Fund with the costs of investing in other mutual funds. The Example assumes that you invest $10,000 in the noted class of shares for the time periods indicated, and then redeem all your shares at the end of those periods. The Example also assumes that your investment has a 5% return each year and that the Fund's operating expenses remain the same. Although your actual costs may be higher or lower, the Example shows what your costs would be based on these assumptions.&lt;/p&gt;
+
+      </rr:ExpenseExampleNarrativeTextBlock>
+	<rr:ExpenseExampleByYearCaption contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  If you redeem your shares at the end of each period:
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ExpenseExampleByYearCaption>
+	<rr:ExpenseExampleNoRedemptionByYearCaption contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  If you do not redeem your shares:
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:ExpenseExampleNoRedemptionByYearCaption>
+	<rr:PortfolioTurnoverHeading contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Portfolio Turnover
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:PortfolioTurnoverHeading>
+	<rr:PortfolioTurnoverTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               The Fund pays transaction costs when it buys and sells securities (or "turns over" its portfolio). A higher portfolio turnover rate may indicate higher transaction costs and may result in higher taxes when Fund shares are held in a taxable account. These costs, which are not reflected in the Annual Fund Operating Expenses or in the Example tables, affect the Fund's performance. The Fund has not yet commenced operations as of the most recent fiscal year end. Thus, no portfolio turnover rate is provided for the Fund.
+            &lt;/p&gt;
+
+      </rr:PortfolioTurnoverTextBlock>
+	<rr:StrategyHeading contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Principal Investment Strategies
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:StrategyHeading>
+	<rr:StrategyNarrativeTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund is designed to provide dynamic exposure to a broad range of emerging market fixed income asset classes, such as external debt obligations of sovereign, quasi-sovereign, and corporate entities; currencies, and local currency-denominated obligations of sovereigns, quasi-sovereigns, and corporate issuers. PIMCO uses a three-step active management approach in seeking to achieve the Fund's investment objective: 1) develop a target asset allocation to implement across the eligible investments; 2) identify additional opportunities for country and security selection designed to add value beyond the target asset allocation within each of the eligible investments; and 3) employ additional investment strategies designed to either mitigate or emphasize risks resulting from the implementation of the target asset allocation. This active management approach is driven by PIMCO's global macroeconomic views, emerging markets expertise and experience across a wide range of investment instruments. The Fund's assets are allocated in a manner that reflects PIMCO's views regarding the attractiveness of key investment risk factors, considering both return potential and volatility, and includes an assessment of aggregate country, issuer and currency exposures.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;PIMCO evaluates these three steps daily and uses varying combinations of Acquired Funds (defined below) and/or direct investments in efforts to achieve the most efficient execution of PIMCO's investment views. Specifically, "Acquired Funds" refers to the following: funds of the Trust and funds of PIMCO Equity Series and PIMCO ETF Trust, affiliated open-end investment companies, except funds of funds ("Underlying PIMCO Funds") and other affiliated and unaffiliated funds in which the Fund may invest. Acquired Funds may or may not be registered under the Investment Company Act of 1940 (the "1940 Act"). To the extent Underlying PIMCO Funds of the Trust or PIMCO Equity Series are held, Institutional Class or Class M shares will be held. The Fund's investments may also include Fixed Income Instruments of varying maturities, forwards or derivatives, such as options, futures contracts or swap agreements. "Fixed Income Instruments" include bonds, debt securities and other similar instruments issued by various U.S. and non-U.S. public or private-sector entities. The Fund will invest in such funds, securities, instruments and other investments to the extent permitted under the 1940 Act, or any exemptive relief therefrom. The Fund is non-diversified, which means that it may invest its assets in a smaller number of issuers than a diversified fund.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund invests under normal circumstances at least 80% of its assets in investments economically tied to emerging market countries and 80% of its assets in Fixed Income Instruments, which may be represented by direct or indirect (through an Acquired Fund) investments. The Fund may invest, without limitation, in securities denominated in foreign currencies and in U.S. dollar-denominated securities of foreign issuers. In addition, the Fund may invest in both investment-grade securities and high yield securities ("junk bonds") rated at least Caa by Moody's Investors Service, Inc. ("Moody's"), or equivalently rated by Standard &amp;amp; Poor's Rating Services ("S&amp;amp;P") or Fitch, Inc. ("Fitch"), or, if unrated, determined by PIMCO to be of comparable quality. The Fund's benchmark index is a blend of 50% JPMorgan Global Bond Index Emerging Markets- Global Diversified, 25% JPMorgan Emerging Markets Bond Index Global and 25% JPMorgan Corporate Emerging Market Bond Index Diversified (the "Benchmark"). The Fund will normally limit its foreign currency exposure (from non-U.S. dollar-denominated securities or currencies) to between 20% and 80% of its assets. The average portfolio duration of this Fund normally varies within two years (plus or minus) of the portfolio duration of the securities comprising the Benchmark, as calculated by PIMCO, which as of December 31, 2012 was 5.76 years. The Fund may purchase and sell securities on a when-issued, delayed delivery or forward commitment basis and may engage in short sales.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund's assets are not allocated according to a predetermined blend of investment exposures or mix of instruments. PIMCO has the flexibility to reallocate the Fund's assets among any or all of the investment exposures represented by affiliated or unaffiliated funds, or invest directly in securities, instruments and other investments, based on its ongoing analyses of the global economy and financial markets. While these analyses are performed daily, material shifts in investment exposures typically take place over longer periods of time, unless in response to a perceived short-term opportunity or market dislocation. The "total return" sought by the Fund consists of income earned on the Fund's investments, plus capital appreciation, if any, which generally arises from decreases in interest rates, foreign currency appreciation, or improving credit fundamentals for a particular sector or security.&lt;/p&gt;
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;Additional information for the Underlying PIMCO Funds can be found in the Statement of Additional Information and/ or the Underlying PIMCO Funds' prospectuses and financial reports. Additional Underlying PIMCO Funds may be added or deleted in the future without shareholder notification.&lt;/p&gt;
+
+      </rr:StrategyNarrativeTextBlock>
+	<rr:RiskHeading contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Principal Risks
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:RiskHeading>
+	<rr:RiskNarrativeTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;It is possible to lose money on an investment in the Fund. The principal risks of investing in the Fund include risks from direct investments and/or indirect exposure through investment in Acquired Funds. The principal risks of investing in the Fund, which could adversely affect its net asset value, yield and total return are:&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Allocation Risk:&lt;/b&gt; the risk that a Fund could lose money as a result of less than optimal or poor asset allocation decisions as to how its assets are allocated or reallocated&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Acquired Fund Risk:&lt;/b&gt; the risk that a Fund's performance is closely related to the risks associated with the securities and other investments held by the Acquired Funds and that the ability of a Fund to achieve its investment objective will depend upon the ability of the Acquired Funds to achieve their investment objectives&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Interest Rate Risk:&lt;/b&gt; the risk that fixed income securities will decline in value because of an increase in interest rates; a fund with a longer average portfolio duration will be more sensitive to changes in interest rates than a fund with a shorter average portfolio duration&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Credit Risk:&lt;/b&gt; the risk that the Fund could lose money if the issuer or guarantor of a fixed income security, or the counterparty to a derivative contract, is unable or unwilling to meet its financial obligations&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;High Yield Risk:&lt;/b&gt; the risk that high yield securities and unrated securities of similar credit quality (commonly known as "junk bonds") are subject to greater levels of credit and liquidity risks. High yield securities are considered primarily speculative with respect to the issuer's continuing ability to make principal and interest payments
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Distressed Company Risk:&lt;/b&gt;
+               the risk that securities of distressed companies may be subject to greater levels of credit, issuer and liquidity risk than a portfolio that does not invest in such securities. Securities of distressed companies include both debt and equity securities. Debt securities of distressed companies are considered predominantly speculative with respect to the issuers' continuing ability to make principal and interest payments
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Market Risk:&lt;/b&gt; the risk that the value of securities owned by the Fund may go up or down, sometimes rapidly or unpredictably, due to factors affecting securities markets generally or particular industries&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Issuer Risk:&lt;/b&gt; the risk that the value of a security may decline for a reason directly related to the issuer, such as management performance, financial leverage and reduced demand for the issuer's goods or services&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Liquidity Risk:&lt;/b&gt; the risk that a particular investment may be difficult to purchase or sell and that the Fund may be unable to sell illiquid securities at an advantageous time or price or achieve its desired level of exposure to a certain sector&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Derivatives Risk:&lt;/b&gt; the risk of investing in derivative instruments, including liquidity, interest rate, market, credit and management risks, mispricing or improper valuation. Changes in the value of the derivative may not correlate perfectly with the underlying asset, rate or index, and the Fund could lose more than the principal amount invested&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Commodity Risk:&lt;/b&gt; the risk that investing in commodity-linked derivative instruments may subject the Fund to greater volatility than investments in traditional securities. The value of commodity-linked derivative instruments may be affected by changes in overall market movements, commodity index volatility, changes in interest rates, or factors affecting a particular industry or commodity, such as drought, floods, weather, livestock disease, embargoes, tariffs and international economic, political and regulatory developments
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Equity Risk:&lt;/b&gt; the risk that the value of equity securities, such as common stocks and preferred stocks, may decline due to general market conditions which are not specifically related to a particular company or to factors affecting a particular industry or industries. Equity securities generally have greater price volatility than fixed income securities&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Mortgage-Related and Other Asset-Backed Risk:&lt;/b&gt; the risk of investing in mortgage-related and other asset-backed securities, including interest rate risk, extension risk and prepayment risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Foreign (Non-U.S.) Investment Risk:&lt;/b&gt; the risk that investing in foreign (non-U.S.) securities may result in the Fund experiencing more rapid and extreme changes in value than a fund that invests exclusively in securities of U.S. companies, due to smaller markets, differing reporting, accounting and auditing standards, and nationalization, expropriation or confiscatory taxation, currency blockage, or political changes or diplomatic developments. Foreign securities may also be less liquid and more difficult to value than securities of U.S. issuers
+            &lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Real Estate Risk:&lt;/b&gt; the risk that a Fund's investments in Real Estate Investment Trusts ("REITs") or real estate-linked derivative instruments will subject the Fund to risks similar to those associated with direct ownership of real estate, including losses from casualty or condemnation, and changes in local and general economic conditions, supply and demand, interest rates, zoning laws, regulatory limitations on rents, property taxes and operating expenses. A Fund's investments in REITs or real estate-linked derivative instruments subject it to management and tax risks&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Emerging Markets Risk:&lt;/b&gt; the risk of investing in emerging market securities, primarily increased foreign (non-U.S.) investment risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Currency Risk:&lt;/b&gt; the risk that foreign currencies will decline in value relative to the U.S. dollar and affect the Fund's investments in foreign (non-U.S.) currencies or in securities that trade in, and receive revenues in, or in derivatives that provide exposure to, foreign (non-U.S.) currencies&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Smaller Company Risk:&lt;/b&gt; the risk that the value of securities issued by a smaller company may go up or down, sometimes rapidly and unpredictably as compared to more widely held securities, due to narrow markets and limited resources of smaller companies. A Fund's investments in smaller companies subject it to greater levels of credit, market and issuer risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Leveraging Risk:&lt;/b&gt; the risk that certain transactions of the Fund, such as reverse repurchase agreements, loans of portfolio securities, and the use of when-issued, delayed delivery or forward commitment transactions, or derivative instruments, may give rise to leverage, causing the Fund to be more volatile than if it had not been leveraged&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Management Risk:&lt;/b&gt; the risk that the investment techniques and risk analyses applied by PIMCO will not produce the desired results and that legislative, regulatory, or tax developments may affect the investment techniques available to PIMCO and the individual portfolio manager in connection with managing the Fund. There is no guarantee that the investment objective of the Fund will be achieved&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Issuer Non-Diversification Risk:&lt;/b&gt; the risk of focusing investments in a small number of issuers, including being more susceptible to risks associated with a single economic, political or regulatory occurrence than a more diversified portfolio might be. Funds that are "non-diversified" may invest a greater percentage of their assets in the securities of a single issuer (such as bonds issued by a particular foreign government) than funds that are "diversified"&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Short Sale Risk:&lt;/b&gt; the risk of entering into short sales, including the potential loss of more money than the actual cost of the investment, and the risk that the third party to the short sale may fail to honor its contract terms, causing a loss to the Fund&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Tax Risk:&lt;/b&gt; the risk that the tax treatment of swap agreements and other derivative instruments, such as commodity-linked derivative instruments, including commodity index-linked notes, swap agreements, commodity options, futures, and options on futures, may be affected by future regulatory or legislative changes that could affect whether income from such investments is "qualifying income" under Subchapter M of the Internal Revenue Code, or otherwise affect the character, timing and/or amount of the Fund's taxable income or gains and distributions&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Subsidiary Risk:&lt;/b&gt; the risk that, by investing in certain Underlying PIMCO Funds that invest in a subsidiary (each a "Subsidiary"), the Fund is indirectly exposed to the risks associated with a Subsidiary's investments. The Subsidiaries are not registered under the 1940 Act and may not be subject to all the investor protections of the 1940 Act. There is no guarantee that the investment objective of a Subsidiary will be achieved&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Value Investing Risk:&lt;/b&gt; a value stock may decrease in price or may not increase in price as anticipated by PIMCO if it continues to be undervalued by the market or the factors that the portfolio manager believes will cause the stock price to increase do not occur&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Arbitrage Risk:&lt;/b&gt; the risk that securities purchased pursuant to an arbitrage strategy intended to take advantage of a perceived relationship between the value of two securities may not perform as expected&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;
+               &lt;b&gt;Convertible Securities Risk:&lt;/b&gt; as convertible securities share both fixed income and equity characteristics, they are subject to risks to which fixed income and equity investments are subject. These risks include equity risk, interest rate risk and credit risk&lt;/p&gt;
+
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;Please see "Description of Principal Risks" in the Fund's prospectus for a more detailed description of the risks of investing in the Fund. An investment in the Fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency.&lt;/p&gt;
+
+      </rr:RiskNarrativeTextBlock>
+	<rr:BarChartAndPerformanceTableHeading contextRef="c_S000039671_BBBB">
+
+
+               &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;&lt;b&gt;
+                  Performance Information
+
+               &lt;/b&gt;&lt;/p&gt;
+
+
+      </rr:BarChartAndPerformanceTableHeading>
+	<rr:PerformanceNarrativeTextBlock contextRef="c_S000039671_BBBB">
+
+            &lt;p style="font-size:12;padding-top:2;padding-bottom:0;padding-left:0;"&gt;The Fund does not have a full calendar year of performance. Thus, no bar chart or Average Annual Total Returns table is included for the Fund. Performance for the Fund is updated daily and quarterly and may be obtained as follows: daily updates on the net asset value and performance page at &lt;u&gt;http://investments.pimco.com/DailyPerformance&lt;/u&gt; and quarterly updates at &lt;u&gt;http://investments.pimco.com/QuarterlyPerformance&lt;/u&gt;.&lt;/p&gt;
+
+      </rr:PerformanceNarrativeTextBlock>
+	<rr:ShareholderFeesTableTextBlock contextRef="c_S000039671_BBBB">&lt;div style="display:none"&gt;~http://pimco/role/ShareholderFeesDataBBBB column period compact * column rr_ProspectusShareClassAxis compact * row primary compact * row dei_LegalEntityAxis compact pimco_S000039671Member ~&lt;/div&gt;</rr:ShareholderFeesTableTextBlock>
+	<rr:MaximumSalesChargeImposedOnPurchasesOverOfferingPrice decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0375</rr:MaximumSalesChargeImposedOnPurchasesOverOfferingPrice>
+	<rr:MaximumDeferredSalesChargeOverOfferingPrice decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.01</rr:MaximumDeferredSalesChargeOverOfferingPrice>
+	<rr:MaximumSalesChargeImposedOnPurchasesOverOfferingPrice decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0</rr:MaximumSalesChargeImposedOnPurchasesOverOfferingPrice>
+	<rr:MaximumDeferredSalesChargeOverOfferingPrice decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.01</rr:MaximumDeferredSalesChargeOverOfferingPrice>
+	<rr:MaximumSalesChargeImposedOnPurchasesOverOfferingPrice decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0</rr:MaximumSalesChargeImposedOnPurchasesOverOfferingPrice>
+	<rr:MaximumDeferredSalesChargeOverOfferingPrice decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0</rr:MaximumDeferredSalesChargeOverOfferingPrice>
+	<rr:AnnualFundOperatingExpensesTableTextBlock contextRef="c_S000039671_BBBB">&lt;div style="display:none"&gt;~ http://pimco/role/OperatingExpensesDataBBBB column period compact * column rr_ProspectusShareClassAxis compact * row primary compact * row dei_LegalEntityAxis compact pimco_S000039671Member ~&lt;/div&gt;</rr:AnnualFundOperatingExpensesTableTextBlock>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0114</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0025</rr:DistributionAndService12b1FeesOverAssets>
+	<rr:OtherExpensesOverAssets id="d3e00011637" decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00021637" decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0235</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e00031637" decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122925_BBBB" unitRef="Ratio">0.0139</rr:NetExpensesOverAssets>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.0114</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.01</rr:DistributionAndService12b1FeesOverAssets>
+	<rr:OtherExpensesOverAssets id="d3e00041637" decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00051637" decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.031</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e00061637" decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122926_BBBB" unitRef="Ratio">0.0214</rr:NetExpensesOverAssets>
+	<rr:ManagementFeesOverAssets decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0.0114</rr:ManagementFeesOverAssets>
+	<rr:DistributionAndService12b1FeesOverAssets decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0.005</rr:DistributionAndService12b1FeesOverAssets>
+	<rr:OtherExpensesOverAssets id="d3e00071637" decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0.0001</rr:OtherExpensesOverAssets>
+	<rr:AcquiredFundFeesAndExpensesOverAssets id="d3e00081637" decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0.0095</rr:AcquiredFundFeesAndExpensesOverAssets>
+	<rr:ExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0.026</rr:ExpensesOverAssets>
+	<rr:FeeWaiverOrReimbursementOverAssets id="d3e0091637" decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">-0.0096</rr:FeeWaiverOrReimbursementOverAssets>
+	<rr:NetExpensesOverAssets decimals="INF" contextRef="c_S000039671_C000122927_BBBB" unitRef="Ratio">0.0164</rr:NetExpensesOverAssets>
+	<rr:ExpenseExampleWithRedemptionTableTextBlock contextRef="c_S000039671_BBBB">&lt;div style="display:none"&gt;~ http://pimco/role/ExpenseExampleBBBB column period compact * column rr_ProspectusShareClassAxis compact * row primary compact * row dei_LegalEntityAxis compact pimco_S000039671Member ~&lt;/div&gt;</rr:ExpenseExampleWithRedemptionTableTextBlock>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122925_BBBB" unitRef="USD">511</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122926_BBBB" unitRef="USD">317</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear01 decimals="0" contextRef="c_S000039671_C000122927_BBBB" unitRef="USD">167</rr:ExpenseExampleYear01>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122925_BBBB" unitRef="USD">799</rr:ExpenseExampleYear03>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122926_BBBB" unitRef="USD">670</rr:ExpenseExampleYear03>
+	<rr:ExpenseExampleYear03 decimals="0" contextRef="c_S000039671_C000122927_BBBB" unitRef="USD">517</rr:ExpenseExampleYear03>
+	<rr:ExpenseExampleNoRedemptionTableTextBlock contextRef="c_S000039671_BBBB">&lt;div style="display:none"&gt;~ http://pimco/role/ExpenseExampleNoRedemptionBBBB column period compact * column rr_ProspectusShareClassAxis compact * row primary compact * row dei_LegalEntityAxis compact pimco_S000039671Member ~&lt;/div&gt;</rr:ExpenseExampleNoRedemptionTableTextBlock>
+	<rr:ExpenseExampleNoRedemptionYear01 decimals="0" contextRef="c_S000039671_C000122925_BBBB" unitRef="USD">511</rr:ExpenseExampleNoRedemptionYear01>
+	<rr:ExpenseExampleNoRedemptionYear01 decimals="0" contextRef="c_S000039671_C000122926_BBBB" unitRef="USD">217</rr:ExpenseExampleNoRedemptionYear01>
+	<rr:ExpenseExampleNoRedemptionYear01 decimals="0" contextRef="c_S000039671_C000122927_BBBB" unitRef="USD">167</rr:ExpenseExampleNoRedemptionYear01>
+	<rr:ExpenseExampleNoRedemptionYear03 decimals="0" contextRef="c_S000039671_C000122925_BBBB" unitRef="USD">799</rr:ExpenseExampleNoRedemptionYear03>
+	<rr:ExpenseExampleNoRedemptionYear03 decimals="0" contextRef="c_S000039671_C000122926_BBBB" unitRef="USD">670</rr:ExpenseExampleNoRedemptionYear03>
+	<rr:ExpenseExampleNoRedemptionYear03 decimals="0" contextRef="c_S000039671_C000122927_BBBB" unitRef="USD">517</rr:ExpenseExampleNoRedemptionYear03>
+	<rr:RiskNotInsuredDepositoryInstitution contextRef="c_S000039671_AAAA">An investment in the Fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency.
+</rr:RiskNotInsuredDepositoryInstitution>
+	<rr:RiskNotInsuredDepositoryInstitution contextRef="c_S000039671_BBBB">An investment in the Fund is not a deposit of a bank and is not insured or guaranteed by the Federal Deposit Insurance Corporation or any other government agency.</rr:RiskNotInsuredDepositoryInstitution>
+	<rr:RiskLoseMoney contextRef="c_S000039671_AAAA">It is possible to lose money on an investment in the Fund.</rr:RiskLoseMoney>
+	<rr:RiskLoseMoney contextRef="c_S000039671_BBBB">It is possible to lose money on an investment in the Fund.</rr:RiskLoseMoney>
+	<rr:RiskNondiversifiedStatus contextRef="c_S000039671_AAAA">Issuer Non-Diversification Risk: the risk of focusing investments in a small number of issuers, including being more susceptible to risks associated with a single economic, political or regulatory occurrence than a more diversified portfolio might be. Funds that are "non-diversified" may invest a greater percentage of their assets in the securities of a single issuer (such as bonds issued by a particular foreign government) than funds that are "diversified"</rr:RiskNondiversifiedStatus>
+	<rr:RiskNondiversifiedStatus contextRef="c_S000039671_BBBB">Issuer Non-Diversification Risk: the risk of focusing investments in a small number of issuers, including being more susceptible to risks associated with a single economic, political or regulatory occurrence than a more diversified portfolio might be. Funds that are "non-diversified" may invest a greater percentage of their assets in the securities of a single issuer (such as bonds issued by a particular foreign government) than funds that are "diversified"</rr:RiskNondiversifiedStatus>
+	<rr:PerformanceAvailabilityWebSiteAddress contextRef="c_S000039671_AAAA">Performance for the Fund is updated daily and quarterly and may be obtained as follows: daily updates on the net asset value and performance page at http://investments.pimco.com/DailyPerformance and quarterly updates at http://investments.pimco.com/QuarterlyPerformance.</rr:PerformanceAvailabilityWebSiteAddress>
+	<rr:PerformanceAvailabilityWebSiteAddress contextRef="c_S000039671_BBBB">Performance for the Fund is updated daily and quarterly and may be obtained as follows: daily updates on the net asset value and performance page at http://investments.pimco.com/DailyPerformance and quarterly updates at http://investments.pimco.com/QuarterlyPerformance.</rr:PerformanceAvailabilityWebSiteAddress>
+	<rr:FeeWaiverOrReimbursementOverAssetsDateOfTermination contextRef="c_S000039671_AAAA">2014-07-31</rr:FeeWaiverOrReimbursementOverAssetsDateOfTermination>
+	<rr:FeeWaiverOrReimbursementOverAssetsDateOfTermination contextRef="c_S000039671_BBBB">2014-07-31</rr:FeeWaiverOrReimbursementOverAssetsDateOfTermination>
+	<link:footnoteLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:href="#d3e00031629" xlink:label="FeeWaiverOrReimbursementOverAssets_139354187"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_1861613802" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">PIMCO has contractually agreed, through July 31, 2014, to waive its supervisory and administrative fee, or reimburse the Fund, to the extent that organizational expenses and pro rata Trustees' fees exceed 0.0049% of the Fund's average net assets attributable to Institutional Class, Class P, Administrative Class and Class D shares, respectively (the "Expense Limit"). Under the Expense Limitation Agreement, which renews annually for a full year unless terminated by PIMCO upon at least 30 days' notice prior to the end of the contract term, PIMCO may recoup these waivers and reimbursements in future periods, not exceeding three years, provided organizational expenses and pro rata Trustees' fees, plus such recoupment, do not exceed the Expense Limit.</link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_139354187" xlink:to="footnote_1861613802" order="1.0"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_1756673211" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">PIMCO has contractually agreed, through July 31, 2014, to waive, first, the advisory fee and, second, the supervisory and administrative fee it receives from the Fund in an amount equal to the expenses attributable to the Management Fees of Underlying PIMCO Funds indirectly incurred by the Fund in connection with its investments in Underlying PIMCO Funds, to the extent the Fund's Management Fees are greater than or equal to the Management Fees of the Underlying PIMCO Funds. This waiver renews annually for a full year unless terminated by PIMCO upon at least 30 days' notice prior to the end of the contract term.</link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_139354187" xlink:to="footnote_1756673211" order="2.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00061629" xlink:label="FeeWaiverOrReimbursementOverAssets_852406151"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_852406151" xlink:to="footnote_1861613802" order="1.0"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_852406151" xlink:to="footnote_1756673211" order="2.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e0091629" xlink:label="FeeWaiverOrReimbursementOverAssets_1306764487"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_1306764487" xlink:to="footnote_1861613802" order="1.0"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_1306764487" xlink:to="footnote_1756673211" order="2.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00121629" xlink:label="FeeWaiverOrReimbursementOverAssets_763276958"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_763276958" xlink:to="footnote_1861613802" order="1.0"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_763276958" xlink:to="footnote_1756673211" order="2.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00031637" xlink:label="FeeWaiverOrReimbursementOverAssets_733603128"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_1368621362" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">PIMCO has contractually agreed, through July 31, 2014, to waive its supervisory and administrative fee, or reimburse the Fund, to the extent that organizational expenses and pro rata Trustees' fees exceed 0.0049% of the Fund's average net assets attributable to Class A, Class C and Class R shares, respectively (the "Expense Limit"). Under the Expense Limitation Agreement, which renews annually for a full year unless terminated by PIMCO upon at least 30 days' notice prior to the end of the contract term, PIMCO may recoup these waivers and reimbursements in future periods, not exceeding three years, provided organizational expenses and pro rata Trustees' fees, plus such recoupment, do not exceed the Expense Limit.</link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_733603128" xlink:to="footnote_1368621362" order="1.0"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_612323879" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">PIMCO has contractually agreed, through July 31, 2014, to waive, first, the advisory fee and, second, the supervisory and administrative fee it receives from the Fund in an amount equal to the expenses attributable to the Management Fees of Underlying PIMCO Funds indirectly incurred by the Fund in connection with its investments in Underlying PIMCO Funds, to the extent the Fund's Management Fees are greater than or equal to the Management Fees of the Underlying PIMCO Funds. This waiver renews annually for a full year unless terminated by PIMCO upon at least 30 days' notice prior to the end of the contract term.</link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_733603128" xlink:to="footnote_612323879" order="2.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00061637" xlink:label="FeeWaiverOrReimbursementOverAssets_2135934295"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_2135934295" xlink:to="footnote_1368621362" order="1.0"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_2135934295" xlink:to="footnote_612323879" order="2.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e0091637" xlink:label="FeeWaiverOrReimbursementOverAssets_389917848"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_389917848" xlink:to="footnote_1368621362" order="1.0"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="FeeWaiverOrReimbursementOverAssets_389917848" xlink:to="footnote_612323879" order="2.0"/>
+	</link:footnoteLink>
+	<link:footnoteLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:href="#d3e00011629" xlink:label="d3e00011629"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_75894" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">
+            "Other Expenses" reflect estimated organizational expenses for the Fund's first fiscal year.
+         </link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00011629" xlink:to="footnote_75894" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00041629" xlink:label="d3e00041629"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00041629" xlink:to="footnote_75894" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00071629" xlink:label="d3e00071629"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00071629" xlink:to="footnote_75894" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00101629" xlink:label="d3e00101629"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00101629" xlink:to="footnote_75894" order="1.0"/>
+	</link:footnoteLink>
+	<link:footnoteLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:href="#d3e00021629" xlink:label="d3e00021629"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_205850" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">
+            Acquired Fund Fees and Expenses are based on the estimated amounts for the Fund's first fiscal year.
+         </link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00021629" xlink:to="footnote_205850" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00051629" xlink:label="d3e00051629"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00051629" xlink:to="footnote_205850" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00081629" xlink:label="d3e00081629"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00081629" xlink:to="footnote_205850" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00111629" xlink:label="d3e00111629"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00111629" xlink:to="footnote_205850" order="1.0"/>
+	</link:footnoteLink>
+	<link:footnoteLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:href="#d3e00011637" xlink:label="d3e00011637"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_75894" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">
+            "Other Expenses" reflect estimated organizational expenses for the Fund's first fiscal year.
+         </link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00011637" xlink:to="footnote_75894" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00041637" xlink:label="d3e00041637"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00041637" xlink:to="footnote_75894" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00071637" xlink:label="d3e00071637"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00071637" xlink:to="footnote_75894" order="1.0"/>
+	</link:footnoteLink>
+	<link:footnoteLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+		<link:loc xlink:type="locator" xlink:href="#d3e00021637" xlink:label="d3e00021637"/>
+		<link:footnote xlink:type="resource" xlink:label="footnote_205850" xlink:role="http://www.xbrl.org/2003/role/footnote" xml:lang="en-US">
+            Acquired Fund Fees and Expenses are based on the estimated amounts for the Fund's first fiscal year.
+         </link:footnote>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00021637" xlink:to="footnote_205850" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00051637" xlink:label="d3e00051637"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00051637" xlink:to="footnote_205850" order="1.0"/>
+		<link:loc xlink:type="locator" xlink:href="#d3e00081637" xlink:label="d3e00081637"/>
+		<link:footnoteArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/fact-footnote" xlink:from="d3e00081637" xlink:to="footnote_205850" order="1.0"/>
+	</link:footnoteLink>
+</xbrli:xbrl>

@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created by RR Donnelley IM Processor 7.0.0.0 using Fujitsu Interstage XWand-->
+<linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <roleRef roleURI="http://www.xbrl.org/2009/role/negatedLabel" xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" />
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ProspectusTable" xlink:label="ProspectusTable" />
+    <label xlink:type="resource" xlink:label="label_ProspectusTable" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ProspectusTable">Prospectus:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ProspectusTable" xlink:to="label_ProspectusTable" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskReturnAbstract" xlink:label="RiskReturnAbstract" />
+    <label xlink:type="resource" xlink:label="label_RiskReturnAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskReturnAbstract">Risk/Return:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskReturnAbstract" xlink:to="label_RiskReturnAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_DocumentType" xlink:label="DocumentType" />
+    <label xlink:type="resource" xlink:label="label_DocumentType" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DocumentType">Document Type</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentType" xlink:to="label_DocumentType" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_DocumentPeriodEndDate" xlink:label="DocumentPeriodEndDate" />
+    <label xlink:type="resource" xlink:label="label_DocumentPeriodEndDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DocumentPeriodEndDate">Document Period End Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentPeriodEndDate" xlink:to="label_DocumentPeriodEndDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_EntityRegistrantName" xlink:label="EntityRegistrantName" />
+    <label xlink:type="resource" xlink:label="label_EntityRegistrantName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_EntityRegistrantName">Registrant Name</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EntityRegistrantName" xlink:to="label_EntityRegistrantName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_EntityCentralIndexKey" xlink:label="EntityCentralIndexKey" />
+    <label xlink:type="resource" xlink:label="label_EntityCentralIndexKey" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_EntityCentralIndexKey">Central Index Key</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EntityCentralIndexKey" xlink:to="label_EntityCentralIndexKey" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_AmendmentFlag" xlink:label="AmendmentFlag" />
+    <label xlink:type="resource" xlink:label="label_AmendmentFlag" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AmendmentFlag">Amendment Flag</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmendmentFlag" xlink:to="label_AmendmentFlag" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_AmendmentDescription" xlink:label="AmendmentDescription" />
+    <label xlink:type="resource" xlink:label="label_AmendmentDescription" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AmendmentDescription">Amendment Description</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AmendmentDescription" xlink:to="label_AmendmentDescription" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_TradingSymbol" xlink:label="TradingSymbol" />
+    <label xlink:type="resource" xlink:label="label_TradingSymbol" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_TradingSymbol">Trading Symbol</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="TradingSymbol" xlink:to="label_TradingSymbol" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_DocumentCreationDate" xlink:label="DocumentCreationDate" />
+    <label xlink:type="resource" xlink:label="label_DocumentCreationDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DocumentCreationDate">Document Creation Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentCreationDate" xlink:to="label_DocumentCreationDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_DocumentEffectiveDate" xlink:label="DocumentEffectiveDate" />
+    <label xlink:type="resource" xlink:label="label_DocumentEffectiveDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DocumentEffectiveDate">Document Effective Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentEffectiveDate" xlink:to="label_DocumentEffectiveDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ProspectusDate" xlink:label="ProspectusDate" />
+    <label xlink:type="resource" xlink:label="label_ProspectusDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ProspectusDate">Prospectus Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ProspectusDate" xlink:to="label_ProspectusDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_DocumentInformationDocumentAxis" xlink:label="DocumentInformationDocumentAxis" />
+    <label xlink:type="resource" xlink:label="label_DocumentInformationDocumentAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DocumentInformationDocumentAxis">Document [Axis]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentInformationDocumentAxis" xlink:to="label_DocumentInformationDocumentAxis" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_DocumentDomain" xlink:label="DocumentDomain" />
+    <label xlink:type="resource" xlink:label="label_DocumentDomain" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DocumentDomain">Prospectus</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DocumentDomain" xlink:to="label_DocumentDomain" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceMeasureAxis" xlink:label="PerformanceMeasureAxis" />
+    <label xlink:type="resource" xlink:label="label_PerformanceMeasureAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceMeasureAxis">Performance Measure [Axis]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceMeasureAxis" xlink:to="label_PerformanceMeasureAxis" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceMeasureDomain" xlink:label="PerformanceMeasureDomain" />
+    <label xlink:type="resource" xlink:label="label_PerformanceMeasureDomain" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceMeasureDomain">Before Taxes</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceMeasureDomain" xlink:to="label_PerformanceMeasureDomain" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AfterTaxesOnDistributionsAndSalesMember" xlink:label="AfterTaxesOnDistributionsAndSalesMember" />
+    <label xlink:type="resource" xlink:label="label_AfterTaxesOnDistributionsAndSalesMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AfterTaxesOnDistributionsAndSalesMember">After Taxes on Distributions and Sales</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AfterTaxesOnDistributionsAndSalesMember" xlink:to="label_AfterTaxesOnDistributionsAndSalesMember" />
+    <label xlink:type="resource" xlink:label="label_AfterTaxesOnDistributionsAndSalesMember_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AfterTaxesOnDistributionsAndSalesMember_2">Return After Taxes on Distributions and Sale of Fund Shares</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AfterTaxesOnDistributionsAndSalesMember" xlink:to="label_AfterTaxesOnDistributionsAndSalesMember_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AfterTaxesOnDistributionsMember" xlink:label="AfterTaxesOnDistributionsMember" />
+    <label xlink:type="resource" xlink:label="label_AfterTaxesOnDistributionsMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AfterTaxesOnDistributionsMember">After Taxes on Distributions</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AfterTaxesOnDistributionsMember" xlink:to="label_AfterTaxesOnDistributionsMember" />
+    <label xlink:type="resource" xlink:label="label_AfterTaxesOnDistributionsMember_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AfterTaxesOnDistributionsMember_2">Return After Taxes on Distributions</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AfterTaxesOnDistributionsMember" xlink:to="label_AfterTaxesOnDistributionsMember_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_LegalEntityAxis" xlink:label="LegalEntityAxis" />
+    <label xlink:type="resource" xlink:label="label_LegalEntityAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_LegalEntityAxis">Series [Axis]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LegalEntityAxis" xlink:to="label_LegalEntityAxis" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd#dei_EntityDomain" xlink:label="EntityDomain" />
+    <label xlink:type="resource" xlink:label="label_EntityDomain" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_EntityDomain">Series</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="EntityDomain" xlink:to="label_EntityDomain" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004257Member" xlink:label="S000004257Member" />
+    <label xlink:type="resource" xlink:label="label_S000004257Member" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004257Member">iShares MSCI Austria Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004257Member" xlink:to="label_S000004257Member" />
+    <label xlink:type="resource" xlink:label="label_S000004257Member_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004257Member_2">S000004257 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004257Member" xlink:to="label_S000004257Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004257Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004257Member_3">iShares MSCI Austria Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004257Member" xlink:to="label_S000004257Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ProspectusShareClassAxis" xlink:label="ProspectusShareClassAxis" />
+    <label xlink:type="resource" xlink:label="label_ProspectusShareClassAxis" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ProspectusShareClassAxis">Share Class [Axis]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ProspectusShareClassAxis" xlink:to="label_ProspectusShareClassAxis" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ShareClassDomain" xlink:label="ShareClassDomain" />
+    <label xlink:type="resource" xlink:label="label_ShareClassDomain" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ShareClassDomain">Share Classes</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ShareClassDomain" xlink:to="label_ShareClassDomain" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011961Member" xlink:label="C000011961Member" />
+    <label xlink:type="resource" xlink:label="label_C000011961Member" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011961Member">iShares MSCI Austria Capped Investable Market Index Fund,iShares MSCI Austria Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011961Member" xlink:to="label_C000011961Member" />
+    <label xlink:type="resource" xlink:label="label_C000011961Member_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011961Member_2">C000011961 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011961Member" xlink:to="label_C000011961Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011961Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011961Member_3">iShares MSCI Austria Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011961Member" xlink:to="label_C000011961Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskReturnHeading" xlink:label="RiskReturnHeading" />
+    <label xlink:type="resource" xlink:label="label_RiskReturnHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskReturnHeading">Risk/Return [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskReturnHeading" xlink:to="label_RiskReturnHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ObjectiveHeading" xlink:label="ObjectiveHeading" />
+    <label xlink:type="resource" xlink:label="label_ObjectiveHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ObjectiveHeading">Objective [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ObjectiveHeading" xlink:to="label_ObjectiveHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ObjectivePrimaryTextBlock" xlink:label="ObjectivePrimaryTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ObjectivePrimaryTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ObjectivePrimaryTextBlock">Objective, Primary [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ObjectivePrimaryTextBlock" xlink:to="label_ObjectivePrimaryTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ObjectiveSecondaryTextBlock" xlink:label="ObjectiveSecondaryTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ObjectiveSecondaryTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ObjectiveSecondaryTextBlock">Objective, Secondary [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ObjectiveSecondaryTextBlock" xlink:to="label_ObjectiveSecondaryTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseHeading" xlink:label="ExpenseHeading" />
+    <label xlink:type="resource" xlink:label="label_ExpenseHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseHeading">Expense [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseHeading" xlink:to="label_ExpenseHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseNarrativeTextBlock" xlink:label="ExpenseNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseNarrativeTextBlock">Expense Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseNarrativeTextBlock" xlink:to="label_ExpenseNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ShareholderFeesCaption" xlink:label="ShareholderFeesCaption" />
+    <label xlink:type="resource" xlink:label="label_ShareholderFeesCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ShareholderFeesCaption">Shareholder Fees Caption [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ShareholderFeesCaption" xlink:to="label_ShareholderFeesCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ShareholderFeesTableTextBlock" xlink:label="ShareholderFeesTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ShareholderFeesTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ShareholderFeesTableTextBlock">Shareholder Fees [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ShareholderFeesTableTextBlock" xlink:to="label_ShareholderFeesTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_OperatingExpensesCaption" xlink:label="OperatingExpensesCaption" />
+    <label xlink:type="resource" xlink:label="label_OperatingExpensesCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_OperatingExpensesCaption">Operating Expenses Caption [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OperatingExpensesCaption" xlink:to="label_OperatingExpensesCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualFundOperatingExpensesTableTextBlock" xlink:label="AnnualFundOperatingExpensesTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_AnnualFundOperatingExpensesTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualFundOperatingExpensesTableTextBlock">Annual Fund Operating Expenses [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualFundOperatingExpensesTableTextBlock" xlink:to="label_AnnualFundOperatingExpensesTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseFootnotesTextBlock" xlink:label="ExpenseFootnotesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseFootnotesTextBlock">Expense Footnotes [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseFootnotesTextBlock" xlink:to="label_ExpenseFootnotesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesDeferredChargesTextBlock" xlink:label="ExpensesDeferredChargesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpensesDeferredChargesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesDeferredChargesTextBlock">Expenses Deferred Charges [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesDeferredChargesTextBlock" xlink:to="label_ExpensesDeferredChargesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesRangeOfExchangeFeesTextBlock" xlink:label="ExpensesRangeOfExchangeFeesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpensesRangeOfExchangeFeesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesRangeOfExchangeFeesTextBlock">Expenses Range of Exchange Fees [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesRangeOfExchangeFeesTextBlock" xlink:to="label_ExpensesRangeOfExchangeFeesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleHeading" xlink:label="ExpenseExampleHeading" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleHeading">Expense Example [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleHeading" xlink:to="label_ExpenseExampleHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleByYearHeading" xlink:label="ExpenseExampleByYearHeading" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleByYearHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleByYearHeading">Expense Example by Year [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleByYearHeading" xlink:to="label_ExpenseExampleByYearHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNarrativeTextBlock" xlink:label="ExpenseExampleNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNarrativeTextBlock">Expense Example Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNarrativeTextBlock" xlink:to="label_ExpenseExampleNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleByYearCaption" xlink:label="ExpenseExampleByYearCaption" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleByYearCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleByYearCaption">Expense Example by, Year, Caption [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleByYearCaption" xlink:to="label_ExpenseExampleByYearCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleWithRedemptionTableTextBlock" xlink:label="ExpenseExampleWithRedemptionTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleWithRedemptionTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleWithRedemptionTableTextBlock">Expense Example, With Redemption [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleWithRedemptionTableTextBlock" xlink:to="label_ExpenseExampleWithRedemptionTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionNarrativeTextBlock" xlink:label="ExpenseExampleNoRedemptionNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionNarrativeTextBlock">Expense Example, No Redemption Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionNarrativeTextBlock" xlink:to="label_ExpenseExampleNoRedemptionNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionByYearCaption" xlink:label="ExpenseExampleNoRedemptionByYearCaption" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionByYearCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionByYearCaption">Expense Example, No Redemption, By Year, Caption [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionByYearCaption" xlink:to="label_ExpenseExampleNoRedemptionByYearCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionTableTextBlock" xlink:label="ExpenseExampleNoRedemptionTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionTableTextBlock">Expense Example, No Redemption [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionTableTextBlock" xlink:to="label_ExpenseExampleNoRedemptionTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleFootnotesTextBlock" xlink:label="ExpenseExampleFootnotesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleFootnotesTextBlock">Expense Example Footnotes [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleFootnotesTextBlock" xlink:to="label_ExpenseExampleFootnotesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleClosingTextBlock" xlink:label="ExpenseExampleClosingTextBlock" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleClosingTextBlock">Expense Example Closing [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleClosingTextBlock" xlink:to="label_ExpenseExampleClosingTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PortfolioTurnoverHeading" xlink:label="PortfolioTurnoverHeading" />
+    <label xlink:type="resource" xlink:label="label_PortfolioTurnoverHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PortfolioTurnoverHeading">Portfolio Turnover [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PortfolioTurnoverHeading" xlink:to="label_PortfolioTurnoverHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PortfolioTurnoverTextBlock" xlink:label="PortfolioTurnoverTextBlock" />
+    <label xlink:type="resource" xlink:label="label_PortfolioTurnoverTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PortfolioTurnoverTextBlock">Portfolio Turnover [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PortfolioTurnoverTextBlock" xlink:to="label_PortfolioTurnoverTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_StrategyHeading" xlink:label="StrategyHeading" />
+    <label xlink:type="resource" xlink:label="label_StrategyHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_StrategyHeading">Strategy [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="StrategyHeading" xlink:to="label_StrategyHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_StrategyNarrativeTextBlock" xlink:label="StrategyNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_StrategyNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_StrategyNarrativeTextBlock">Strategy Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="StrategyNarrativeTextBlock" xlink:to="label_StrategyNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskHeading" xlink:label="RiskHeading" />
+    <label xlink:type="resource" xlink:label="label_RiskHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskHeading">Risk [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskHeading" xlink:to="label_RiskHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskNarrativeTextBlock" xlink:label="RiskNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_RiskNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskNarrativeTextBlock">Risk Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskNarrativeTextBlock" xlink:to="label_RiskNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskFootnotesTextBlock" xlink:label="RiskFootnotesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_RiskFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskFootnotesTextBlock">Risk Footnotes [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskFootnotesTextBlock" xlink:to="label_RiskFootnotesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskClosingTextBlock" xlink:label="RiskClosingTextBlock" />
+    <label xlink:type="resource" xlink:label="label_RiskClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskClosingTextBlock">Risk Closing [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskClosingTextBlock" xlink:to="label_RiskClosingTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartAndPerformanceTableHeading" xlink:label="BarChartAndPerformanceTableHeading" />
+    <label xlink:type="resource" xlink:label="label_BarChartAndPerformanceTableHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartAndPerformanceTableHeading">Bar Chart and Performance Table [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartAndPerformanceTableHeading" xlink:to="label_BarChartAndPerformanceTableHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceNarrativeTextBlock" xlink:label="PerformanceNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_PerformanceNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceNarrativeTextBlock">Performance Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceNarrativeTextBlock" xlink:to="label_PerformanceNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartNarrativeTextBlock" xlink:label="BarChartNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_BarChartNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartNarrativeTextBlock">Bar Chart Narrative [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartNarrativeTextBlock" xlink:to="label_BarChartNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartHeading" xlink:label="BarChartHeading" />
+    <label xlink:type="resource" xlink:label="label_BarChartHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartHeading">Bar Chart [Heading]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartHeading" xlink:to="label_BarChartHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartTableTextBlock" xlink:label="BarChartTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_BarChartTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartTableTextBlock">Bar Chart [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartTableTextBlock" xlink:to="label_BarChartTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartFootnotesTextBlock" xlink:label="BarChartFootnotesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_BarChartFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartFootnotesTextBlock">Bar Chart Footnotes [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartFootnotesTextBlock" xlink:to="label_BarChartFootnotesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartClosingTextBlock" xlink:label="BarChartClosingTextBlock" />
+    <label xlink:type="resource" xlink:label="label_BarChartClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartClosingTextBlock">Bar Chart Closing [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartClosingTextBlock" xlink:to="label_BarChartClosingTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableHeading" xlink:label="PerformanceTableHeading" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableHeading" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableHeading">Performance Table Heading</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableHeading" xlink:to="label_PerformanceTableHeading" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableNarrativeTextBlock" xlink:label="PerformanceTableNarrativeTextBlock" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableNarrativeTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableNarrativeTextBlock">Performance Table Narrative</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableNarrativeTextBlock" xlink:to="label_PerformanceTableNarrativeTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableTextBlock" xlink:label="PerformanceTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableTextBlock">Performance [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableTextBlock" xlink:to="label_PerformanceTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MarketIndexPerformanceTableTextBlock" xlink:label="MarketIndexPerformanceTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_MarketIndexPerformanceTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MarketIndexPerformanceTableTextBlock">Market Index Performance [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MarketIndexPerformanceTableTextBlock" xlink:to="label_MarketIndexPerformanceTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableFootnotesTextBlock" xlink:label="PerformanceTableFootnotesTextBlock" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableFootnotesTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableFootnotesTextBlock">Performance Table Footnotes</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableFootnotesTextBlock" xlink:to="label_PerformanceTableFootnotesTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableClosingTextBlock" xlink:label="PerformanceTableClosingTextBlock" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableClosingTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableClosingTextBlock">Performance Table Closing [Text Block]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableClosingTextBlock" xlink:to="label_PerformanceTableClosingTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ShareholderFeesAbstract" xlink:label="ShareholderFeesAbstract" />
+    <label xlink:type="resource" xlink:label="label_ShareholderFeesAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ShareholderFeesAbstract">Shareholder Fees:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ShareholderFeesAbstract" xlink:to="label_ShareholderFeesAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ShareholderFeesColumnName" xlink:label="ShareholderFeesColumnName" />
+    <label xlink:type="resource" xlink:label="label_ShareholderFeesColumnName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ShareholderFeesColumnName">Shareholder Fees Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ShareholderFeesColumnName" xlink:to="label_ShareholderFeesColumnName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumCumulativeSalesChargeOverOfferingPrice" xlink:label="MaximumCumulativeSalesChargeOverOfferingPrice" />
+    <label xlink:type="resource" xlink:label="label_MaximumCumulativeSalesChargeOverOfferingPrice" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumCumulativeSalesChargeOverOfferingPrice">Maximum Cumulative Sales Charge (as a percentage of Offering Price)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumCumulativeSalesChargeOverOfferingPrice" xlink:to="label_MaximumCumulativeSalesChargeOverOfferingPrice" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumCumulativeSalesChargeOverOther" xlink:label="MaximumCumulativeSalesChargeOverOther" />
+    <label xlink:type="resource" xlink:label="label_MaximumCumulativeSalesChargeOverOther" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumCumulativeSalesChargeOverOther">Maximum Cumulative Sales Charge (as a percentage)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumCumulativeSalesChargeOverOther" xlink:to="label_MaximumCumulativeSalesChargeOverOther" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:label="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" />
+    <label xlink:type="resource" xlink:label="label_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice">Maximum Sales Charge Imposed on Purchases (as a percentage of Offering Price)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" xlink:to="label_MaximumSalesChargeImposedOnPurchasesOverOfferingPrice" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumDeferredSalesChargeOverOfferingPrice" xlink:label="MaximumDeferredSalesChargeOverOfferingPrice" />
+    <label xlink:type="resource" xlink:label="label_MaximumDeferredSalesChargeOverOfferingPrice" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumDeferredSalesChargeOverOfferingPrice">Maximum Deferred Sales Charge (as a percentage of Offering Price)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumDeferredSalesChargeOverOfferingPrice" xlink:to="label_MaximumDeferredSalesChargeOverOfferingPrice" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumDeferredSalesChargeOverOther" xlink:label="MaximumDeferredSalesChargeOverOther" />
+    <label xlink:type="resource" xlink:label="label_MaximumDeferredSalesChargeOverOther" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumDeferredSalesChargeOverOther">Maximum Deferred Sales Charge (as a percentage)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumDeferredSalesChargeOverOther" xlink:to="label_MaximumDeferredSalesChargeOverOther" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:label="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" />
+    <label xlink:type="resource" xlink:label="label_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther">Maximum Sales Charge on Reinvested Dividends and Distributions (as a percentage)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" xlink:to="label_MaximumSalesChargeOnReinvestedDividendsAndDistributionsOverOther" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RedemptionFeeOverRedemption" xlink:label="RedemptionFeeOverRedemption" />
+    <label xlink:type="resource" xlink:label="label_RedemptionFeeOverRedemption" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en-US" id="label_RedemptionFeeOverRedemption">Redemption Fee (as a percentage of Amount Redeemed)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RedemptionFeeOverRedemption" xlink:to="label_RedemptionFeeOverRedemption" />
+    <label xlink:type="resource" xlink:label="label_RedemptionFeeOverRedemption_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RedemptionFeeOverRedemption_2">Redemption Fee (as a percentage of Amount Redeemed)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RedemptionFeeOverRedemption" xlink:to="label_RedemptionFeeOverRedemption_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RedemptionFee" xlink:label="RedemptionFee" />
+    <label xlink:type="resource" xlink:label="label_RedemptionFee" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en-US" id="label_RedemptionFee">Redemption Fee</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RedemptionFee" xlink:to="label_RedemptionFee" />
+    <label xlink:type="resource" xlink:label="label_RedemptionFee_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RedemptionFee_2">Redemption Fee</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RedemptionFee" xlink:to="label_RedemptionFee_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExchangeFeeOverRedemption" xlink:label="ExchangeFeeOverRedemption" />
+    <label xlink:type="resource" xlink:label="label_ExchangeFeeOverRedemption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExchangeFeeOverRedemption">Exchange Fee (as a percentage of Amount Redeemed)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExchangeFeeOverRedemption" xlink:to="label_ExchangeFeeOverRedemption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExchangeFee" xlink:label="ExchangeFee" />
+    <label xlink:type="resource" xlink:label="label_ExchangeFee" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExchangeFee">Exchange Fee</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExchangeFee" xlink:to="label_ExchangeFee" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumAccountFeeOverAssets" xlink:label="MaximumAccountFeeOverAssets" />
+    <label xlink:type="resource" xlink:label="label_MaximumAccountFeeOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumAccountFeeOverAssets">Maximum Account Fee (as a percentage of Assets)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumAccountFeeOverAssets" xlink:to="label_MaximumAccountFeeOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MaximumAccountFee" xlink:label="MaximumAccountFee" />
+    <label xlink:type="resource" xlink:label="label_MaximumAccountFee" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MaximumAccountFee">Maximum Account Fee</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MaximumAccountFee" xlink:to="label_MaximumAccountFee" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ShareholderFeeOther" xlink:label="ShareholderFeeOther" />
+    <label xlink:type="resource" xlink:label="label_ShareholderFeeOther" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ShareholderFeeOther">Shareholder Fee, Other</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ShareholderFeeOther" xlink:to="label_ShareholderFeeOther" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_OperatingExpensesAbstract" xlink:label="OperatingExpensesAbstract" />
+    <label xlink:type="resource" xlink:label="label_OperatingExpensesAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_OperatingExpensesAbstract">Operating Expenses:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OperatingExpensesAbstract" xlink:to="label_OperatingExpensesAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ManagementFeesOverAssets" xlink:label="ManagementFeesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_ManagementFeesOverAssets" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_ManagementFeesOverAssets">Management Fees</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ManagementFeesOverAssets" xlink:to="label_ManagementFeesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_ManagementFeesOverAssets_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ManagementFeesOverAssets_2">Management Fees (as a percentage of Assets)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ManagementFeesOverAssets" xlink:to="label_ManagementFeesOverAssets_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_DistributionAndService12b1FeesOverAssets" xlink:label="DistributionAndService12b1FeesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_DistributionAndService12b1FeesOverAssets" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_DistributionAndService12b1FeesOverAssets">Distribution and Service (12b-1) Fees</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DistributionAndService12b1FeesOverAssets" xlink:to="label_DistributionAndService12b1FeesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_DistributionAndService12b1FeesOverAssets_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DistributionAndService12b1FeesOverAssets_2">Distribution and Service (12b-1) Fees</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DistributionAndService12b1FeesOverAssets" xlink:to="label_DistributionAndService12b1FeesOverAssets_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_OtherExpensesOverAssets" xlink:label="OtherExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_OtherExpensesOverAssets">Other Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherExpensesOverAssets" xlink:to="label_OtherExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_OtherExpensesOverAssets_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_OtherExpensesOverAssets_2">Other Expenses (as a percentage of Assets):</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherExpensesOverAssets" xlink:to="label_OtherExpensesOverAssets_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesOverAssets" xlink:label="ExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_ExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en-US" id="label_ExpensesOverAssets">Total Annual Fund Operating Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesOverAssets" xlink:to="label_ExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_ExpensesOverAssets_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesOverAssets_2">Total Annual Fund Operating Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesOverAssets" xlink:to="label_ExpensesOverAssets_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_ExpensesOverAssets_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_ExpensesOverAssets_3">Total Annual Fund Operating Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesOverAssets" xlink:to="label_ExpensesOverAssets_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_OperatingExpensesColumnName" xlink:label="OperatingExpensesColumnName" />
+    <label xlink:type="resource" xlink:label="label_OperatingExpensesColumnName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_OperatingExpensesColumnName">Operating Expenses Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OperatingExpensesColumnName" xlink:to="label_OperatingExpensesColumnName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_DistributionOrSimilarNon12b1FeesOverAssets" xlink:label="DistributionOrSimilarNon12b1FeesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_DistributionOrSimilarNon12b1FeesOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_DistributionOrSimilarNon12b1FeesOverAssets">Distribution or Similar (Non 12b-1) Fees</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DistributionOrSimilarNon12b1FeesOverAssets" xlink:to="label_DistributionOrSimilarNon12b1FeesOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_Component1OtherExpensesOverAssets" xlink:label="Component1OtherExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_Component1OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_Component1OtherExpensesOverAssets">Component1 Other Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Component1OtherExpensesOverAssets" xlink:to="label_Component1OtherExpensesOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_Component2OtherExpensesOverAssets" xlink:label="Component2OtherExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_Component2OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_Component2OtherExpensesOverAssets">Component2 Other Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Component2OtherExpensesOverAssets" xlink:to="label_Component2OtherExpensesOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_Component3OtherExpensesOverAssets" xlink:label="Component3OtherExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_Component3OtherExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_Component3OtherExpensesOverAssets">Component3 Other Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Component3OtherExpensesOverAssets" xlink:to="label_Component3OtherExpensesOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AcquiredFundFeesAndExpensesOverAssets" xlink:label="AcquiredFundFeesAndExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_AcquiredFundFeesAndExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AcquiredFundFeesAndExpensesOverAssets">Acquired Fund Fees and Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AcquiredFundFeesAndExpensesOverAssets" xlink:to="label_AcquiredFundFeesAndExpensesOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_FeeWaiverOrReimbursementOverAssets" xlink:label="FeeWaiverOrReimbursementOverAssets" />
+    <label xlink:type="resource" xlink:label="label_FeeWaiverOrReimbursementOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_FeeWaiverOrReimbursementOverAssets">Fee Waiver or Reimbursement</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="FeeWaiverOrReimbursementOverAssets" xlink:to="label_FeeWaiverOrReimbursementOverAssets" />
+    <label xlink:type="resource" xlink:label="label_FeeWaiverOrReimbursementOverAssets_2" xlink:role="http://www.xbrl.org/2009/role/negatedLabel" xml:lang="en-US" id="label_FeeWaiverOrReimbursementOverAssets_2">Fee Waiver or Reimbursement</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="FeeWaiverOrReimbursementOverAssets" xlink:to="label_FeeWaiverOrReimbursementOverAssets_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_NetExpensesOverAssets" xlink:label="NetExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_NetExpensesOverAssets" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_NetExpensesOverAssets">Net Expenses (as a percentage of Assets)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="NetExpensesOverAssets" xlink:to="label_NetExpensesOverAssets" />
+    <label xlink:type="resource" xlink:label="label_NetExpensesOverAssets_2" xlink:role="http://www.xbrl.org/2003/role/totalLabel" xml:lang="en-US" id="label_NetExpensesOverAssets_2">Net Expenses</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="NetExpensesOverAssets" xlink:to="label_NetExpensesOverAssets_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleAbstract" xlink:label="ExpenseExampleAbstract" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleAbstract">Expense Example:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleAbstract" xlink:to="label_ExpenseExampleAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleYear01" xlink:label="ExpenseExampleYear01" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear01" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_ExpenseExampleYear01">1 Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear01" xlink:to="label_ExpenseExampleYear01" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear01_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleYear01_2">Expense Example, with Redemption, 1 Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear01" xlink:to="label_ExpenseExampleYear01_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleYear03" xlink:label="ExpenseExampleYear03" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear03" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_ExpenseExampleYear03">3 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear03" xlink:to="label_ExpenseExampleYear03" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear03_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleYear03_2">Expense Example, with Redemption, 3 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear03" xlink:to="label_ExpenseExampleYear03_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleYear05" xlink:label="ExpenseExampleYear05" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear05" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_ExpenseExampleYear05">5 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear05" xlink:to="label_ExpenseExampleYear05" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear05_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleYear05_2">Expense Example, with Redemption, 5 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear05" xlink:to="label_ExpenseExampleYear05_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleYear10" xlink:label="ExpenseExampleYear10" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear10" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_ExpenseExampleYear10">10 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear10" xlink:to="label_ExpenseExampleYear10" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleYear10_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleYear10_2">Expense Example, with Redemption, 10 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleYear10" xlink:to="label_ExpenseExampleYear10_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleByYearColumnName" xlink:label="ExpenseExampleByYearColumnName" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleByYearColumnName" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_ExpenseExampleByYearColumnName">Column</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleByYearColumnName" xlink:to="label_ExpenseExampleByYearColumnName" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleByYearColumnName_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleByYearColumnName_2">Expense Example, By Year, Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleByYearColumnName" xlink:to="label_ExpenseExampleByYearColumnName_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionAbstract" xlink:label="ExpenseExampleNoRedemptionAbstract" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionAbstract">Expense Example, No Redemption:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionAbstract" xlink:to="label_ExpenseExampleNoRedemptionAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionByYearColumnName" xlink:label="ExpenseExampleNoRedemptionByYearColumnName" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionByYearColumnName" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionByYearColumnName">Column</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionByYearColumnName" xlink:to="label_ExpenseExampleNoRedemptionByYearColumnName" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionByYearColumnName_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionByYearColumnName_2">Expense Example, No Redemption, By Year, Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionByYearColumnName" xlink:to="label_ExpenseExampleNoRedemptionByYearColumnName_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear01" xlink:label="ExpenseExampleNoRedemptionYear01" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear01" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear01">Expense Example, No Redemption, 1 Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear01" xlink:to="label_ExpenseExampleNoRedemptionYear01" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear01_2" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear01_2">1 Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear01" xlink:to="label_ExpenseExampleNoRedemptionYear01_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear03" xlink:label="ExpenseExampleNoRedemptionYear03" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear03" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear03">Expense Example, No Redemption, 3 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear03" xlink:to="label_ExpenseExampleNoRedemptionYear03" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear03_2" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear03_2">3 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear03" xlink:to="label_ExpenseExampleNoRedemptionYear03_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear05" xlink:label="ExpenseExampleNoRedemptionYear05" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear05" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear05">5 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear05" xlink:to="label_ExpenseExampleNoRedemptionYear05" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear05_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear05_2">Expense Example, No Redemption, 5 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear05" xlink:to="label_ExpenseExampleNoRedemptionYear05_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExampleNoRedemptionYear10" xlink:label="ExpenseExampleNoRedemptionYear10" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear10" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear10">10 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear10" xlink:to="label_ExpenseExampleNoRedemptionYear10" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExampleNoRedemptionYear10_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExampleNoRedemptionYear10_2">Expense Example, No Redemption, 10 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExampleNoRedemptionYear10" xlink:to="label_ExpenseExampleNoRedemptionYear10_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartTableAbstract" xlink:label="BarChartTableAbstract" />
+    <label xlink:type="resource" xlink:label="label_BarChartTableAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartTableAbstract">Bar Chart Table:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartTableAbstract" xlink:to="label_BarChartTableAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturnCaption" xlink:label="AnnualReturnCaption" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturnCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturnCaption">Annual Return Caption [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturnCaption" xlink:to="label_AnnualReturnCaption" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturnCaption_2" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_AnnualReturnCaption_2">Caption</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturnCaption" xlink:to="label_AnnualReturnCaption_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturnColumnName" xlink:label="AnnualReturnColumnName" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturnColumnName" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_AnnualReturnColumnName">Column</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturnColumnName" xlink:to="label_AnnualReturnColumnName" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturnColumnName_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturnColumnName_2">Annual Return, Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturnColumnName" xlink:to="label_AnnualReturnColumnName_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturnInceptionDate" xlink:label="AnnualReturnInceptionDate" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturnInceptionDate" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_AnnualReturnInceptionDate">Inception Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturnInceptionDate" xlink:to="label_AnnualReturnInceptionDate" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturnInceptionDate_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturnInceptionDate_2">Annual Return, Inception Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturnInceptionDate" xlink:to="label_AnnualReturnInceptionDate_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1990" xlink:label="AnnualReturn1990" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1990" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1990">Annual Return 1990</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1990" xlink:to="label_AnnualReturn1990" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1991" xlink:label="AnnualReturn1991" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1991" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1991">Annual Return 1991</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1991" xlink:to="label_AnnualReturn1991" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1992" xlink:label="AnnualReturn1992" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1992" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1992">Annual Return 1992</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1992" xlink:to="label_AnnualReturn1992" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1993" xlink:label="AnnualReturn1993" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1993" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1993">Annual Return 1993</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1993" xlink:to="label_AnnualReturn1993" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1994" xlink:label="AnnualReturn1994" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1994" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1994">Annual Return 1994</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1994" xlink:to="label_AnnualReturn1994" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1995" xlink:label="AnnualReturn1995" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1995" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1995">Annual Return 1995</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1995" xlink:to="label_AnnualReturn1995" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1996" xlink:label="AnnualReturn1996" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1996" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1996">Annual Return 1996</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1996" xlink:to="label_AnnualReturn1996" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1997" xlink:label="AnnualReturn1997" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1997" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1997">Annual Return 1997</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1997" xlink:to="label_AnnualReturn1997" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1998" xlink:label="AnnualReturn1998" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1998" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1998">Annual Return 1998</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1998" xlink:to="label_AnnualReturn1998" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn1999" xlink:label="AnnualReturn1999" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn1999" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn1999">Annual Return 1999</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn1999" xlink:to="label_AnnualReturn1999" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2000" xlink:label="AnnualReturn2000" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2000" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2000">Annual Return 2000</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2000" xlink:to="label_AnnualReturn2000" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2001" xlink:label="AnnualReturn2001" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2001" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2001">Annual Return 2001</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2001" xlink:to="label_AnnualReturn2001" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2002" xlink:label="AnnualReturn2002" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2002" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2002">Annual Return 2002</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2002" xlink:to="label_AnnualReturn2002" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2002_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2002_2">2002</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2002" xlink:to="label_AnnualReturn2002_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2003" xlink:label="AnnualReturn2003" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2003" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2003">Annual Return 2003</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2003" xlink:to="label_AnnualReturn2003" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2003_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2003_2">2003</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2003" xlink:to="label_AnnualReturn2003_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2004" xlink:label="AnnualReturn2004" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2004" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2004">2004</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2004" xlink:to="label_AnnualReturn2004" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2004_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2004_2">Annual Return 2004</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2004" xlink:to="label_AnnualReturn2004_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2005" xlink:label="AnnualReturn2005" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2005" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2005">2005</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2005" xlink:to="label_AnnualReturn2005" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2005_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2005_2">Annual Return 2005</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2005" xlink:to="label_AnnualReturn2005_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2006" xlink:label="AnnualReturn2006" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2006" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2006">Annual Return 2006</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2006" xlink:to="label_AnnualReturn2006" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2006_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2006_2">2006</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2006" xlink:to="label_AnnualReturn2006_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2007" xlink:label="AnnualReturn2007" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2007" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2007">2007</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2007" xlink:to="label_AnnualReturn2007" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2007_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2007_2">Annual Return 2007</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2007" xlink:to="label_AnnualReturn2007_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2008" xlink:label="AnnualReturn2008" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2008" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2008">Annual Return 2008</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2008" xlink:to="label_AnnualReturn2008" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2008_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2008_2">2008</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2008" xlink:to="label_AnnualReturn2008_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2009" xlink:label="AnnualReturn2009" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2009" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2009">2009</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2009" xlink:to="label_AnnualReturn2009" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2009_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2009_2">Annual Return 2009</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2009" xlink:to="label_AnnualReturn2009_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2010" xlink:label="AnnualReturn2010" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2010" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2010">2010</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2010" xlink:to="label_AnnualReturn2010" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2010_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2010_2">Annual Return 2010</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2010" xlink:to="label_AnnualReturn2010_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2011" xlink:label="AnnualReturn2011" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2011" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AnnualReturn2011">2011</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2011" xlink:to="label_AnnualReturn2011" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2011_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2011_2">Annual Return 2011</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2011" xlink:to="label_AnnualReturn2011_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2012" xlink:label="AnnualReturn2012" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2012" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2012">Annual Return 2012</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2012" xlink:to="label_AnnualReturn2012" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2013" xlink:label="AnnualReturn2013" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2013" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2013">Annual Return 2013</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2013" xlink:to="label_AnnualReturn2013" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2014" xlink:label="AnnualReturn2014" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2014" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2014">Annual Return 2014</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2014" xlink:to="label_AnnualReturn2014" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2015" xlink:label="AnnualReturn2015" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2015" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2015">Annual Return 2015</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2015" xlink:to="label_AnnualReturn2015" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2016" xlink:label="AnnualReturn2016" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2016" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2016">Annual Return 2016</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2016" xlink:to="label_AnnualReturn2016" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2017" xlink:label="AnnualReturn2017" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2017" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2017">Annual Return 2017</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2017" xlink:to="label_AnnualReturn2017" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2018" xlink:label="AnnualReturn2018" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2018" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2018">Annual Return 2018</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2018" xlink:to="label_AnnualReturn2018" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2019" xlink:label="AnnualReturn2019" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2019" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2019">Annual Return 2019</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2019" xlink:to="label_AnnualReturn2019" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AnnualReturn2020" xlink:label="AnnualReturn2020" />
+    <label xlink:type="resource" xlink:label="label_AnnualReturn2020" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AnnualReturn2020">Annual Return 2020</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AnnualReturn2020" xlink:to="label_AnnualReturn2020" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciAustriaInvestableMarketIndexMember" xlink:label="MsciAustriaInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciAustriaInvestableMarketIndexMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciAustriaInvestableMarketIndexMember">Msci Austria Investable Market Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciAustriaInvestableMarketIndexMember" xlink:to="label_MsciAustriaInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciAustriaInvestableMarketIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciAustriaInvestableMarketIndexMember_2">MSCI Austria Investable Market Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciAustriaInvestableMarketIndexMember" xlink:to="label_MsciAustriaInvestableMarketIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciAustriaInvestableMarketIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciAustriaInvestableMarketIndexMember_3">MSCI Austria Investable Market Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciAustriaInvestableMarketIndexMember" xlink:to="label_MsciAustriaInvestableMarketIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnAbstract" xlink:label="AverageAnnualReturnAbstract" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnAbstract" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnAbstract">Average Annual Return:</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnAbstract" xlink:to="label_AverageAnnualReturnAbstract" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnYear01" xlink:label="AverageAnnualReturnYear01" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear01" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AverageAnnualReturnYear01">One Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear01" xlink:to="label_AverageAnnualReturnYear01" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear01_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnYear01_2">1 Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear01" xlink:to="label_AverageAnnualReturnYear01_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear01_3" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_AverageAnnualReturnYear01_3">One Year</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear01" xlink:to="label_AverageAnnualReturnYear01_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnYear05" xlink:label="AverageAnnualReturnYear05" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear05" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AverageAnnualReturnYear05">Five Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear05" xlink:to="label_AverageAnnualReturnYear05" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear05_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnYear05_2">5 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear05" xlink:to="label_AverageAnnualReturnYear05_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnYear10" xlink:label="AverageAnnualReturnYear10" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear10" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AverageAnnualReturnYear10">Ten Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear10" xlink:to="label_AverageAnnualReturnYear10" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnYear10_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnYear10_2">10 Years</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnYear10" xlink:to="label_AverageAnnualReturnYear10_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnInceptionDate" xlink:label="AverageAnnualReturnInceptionDate" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnInceptionDate" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AverageAnnualReturnInceptionDate">Inception Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnInceptionDate" xlink:to="label_AverageAnnualReturnInceptionDate" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnInceptionDate_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnInceptionDate_2">Inception Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnInceptionDate" xlink:to="label_AverageAnnualReturnInceptionDate_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnInceptionDate_3" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_AverageAnnualReturnInceptionDate_3">Inception Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnInceptionDate" xlink:to="label_AverageAnnualReturnInceptionDate_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnLabel" xlink:label="AverageAnnualReturnLabel" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnLabel" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnLabel">Label</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnLabel" xlink:to="label_AverageAnnualReturnLabel" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnSinceInception" xlink:label="AverageAnnualReturnSinceInception" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnSinceInception" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_AverageAnnualReturnSinceInception">Since Fund Inception</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnSinceInception" xlink:to="label_AverageAnnualReturnSinceInception" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnSinceInception_2" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_AverageAnnualReturnSinceInception_2">Since Fund Inception</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnSinceInception" xlink:to="label_AverageAnnualReturnSinceInception_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnSinceInception_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnSinceInception_3">Since Inception</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnSinceInception" xlink:to="label_AverageAnnualReturnSinceInception_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskReturnDetailTableTextBlock" xlink:label="RiskReturnDetailTableTextBlock" />
+    <label xlink:type="resource" xlink:label="label_RiskReturnDetailTableTextBlock" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskReturnDetailTableTextBlock">Risk/Return Detail [Table]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskReturnDetailTableTextBlock" xlink:to="label_RiskReturnDetailTableTextBlock" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_FeeWaiverOrReimbursementOverAssetsDateOfTermination" xlink:label="FeeWaiverOrReimbursementOverAssetsDateOfTermination" />
+    <label xlink:type="resource" xlink:label="label_FeeWaiverOrReimbursementOverAssetsDateOfTermination" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_FeeWaiverOrReimbursementOverAssetsDateOfTermination">Fee Waiver or Reimbursement over Assets, Date of Termination</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="FeeWaiverOrReimbursementOverAssetsDateOfTermination" xlink:to="label_FeeWaiverOrReimbursementOverAssetsDateOfTermination" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PortfolioTurnoverRate" xlink:label="PortfolioTurnoverRate" />
+    <label xlink:type="resource" xlink:label="label_PortfolioTurnoverRate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PortfolioTurnoverRate">Portfolio Turnover, Rate</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PortfolioTurnoverRate" xlink:to="label_PortfolioTurnoverRate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseBreakpointDiscounts" xlink:label="ExpenseBreakpointDiscounts" />
+    <label xlink:type="resource" xlink:label="label_ExpenseBreakpointDiscounts" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseBreakpointDiscounts">Expense Breakpoint Discounts [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseBreakpointDiscounts" xlink:to="label_ExpenseBreakpointDiscounts" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseBreakpointMinimumInvestmentRequiredAmount" xlink:label="ExpenseBreakpointMinimumInvestmentRequiredAmount" />
+    <label xlink:type="resource" xlink:label="label_ExpenseBreakpointMinimumInvestmentRequiredAmount" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseBreakpointMinimumInvestmentRequiredAmount">Expense Breakpoint, Minimum Investment Required [Amount]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseBreakpointMinimumInvestmentRequiredAmount" xlink:to="label_ExpenseBreakpointMinimumInvestmentRequiredAmount" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpenseExchangeTradedFundCommissions" xlink:label="ExpenseExchangeTradedFundCommissions" />
+    <label xlink:type="resource" xlink:label="label_ExpenseExchangeTradedFundCommissions" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpenseExchangeTradedFundCommissions">Expense Exchange Traded Fund Commissions [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpenseExchangeTradedFundCommissions" xlink:to="label_ExpenseExchangeTradedFundCommissions" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesRepresentBothMasterAndFeeder" xlink:label="ExpensesRepresentBothMasterAndFeeder" />
+    <label xlink:type="resource" xlink:label="label_ExpensesRepresentBothMasterAndFeeder" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesRepresentBothMasterAndFeeder">Expenses Represent Both Master and Feeder [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesRepresentBothMasterAndFeeder" xlink:to="label_ExpensesRepresentBothMasterAndFeeder" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesExplanationOfNonrecurringAccountFee" xlink:label="ExpensesExplanationOfNonrecurringAccountFee" />
+    <label xlink:type="resource" xlink:label="label_ExpensesExplanationOfNonrecurringAccountFee" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesExplanationOfNonrecurringAccountFee">Expenses Explanation of Nonrecurring Account Fee [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesExplanationOfNonrecurringAccountFee" xlink:to="label_ExpensesExplanationOfNonrecurringAccountFee" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_OtherExpensesNewFundBasedOnEstimates" xlink:label="OtherExpensesNewFundBasedOnEstimates" />
+    <label xlink:type="resource" xlink:label="label_OtherExpensesNewFundBasedOnEstimates" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_OtherExpensesNewFundBasedOnEstimates">Other Expenses, New Fund, Based on Estimates [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherExpensesNewFundBasedOnEstimates" xlink:to="label_OtherExpensesNewFundBasedOnEstimates" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AcquiredFundFeesAndExpensesBasedOnEstimates" xlink:label="AcquiredFundFeesAndExpensesBasedOnEstimates" />
+    <label xlink:type="resource" xlink:label="label_AcquiredFundFeesAndExpensesBasedOnEstimates" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AcquiredFundFeesAndExpensesBasedOnEstimates">Acquired Fund Fees and Expenses, Based on Estimates [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AcquiredFundFeesAndExpensesBasedOnEstimates" xlink:to="label_AcquiredFundFeesAndExpensesBasedOnEstimates" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" xlink:label="ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" />
+    <label xlink:type="resource" xlink:label="label_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded">Expenses Other Expenses Had Extraordinary Expenses Been Included [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" xlink:to="label_ExpensesOtherExpensesHadExtraordinaryExpensesBeenIncluded" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesRestatedToReflectCurrent" xlink:label="ExpensesRestatedToReflectCurrent" />
+    <label xlink:type="resource" xlink:label="label_ExpensesRestatedToReflectCurrent" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesRestatedToReflectCurrent">Expenses Restated to Reflect Current [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesRestatedToReflectCurrent" xlink:to="label_ExpensesRestatedToReflectCurrent" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" xlink:label="ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" />
+    <label xlink:type="resource" xlink:label="label_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees">Expenses Not Correlated to Ratio Due to Acquired Fund Fees [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" xlink:to="label_ExpensesNotCorrelatedToRatioDueToAcquiredFundFees" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_StrategyPortfolioConcentration" xlink:label="StrategyPortfolioConcentration" />
+    <label xlink:type="resource" xlink:label="label_StrategyPortfolioConcentration" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_StrategyPortfolioConcentration">Strategy Portfolio Concentration [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="StrategyPortfolioConcentration" xlink:to="label_StrategyPortfolioConcentration" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskLoseMoney" xlink:label="RiskLoseMoney" />
+    <label xlink:type="resource" xlink:label="label_RiskLoseMoney" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskLoseMoney">Risk Lose Money [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskLoseMoney" xlink:to="label_RiskLoseMoney" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskNondiversifiedStatus" xlink:label="RiskNondiversifiedStatus" />
+    <label xlink:type="resource" xlink:label="label_RiskNondiversifiedStatus" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskNondiversifiedStatus">Risk Nondiversified Status [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskNondiversifiedStatus" xlink:to="label_RiskNondiversifiedStatus" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskMoneyMarketFund" xlink:label="RiskMoneyMarketFund" />
+    <label xlink:type="resource" xlink:label="label_RiskMoneyMarketFund" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskMoneyMarketFund">Risk Money Market Fund [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskMoneyMarketFund" xlink:to="label_RiskMoneyMarketFund" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskNotInsuredDepositoryInstitution" xlink:label="RiskNotInsuredDepositoryInstitution" />
+    <label xlink:type="resource" xlink:label="label_RiskNotInsuredDepositoryInstitution" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskNotInsuredDepositoryInstitution">Risk Not Insured Depository Institution [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskNotInsuredDepositoryInstitution" xlink:to="label_RiskNotInsuredDepositoryInstitution" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskCaption" xlink:label="RiskCaption" />
+    <label xlink:type="resource" xlink:label="label_RiskCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskCaption">Risk Caption</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskCaption" xlink:to="label_RiskCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_RiskColumnName" xlink:label="RiskColumnName" />
+    <label xlink:type="resource" xlink:label="label_RiskColumnName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_RiskColumnName">Risk Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="RiskColumnName" xlink:to="label_RiskColumnName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_Risk" xlink:label="Risk" />
+    <label xlink:type="resource" xlink:label="label_Risk" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_Risk">Risk [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Risk" xlink:to="label_Risk" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceInformationIllustratesVariabilityOfReturns" xlink:label="PerformanceInformationIllustratesVariabilityOfReturns" />
+    <label xlink:type="resource" xlink:label="label_PerformanceInformationIllustratesVariabilityOfReturns" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceInformationIllustratesVariabilityOfReturns">Performance Information Illustrates Variability of Returns [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceInformationIllustratesVariabilityOfReturns" xlink:to="label_PerformanceInformationIllustratesVariabilityOfReturns" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceOneYearOrLess" xlink:label="PerformanceOneYearOrLess" />
+    <label xlink:type="resource" xlink:label="label_PerformanceOneYearOrLess" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceOneYearOrLess">Performance One Year or Less [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceOneYearOrLess" xlink:to="label_PerformanceOneYearOrLess" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceAdditionalMarketIndex" xlink:label="PerformanceAdditionalMarketIndex" />
+    <label xlink:type="resource" xlink:label="label_PerformanceAdditionalMarketIndex" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceAdditionalMarketIndex">Performance Additional Market Index [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceAdditionalMarketIndex" xlink:to="label_PerformanceAdditionalMarketIndex" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceAvailabilityPhone" xlink:label="PerformanceAvailabilityPhone" />
+    <label xlink:type="resource" xlink:label="label_PerformanceAvailabilityPhone" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceAvailabilityPhone">Performance Availability Phone [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceAvailabilityPhone" xlink:to="label_PerformanceAvailabilityPhone" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceAvailabilityWebSiteAddress" xlink:label="PerformanceAvailabilityWebSiteAddress" />
+    <label xlink:type="resource" xlink:label="label_PerformanceAvailabilityWebSiteAddress" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceAvailabilityWebSiteAddress">Performance Availability Website Address [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceAvailabilityWebSiteAddress" xlink:to="label_PerformanceAvailabilityWebSiteAddress" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformancePastDoesNotIndicateFuture" xlink:label="PerformancePastDoesNotIndicateFuture" />
+    <label xlink:type="resource" xlink:label="label_PerformancePastDoesNotIndicateFuture" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformancePastDoesNotIndicateFuture">Performance Past Does Not Indicate Future [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformancePastDoesNotIndicateFuture" xlink:to="label_PerformancePastDoesNotIndicateFuture" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartDoesNotReflectSalesLoads" xlink:label="BarChartDoesNotReflectSalesLoads" />
+    <label xlink:type="resource" xlink:label="label_BarChartDoesNotReflectSalesLoads" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartDoesNotReflectSalesLoads">Bar Chart Does Not Reflect Sales Loads [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartDoesNotReflectSalesLoads" xlink:to="label_BarChartDoesNotReflectSalesLoads" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" xlink:label="BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" />
+    <label xlink:type="resource" xlink:label="label_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod">Bar Chart, Reason Selected Class Different from Immediately Preceding Period [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" xlink:to="label_BarChartReasonSelectedClassDifferentFromImmediatelyPrecedingPeriod" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartReturnsForClassNotOfferedInProspectus" xlink:label="BarChartReturnsForClassNotOfferedInProspectus" />
+    <label xlink:type="resource" xlink:label="label_BarChartReturnsForClassNotOfferedInProspectus" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartReturnsForClassNotOfferedInProspectus">Bar Chart, Returns for Class Not Offered in Prospectus [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartReturnsForClassNotOfferedInProspectus" xlink:to="label_BarChartReturnsForClassNotOfferedInProspectus" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_YearToDateReturnLabel" xlink:label="YearToDateReturnLabel" />
+    <label xlink:type="resource" xlink:label="label_YearToDateReturnLabel" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_YearToDateReturnLabel">Year to Date Return, Label</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="YearToDateReturnLabel" xlink:to="label_YearToDateReturnLabel" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartYearToDateReturnDate" xlink:label="BarChartYearToDateReturnDate" />
+    <label xlink:type="resource" xlink:label="label_BarChartYearToDateReturnDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartYearToDateReturnDate">Bar Chart, Year to Date Return, Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartYearToDateReturnDate" xlink:to="label_BarChartYearToDateReturnDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartYearToDateReturn" xlink:label="BarChartYearToDateReturn" />
+    <label xlink:type="resource" xlink:label="label_BarChartYearToDateReturn" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartYearToDateReturn">Bar Chart, Year to Date Return</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartYearToDateReturn" xlink:to="label_BarChartYearToDateReturn" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_HighestQuarterlyReturnLabel" xlink:label="HighestQuarterlyReturnLabel" />
+    <label xlink:type="resource" xlink:label="label_HighestQuarterlyReturnLabel" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_HighestQuarterlyReturnLabel">Highest Quarterly Return, Label</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="HighestQuarterlyReturnLabel" xlink:to="label_HighestQuarterlyReturnLabel" />
+    <label xlink:type="resource" xlink:label="label_HighestQuarterlyReturnLabel_2" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_HighestQuarterlyReturnLabel_2">Label</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="HighestQuarterlyReturnLabel" xlink:to="label_HighestQuarterlyReturnLabel_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartHighestQuarterlyReturnDate" xlink:label="BarChartHighestQuarterlyReturnDate" />
+    <label xlink:type="resource" xlink:label="label_BarChartHighestQuarterlyReturnDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartHighestQuarterlyReturnDate">Highest Quarterly Return, Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartHighestQuarterlyReturnDate" xlink:to="label_BarChartHighestQuarterlyReturnDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartHighestQuarterlyReturn" xlink:label="BarChartHighestQuarterlyReturn" />
+    <label xlink:type="resource" xlink:label="label_BarChartHighestQuarterlyReturn" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartHighestQuarterlyReturn">Highest Quarterly Return</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartHighestQuarterlyReturn" xlink:to="label_BarChartHighestQuarterlyReturn" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_LowestQuarterlyReturnLabel" xlink:label="LowestQuarterlyReturnLabel" />
+    <label xlink:type="resource" xlink:label="label_LowestQuarterlyReturnLabel" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_LowestQuarterlyReturnLabel">Lowest Quarterly Return, Label</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LowestQuarterlyReturnLabel" xlink:to="label_LowestQuarterlyReturnLabel" />
+    <label xlink:type="resource" xlink:label="label_LowestQuarterlyReturnLabel_2" xlink:role="http://www.xbrl.org/2003/role/terseLabel" xml:lang="en-US" id="label_LowestQuarterlyReturnLabel_2">Label</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="LowestQuarterlyReturnLabel" xlink:to="label_LowestQuarterlyReturnLabel_2" order="2.0" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartLowestQuarterlyReturnDate" xlink:label="BarChartLowestQuarterlyReturnDate" />
+    <label xlink:type="resource" xlink:label="label_BarChartLowestQuarterlyReturnDate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartLowestQuarterlyReturnDate">Lowest Quarterly Return, Date</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartLowestQuarterlyReturnDate" xlink:to="label_BarChartLowestQuarterlyReturnDate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_BarChartLowestQuarterlyReturn" xlink:label="BarChartLowestQuarterlyReturn" />
+    <label xlink:type="resource" xlink:label="label_BarChartLowestQuarterlyReturn" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_BarChartLowestQuarterlyReturn">Lowest Quarterly Return</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="BarChartLowestQuarterlyReturn" xlink:to="label_BarChartLowestQuarterlyReturn" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableDoesReflectSalesLoads" xlink:label="PerformanceTableDoesReflectSalesLoads" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableDoesReflectSalesLoads" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableDoesReflectSalesLoads">Performance Table Does Reflect Sales Loads</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableDoesReflectSalesLoads" xlink:to="label_PerformanceTableDoesReflectSalesLoads" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableMarketIndexChanged" xlink:label="PerformanceTableMarketIndexChanged" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableMarketIndexChanged" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableMarketIndexChanged">Performance Table Market Index Changed</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableMarketIndexChanged" xlink:to="label_PerformanceTableMarketIndexChanged" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_IndexNoDeductionForFeesExpensesTaxes" xlink:label="IndexNoDeductionForFeesExpensesTaxes" />
+    <label xlink:type="resource" xlink:label="label_IndexNoDeductionForFeesExpensesTaxes" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_IndexNoDeductionForFeesExpensesTaxes">Index No Deduction for Fees, Expenses, Taxes [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="IndexNoDeductionForFeesExpensesTaxes" xlink:to="label_IndexNoDeductionForFeesExpensesTaxes" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableUsesHighestFederalRate" xlink:label="PerformanceTableUsesHighestFederalRate" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableUsesHighestFederalRate" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableUsesHighestFederalRate">Performance Table Uses Highest Federal Rate</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableUsesHighestFederalRate" xlink:to="label_PerformanceTableUsesHighestFederalRate" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableNotRelevantToTaxDeferred" xlink:label="PerformanceTableNotRelevantToTaxDeferred" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableNotRelevantToTaxDeferred" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableNotRelevantToTaxDeferred">Performance Table Not Relevant to Tax Deferred</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableNotRelevantToTaxDeferred" xlink:to="label_PerformanceTableNotRelevantToTaxDeferred" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableOneClassOfAfterTaxShown" xlink:label="PerformanceTableOneClassOfAfterTaxShown" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableOneClassOfAfterTaxShown" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableOneClassOfAfterTaxShown">Performance Table One Class of after Tax Shown [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableOneClassOfAfterTaxShown" xlink:to="label_PerformanceTableOneClassOfAfterTaxShown" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableExplanationAfterTaxHigher" xlink:label="PerformanceTableExplanationAfterTaxHigher" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableExplanationAfterTaxHigher" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableExplanationAfterTaxHigher">Performance Table Explanation after Tax Higher</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableExplanationAfterTaxHigher" xlink:to="label_PerformanceTableExplanationAfterTaxHigher" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" xlink:label="PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" />
+    <label xlink:type="resource" xlink:label="label_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod">Performance Table Footnotes, Reason Performance Information for Class Different from Immediately Preceding Period [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" xlink:to="label_PerformanceTableFootnotesReasonPerformanceInformationForClassDifferentFromImmediatelyPrecedingPeriod" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnCaption" xlink:label="AverageAnnualReturnCaption" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnCaption">Caption</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnCaption" xlink:to="label_AverageAnnualReturnCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_AverageAnnualReturnColumnName" xlink:label="AverageAnnualReturnColumnName" />
+    <label xlink:type="resource" xlink:label="label_AverageAnnualReturnColumnName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_AverageAnnualReturnColumnName">Column</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AverageAnnualReturnColumnName" xlink:to="label_AverageAnnualReturnColumnName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYieldCaption" xlink:label="MoneyMarketSevenDayYieldCaption" />
+    <label xlink:type="resource" xlink:label="label_MoneyMarketSevenDayYieldCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MoneyMarketSevenDayYieldCaption">Money Market Seven Day Yield, Caption [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MoneyMarketSevenDayYieldCaption" xlink:to="label_MoneyMarketSevenDayYieldCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYieldColumnName" xlink:label="MoneyMarketSevenDayYieldColumnName" />
+    <label xlink:type="resource" xlink:label="label_MoneyMarketSevenDayYieldColumnName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MoneyMarketSevenDayYieldColumnName">Money Market Seven Day Yield Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MoneyMarketSevenDayYieldColumnName" xlink:to="label_MoneyMarketSevenDayYieldColumnName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYieldPhone" xlink:label="MoneyMarketSevenDayYieldPhone" />
+    <label xlink:type="resource" xlink:label="label_MoneyMarketSevenDayYieldPhone" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MoneyMarketSevenDayYieldPhone">Money Market Seven Day Yield Phone</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MoneyMarketSevenDayYieldPhone" xlink:to="label_MoneyMarketSevenDayYieldPhone" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MoneyMarketSevenDayYield" xlink:label="MoneyMarketSevenDayYield" />
+    <label xlink:type="resource" xlink:label="label_MoneyMarketSevenDayYield" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MoneyMarketSevenDayYield">Money Market Seven Day Yield</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MoneyMarketSevenDayYield" xlink:to="label_MoneyMarketSevenDayYield" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_MoneyMarketSevenDayTaxEquivalentYield" xlink:label="MoneyMarketSevenDayTaxEquivalentYield" />
+    <label xlink:type="resource" xlink:label="label_MoneyMarketSevenDayTaxEquivalentYield" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MoneyMarketSevenDayTaxEquivalentYield">Money Market Seven Day Tax Equivalent Yield</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MoneyMarketSevenDayTaxEquivalentYield" xlink:to="label_MoneyMarketSevenDayTaxEquivalentYield" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ThirtyDayYieldCaption" xlink:label="ThirtyDayYieldCaption" />
+    <label xlink:type="resource" xlink:label="label_ThirtyDayYieldCaption" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ThirtyDayYieldCaption">Thirty Day Yield Caption</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtyDayYieldCaption" xlink:to="label_ThirtyDayYieldCaption" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ThirtyDayYieldColumnName" xlink:label="ThirtyDayYieldColumnName" />
+    <label xlink:type="resource" xlink:label="label_ThirtyDayYieldColumnName" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ThirtyDayYieldColumnName">Thirty Day Yield Column [Text]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtyDayYieldColumnName" xlink:to="label_ThirtyDayYieldColumnName" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ThirtyDayYieldPhone" xlink:label="ThirtyDayYieldPhone" />
+    <label xlink:type="resource" xlink:label="label_ThirtyDayYieldPhone" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ThirtyDayYieldPhone">Thirty Day Yield Phone</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtyDayYieldPhone" xlink:to="label_ThirtyDayYieldPhone" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ThirtyDayYield" xlink:label="ThirtyDayYield" />
+    <label xlink:type="resource" xlink:label="label_ThirtyDayYield" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ThirtyDayYield">Thirty Day Yield</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtyDayYield" xlink:to="label_ThirtyDayYield" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ThirtyDayTaxEquivalentYield" xlink:label="ThirtyDayTaxEquivalentYield" />
+    <label xlink:type="resource" xlink:label="label_ThirtyDayTaxEquivalentYield" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_ThirtyDayTaxEquivalentYield">Thirty Day Tax Equivalent Yield</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ThirtyDayTaxEquivalentYield" xlink:to="label_ThirtyDayTaxEquivalentYield" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004264Member" xlink:label="S000004264Member" />
+    <label xlink:type="resource" xlink:label="label_S000004264Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004264Member">S000004264 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004264Member" xlink:to="label_S000004264Member" />
+    <label xlink:type="resource" xlink:label="label_S000004264Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004264Member_2">iShares MSCI Brazil Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004264Member" xlink:to="label_S000004264Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004264Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004264Member_3">iShares MSCI Brazil Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004264Member" xlink:to="label_S000004264Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011968Member" xlink:label="C000011968Member" />
+    <label xlink:type="resource" xlink:label="label_C000011968Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011968Member">C000011968 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011968Member" xlink:to="label_C000011968Member" />
+    <label xlink:type="resource" xlink:label="label_C000011968Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011968Member_2">iShares MSCI Brazil Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011968Member" xlink:to="label_C000011968Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011968Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011968Member_3">iShares MSCI Brazil Capped Index Fund,iShares MSCI Brazil Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011968Member" xlink:to="label_C000011968Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciBrazilIndexMember" xlink:label="MsciBrazilIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciBrazilIndexMember" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciBrazilIndexMember">MSCI Brazil Index (Index returns do not reflect deductions for fees, expenses or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciBrazilIndexMember" xlink:to="label_MsciBrazilIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciBrazilIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciBrazilIndexMember_2">Msci Brazil Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciBrazilIndexMember" xlink:to="label_MsciBrazilIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciBrazilIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciBrazilIndexMember_3">MsciBrazilIndexMember</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciBrazilIndexMember" xlink:to="label_MsciBrazilIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000018070Member" xlink:label="S000018070Member" />
+    <label xlink:type="resource" xlink:label="label_S000018070Member" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000018070Member">iShares MSCI Chile Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000018070Member" xlink:to="label_S000018070Member" />
+    <label xlink:type="resource" xlink:label="label_S000018070Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000018070Member_2">iShares MSCI Chile Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000018070Member" xlink:to="label_S000018070Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000018070Member_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000018070Member_3">S000018070 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000018070Member" xlink:to="label_S000018070Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000050066Member" xlink:label="C000050066Member" />
+    <label xlink:type="resource" xlink:label="label_C000050066Member" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000050066Member">iShares MSCI Chile Capped Investable Market Index Fund,iShares MSCI Chile Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000050066Member" xlink:to="label_C000050066Member" />
+    <label xlink:type="resource" xlink:label="label_C000050066Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000050066Member_2">iShares MSCI Chile Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000050066Member" xlink:to="label_C000050066Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000050066Member_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000050066Member_3">C000050066 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000050066Member" xlink:to="label_C000050066Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciChileInvestableMarketIndexMember" xlink:label="MsciChileInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciChileInvestableMarketIndexMember" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciChileInvestableMarketIndexMember">MsciChileInvestableMarketIndexMember</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciChileInvestableMarketIndexMember" xlink:to="label_MsciChileInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciChileInvestableMarketIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciChileInvestableMarketIndexMember_2">Msci Chile Investable Market Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciChileInvestableMarketIndexMember" xlink:to="label_MsciChileInvestableMarketIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciChileInvestableMarketIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciChileInvestableMarketIndexMember_3">MSCI Chile Investable Market Index (Index returns do not reflect deductions for fees, expenses or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciChileInvestableMarketIndexMember" xlink:to="label_MsciChileInvestableMarketIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004248Member" xlink:label="S000004248Member" />
+    <label xlink:type="resource" xlink:label="label_S000004248Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004248Member">S000004248 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004248Member" xlink:to="label_S000004248Member" />
+    <label xlink:type="resource" xlink:label="label_S000004248Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004248Member_2">iShares MSCI Italy Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004248Member" xlink:to="label_S000004248Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004248Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004248Member_3">iShares MSCI Italy Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004248Member" xlink:to="label_S000004248Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011952Member" xlink:label="C000011952Member" />
+    <label xlink:type="resource" xlink:label="label_C000011952Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011952Member">C000011952 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011952Member" xlink:to="label_C000011952Member" />
+    <label xlink:type="resource" xlink:label="label_C000011952Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011952Member_2">iShares MSCI Italy Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011952Member" xlink:to="label_C000011952Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011952Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011952Member_3">iShares MSCI Italy Capped Index Fund,iShares MSCI Italy Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011952Member" xlink:to="label_C000011952Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciItalyIndexMember" xlink:label="MsciItalyIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciItalyIndexMember" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciItalyIndexMember">Msci Italy Index.</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciItalyIndexMember" xlink:to="label_MsciItalyIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciItalyIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciItalyIndexMember_2">Msci Italy Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciItalyIndexMember" xlink:to="label_MsciItalyIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciItalyIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciItalyIndexMember_3">MSCI Italy Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciItalyIndexMember" xlink:to="label_MsciItalyIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004251Member" xlink:label="S000004251Member" />
+    <label xlink:type="resource" xlink:label="label_S000004251Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004251Member">S000004251 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004251Member" xlink:to="label_S000004251Member" />
+    <label xlink:type="resource" xlink:label="label_S000004251Member_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004251Member_2">iShares MSCI Mexico Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004251Member" xlink:to="label_S000004251Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004251Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004251Member_3">iShares MSCI Mexico Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004251Member" xlink:to="label_S000004251Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011955Member" xlink:label="C000011955Member" />
+    <label xlink:type="resource" xlink:label="label_C000011955Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011955Member">C000011955 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011955Member" xlink:to="label_C000011955Member" />
+    <label xlink:type="resource" xlink:label="label_C000011955Member_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011955Member_2">iShares MSCI Mexico Capped Investable Market Index Fund,iShares MSCI Mexico Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011955Member" xlink:to="label_C000011955Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011955Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011955Member_3">iShares MSCI Mexico Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011955Member" xlink:to="label_C000011955Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciMexicoInvestableMarketIndexMember" xlink:label="MsciMexicoInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciMexicoInvestableMarketIndexMember" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciMexicoInvestableMarketIndexMember">MSCI Mexico Investable Market Index.</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciMexicoInvestableMarketIndexMember" xlink:to="label_MsciMexicoInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciMexicoInvestableMarketIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciMexicoInvestableMarketIndexMember_2">Msci Mexico Investable Market Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciMexicoInvestableMarketIndexMember" xlink:to="label_MsciMexicoInvestableMarketIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciMexicoInvestableMarketIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciMexicoInvestableMarketIndexMember_3">MSCI Mexico Investable Market Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciMexicoInvestableMarketIndexMember" xlink:to="label_MsciMexicoInvestableMarketIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004258Member" xlink:label="S000004258Member" />
+    <label xlink:type="resource" xlink:label="label_S000004258Member" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004258Member">iShares MSCI South Korea Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004258Member" xlink:to="label_S000004258Member" />
+    <label xlink:type="resource" xlink:label="label_S000004258Member_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004258Member_2">S000004258 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004258Member" xlink:to="label_S000004258Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004258Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004258Member_3">iShares MSCI South Korea Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004258Member" xlink:to="label_S000004258Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011962Member" xlink:label="C000011962Member" />
+    <label xlink:type="resource" xlink:label="label_C000011962Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011962Member">C000011962 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011962Member" xlink:to="label_C000011962Member" />
+    <label xlink:type="resource" xlink:label="label_C000011962Member_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011962Member_2">iShares MSCI South Korea Capped Index Fund,iShares MSCI South Korea Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011962Member" xlink:to="label_C000011962Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011962Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011962Member_3">iShares MSCI South Korea Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011962Member" xlink:to="label_C000011962Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciKoreaIndexMember" xlink:label="MsciKoreaIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciKoreaIndexMember" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciKoreaIndexMember">MSCI Korea Index.</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciKoreaIndexMember" xlink:to="label_MsciKoreaIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciKoreaIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciKoreaIndexMember_2">Msci Korea Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciKoreaIndexMember" xlink:to="label_MsciKoreaIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciKoreaIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciKoreaIndexMember_3">MSCI Korea Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciKoreaIndexMember" xlink:to="label_MsciKoreaIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004256Member" xlink:label="S000004256Member" />
+    <label xlink:type="resource" xlink:label="label_S000004256Member" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004256Member">iShares MSCI Spain Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004256Member" xlink:to="label_S000004256Member" />
+    <label xlink:type="resource" xlink:label="label_S000004256Member_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004256Member_2">iShares MSCI Spain Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004256Member" xlink:to="label_S000004256Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004256Member_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004256Member_3">S000004256 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004256Member" xlink:to="label_S000004256Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011960Member" xlink:label="C000011960Member" />
+    <label xlink:type="resource" xlink:label="label_C000011960Member" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011960Member">iShares MSCI Spain Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011960Member" xlink:to="label_C000011960Member" />
+    <label xlink:type="resource" xlink:label="label_C000011960Member_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011960Member_2">C000011960 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011960Member" xlink:to="label_C000011960Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011960Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011960Member_3">iShares MSCI Spain Capped Index Fund,iShares MSCI Spain Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011960Member" xlink:to="label_C000011960Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciSpainIndexMember" xlink:label="MsciSpainIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciSpainIndexMember" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciSpainIndexMember">Msci Spain Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciSpainIndexMember" xlink:to="label_MsciSpainIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciSpainIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciSpainIndexMember_2">MSCI Spain Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciSpainIndexMember" xlink:to="label_MsciSpainIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciSpainIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciSpainIndexMember_3">MSCI Spain Index (Index returns do not reflect deductions for fees, expenses, or taxes).</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciSpainIndexMember" xlink:to="label_MsciSpainIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000004260Member" xlink:label="S000004260Member" />
+    <label xlink:type="resource" xlink:label="label_S000004260Member" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000004260Member">iShares MSCI Switzerland Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004260Member" xlink:to="label_S000004260Member" />
+    <label xlink:type="resource" xlink:label="label_S000004260Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000004260Member_2">iShares MSCI Switzerland Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004260Member" xlink:to="label_S000004260Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000004260Member_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000004260Member_3">S000004260 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000004260Member" xlink:to="label_S000004260Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000011964Member" xlink:label="C000011964Member" />
+    <label xlink:type="resource" xlink:label="label_C000011964Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000011964Member">C000011964 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011964Member" xlink:to="label_C000011964Member" />
+    <label xlink:type="resource" xlink:label="label_C000011964Member_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000011964Member_2">iShares MSCI Switzerland Capped Index Fund,iShares MSCI Switzerland Capped Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011964Member" xlink:to="label_C000011964Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000011964Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000011964Member_3">iShares MSCI Switzerland Capped Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000011964Member" xlink:to="label_C000011964Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciSwitzerlandIndexMember" xlink:label="MsciSwitzerlandIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciSwitzerlandIndexMember" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciSwitzerlandIndexMember">MSCI Switzerland Index (Index returns do not reflect deductions for fees, expenses, or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciSwitzerlandIndexMember" xlink:to="label_MsciSwitzerlandIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciSwitzerlandIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciSwitzerlandIndexMember_2">MSCI Switzerland Index (Index returns do not reflect deductions for fees, expenses, or taxes).</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciSwitzerlandIndexMember" xlink:to="label_MsciSwitzerlandIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciSwitzerlandIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciSwitzerlandIndexMember_3">Msci Switzerland Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciSwitzerlandIndexMember" xlink:to="label_MsciSwitzerlandIndexMember_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_S000018072Member" xlink:label="S000018072Member" />
+    <label xlink:type="resource" xlink:label="label_S000018072Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_S000018072Member">S000018072 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000018072Member" xlink:to="label_S000018072Member" />
+    <label xlink:type="resource" xlink:label="label_S000018072Member_2" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_S000018072Member_2">iShares MSCI Thailand Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000018072Member" xlink:to="label_S000018072Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_S000018072Member_3" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_S000018072Member_3">iShares MSCI Thailand Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="S000018072Member" xlink:to="label_S000018072Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_C000050068Member" xlink:label="C000050068Member" />
+    <label xlink:type="resource" xlink:label="label_C000050068Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_C000050068Member">C000050068 [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000050068Member" xlink:to="label_C000050068Member" />
+    <label xlink:type="resource" xlink:label="label_C000050068Member_2" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_C000050068Member_2">iShares MSCI Thailand Capped Investable Market Index Fund,iShares MSCI Thailand Capped Investable Market Index Fund Member</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000050068Member" xlink:to="label_C000050068Member_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_C000050068Member_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_C000050068Member_3">iShares MSCI Thailand Capped Investable Market Index Fund</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="C000050068Member" xlink:to="label_C000050068Member_3" order="3.0" />
+    <loc xlink:type="locator" xlink:href="isi15-20130212.xsd#isi15_MsciThailandInvestableMarketIndexMember" xlink:label="MsciThailandInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciThailandInvestableMarketIndexMember" xlink:role="http://www.xbrl.org/2003/role/documentation" xml:lang="en-US" id="label_MsciThailandInvestableMarketIndexMember">Msci Thailand Investable Market Index.</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciThailandInvestableMarketIndexMember" xlink:to="label_MsciThailandInvestableMarketIndexMember" />
+    <label xlink:type="resource" xlink:label="label_MsciThailandInvestableMarketIndexMember_2" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en-US" id="label_MsciThailandInvestableMarketIndexMember_2">Msci Thailand Investable Market Index [Member]</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciThailandInvestableMarketIndexMember" xlink:to="label_MsciThailandInvestableMarketIndexMember_2" order="2.0" />
+    <label xlink:type="resource" xlink:label="label_MsciThailandInvestableMarketIndexMember_3" xlink:role="http://www.xbrl.org/2003/role/verboseLabel" xml:lang="en-US" id="label_MsciThailandInvestableMarketIndexMember_3">MSCI Thailand Investable Market Index (Index returns do not reflect deductions for fees, expenses or taxes)</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="MsciThailandInvestableMarketIndexMember" xlink:to="label_MsciThailandInvestableMarketIndexMember_3" order="3.0" />
+  </labelLink>
+</linkbase>

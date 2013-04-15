@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XBRL document created with DocuBuilder 4.7 by Data Communique, Inc. -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pimco="http://pimco/20130130" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-types="http://xbrl.us/us-types/2009-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:rr="http://xbrl.sec.gov/rr/2010-02-28" xmlns:dei="http://xbrl.us/dei/2009-01-31" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://pimco/20130130" elementFormDefault="qualified">
+	<xs:annotation>
+		<xs:appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="pimco-20130129_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="pimco-20130129_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="pimco-20130129_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://pimco/role/AAAA" id="AAAA">
+				<link:definition>010002 - Document - PIMCO Emerging Markets Full Spectrum Bond Fund - Institutional {Unlabeled}</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/ExpenseExampleAAAA" id="ExpenseExampleAAAA">
+				<link:definition>020032 - Schedule - Expense Example {Transposed}</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/OperatingExpensesDataAAAA" id="OperatingExpensesDataAAAA">
+				<link:definition>020022 - Schedule - Annual Fund Operating Expenses</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/BBBB" id="BBBB">
+				<link:definition>010003 - Document - PIMCO Emerging Markets Full Spectrum Bond Fund - Retail {Unlabeled}</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/ExpenseExampleBBBB" id="ExpenseExampleBBBB">
+				<link:definition>020034 - Schedule - Expense Example {Transposed}</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/OperatingExpensesDataBBBB" id="OperatingExpensesDataBBBB">
+				<link:definition>020023 - Schedule - Annual Fund Operating Expenses</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/ShareholderFeesDataBBBB" id="ShareholderFeesDataBBBB">
+				<link:definition>020013 - Schedule - Shareholder Fees</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://pimco/role/ExpenseExampleNoRedemptionBBBB" id="ExpenseExampleNoRedemptionBBBB">
+				<link:definition>020043 - Schedule - Expense Example, No Redemption {Transposed}</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+			</link:roleType>
+		</xs:appinfo>
+	</xs:annotation>
+	<xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+	<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xs:import namespace="http://xbrl.us/us-types/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-types-2009-01-31.xsd"/>
+	<xs:import namespace="http://xbrl.sec.gov/rr-ent/2010-02-28" schemaLocation="http://xbrl.sec.gov/rr/2010/rr-ent-2010-02-28.xsd"/>
+	<xs:element name="S000039671Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_S000039671Member" xbrli:periodType="duration"/>
+	<xs:element name="AAAAMember" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_AAAAMember" xbrli:periodType="duration"/>
+	<xs:element name="BBBBMember" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_BBBBMember" xbrli:periodType="duration"/>
+	<xs:element name="C000122925Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122925Member" xbrli:periodType="duration"/>
+	<xs:element name="C000122923Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122923Member" xbrli:periodType="duration"/>
+	<xs:element name="C000122926Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122926Member" xbrli:periodType="duration"/>
+	<xs:element name="C000122924Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122924Member" xbrli:periodType="duration"/>
+	<xs:element name="C000122921Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122921Member" xbrli:periodType="duration"/>
+	<xs:element name="C000122922Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122922Member" xbrli:periodType="duration"/>
+	<xs:element name="C000122927Member" type="us-types:domainItemType" substitutionGroup="xbrli:item" nillable="true" id="pimco_C000122927Member" xbrli:periodType="duration"/>
+</xs:schema>

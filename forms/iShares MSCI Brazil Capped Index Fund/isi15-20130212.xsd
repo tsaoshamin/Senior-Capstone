@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created by RR Donnelley IM Processor 7.0.0.0 using Fujitsu Interstage XWand-->
+<schema targetNamespace="http://www.iShares.com/20130212" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:isi15="http://www.iShares.com/20130212" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric">
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="isi15-20130212_pre.xml" xlink:title="Presentation Links, all" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="isi15-20130212_cal.xml" xlink:title="Calculation Links, all" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="isi15-20130212_def.xml" xlink:title="Definition Links, all" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="isi15-20130212_lab.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentDocumentandEntityInformationElements" id="DocumentDocumentandEntityInformationElements">
+        <link:definition>000000 - Document - Document and Entity Information {Elements}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCIAustriaCappedInvestableMarketIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000011 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Austria Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCIAustriaCappedInvestableMarketIndexFund" id="ScheduleShareholderFeesiSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000012 - Schedule - Shareholder Fees {- iShares MSCI Austria Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000013 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Austria Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000014 - Schedule - Expense Example {Transposed} {- iShares MSCI Austria Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000015 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Austria Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCIAustriaCappedInvestableMarketIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCIAustriaCappedInvestableMarketIndexFundBarChart">
+        <link:definition>000016 - Schedule - Annual Total Returns - iShares MSCI Austria Capped Investable Market Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000017 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Austria Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCIAustriaCappedInvestableMarketIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000018 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Austria Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCIAustriaCappedInvestableMarketIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCIAustriaCappedInvestableMarketIndexFund">
+        <link:definition>000019 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Austria Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCIBrazilCappedIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000021 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Brazil Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCIBrazilCappedIndexFund" id="ScheduleShareholderFeesiSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000022 - Schedule - Shareholder Fees {- iShares MSCI Brazil Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIBrazilCappedIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000023 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Brazil Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCIBrazilCappedIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000024 - Schedule - Expense Example {Transposed} {- iShares MSCI Brazil Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIBrazilCappedIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000025 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Brazil Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCIBrazilCappedIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCIBrazilCappedIndexFundBarChart">
+        <link:definition>000026 - Schedule - Annual Total Returns - iShares MSCI Brazil Capped Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIBrazilCappedIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000027 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Brazil Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCIBrazilCappedIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000028 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Brazil Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCIBrazilCappedIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCIBrazilCappedIndexFund">
+        <link:definition>000029 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Brazil Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCIChileCappedInvestableMarketIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000031 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Chile Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCIChileCappedInvestableMarketIndexFund" id="ScheduleShareholderFeesiSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000032 - Schedule - Shareholder Fees {- iShares MSCI Chile Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIChileCappedInvestableMarketIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000033 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Chile Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCIChileCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000034 - Schedule - Expense Example {Transposed} {- iShares MSCI Chile Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIChileCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000035 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Chile Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCIChileCappedInvestableMarketIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCIChileCappedInvestableMarketIndexFundBarChart">
+        <link:definition>000036 - Schedule - Annual Total Returns - iShares MSCI Chile Capped Investable Market Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIChileCappedInvestableMarketIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000037 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Chile Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCIChileCappedInvestableMarketIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000038 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Chile Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCIChileCappedInvestableMarketIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCIChileCappedInvestableMarketIndexFund">
+        <link:definition>000039 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Chile Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCIItalyCappedIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCIItalyCappedIndexFund">
+        <link:definition>000041 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Italy Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCIItalyCappedIndexFund" id="ScheduleShareholderFeesiSharesMSCIItalyCappedIndexFund">
+        <link:definition>000042 - Schedule - Shareholder Fees {- iShares MSCI Italy Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIItalyCappedIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIItalyCappedIndexFund">
+        <link:definition>000043 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Italy Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCIItalyCappedIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCIItalyCappedIndexFund">
+        <link:definition>000044 - Schedule - Expense Example {Transposed} {- iShares MSCI Italy Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIItalyCappedIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIItalyCappedIndexFund">
+        <link:definition>000045 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Italy Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCIItalyCappedIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCIItalyCappedIndexFundBarChart">
+        <link:definition>000046 - Schedule - Annual Total Returns - iShares MSCI Italy Capped Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIItalyCappedIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIItalyCappedIndexFund">
+        <link:definition>000047 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Italy Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCIItalyCappedIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCIItalyCappedIndexFund">
+        <link:definition>000048 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Italy Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCIItalyCappedIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCIItalyCappedIndexFund">
+        <link:definition>000049 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Italy Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCIMexicoCappedInvestableMarketIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000051 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Mexico Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCIMexicoCappedInvestableMarketIndexFund" id="ScheduleShareholderFeesiSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000052 - Schedule - Shareholder Fees {- iShares MSCI Mexico Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000053 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Mexico Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000054 - Schedule - Expense Example {Transposed} {- iShares MSCI Mexico Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000055 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Mexico Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCIMexicoCappedInvestableMarketIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCIMexicoCappedInvestableMarketIndexFundBarChart">
+        <link:definition>000056 - Schedule - Annual Total Returns - iShares MSCI Mexico Capped Investable Market Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000057 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Mexico Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCIMexicoCappedInvestableMarketIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000058 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Mexico Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCIMexicoCappedInvestableMarketIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCIMexicoCappedInvestableMarketIndexFund">
+        <link:definition>000059 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Mexico Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCISouthKoreaCappedIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000061 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI South Korea Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCISouthKoreaCappedIndexFund" id="ScheduleShareholderFeesiSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000062 - Schedule - Shareholder Fees {- iShares MSCI South Korea Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCISouthKoreaCappedIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000063 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI South Korea Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCISouthKoreaCappedIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000064 - Schedule - Expense Example {Transposed} {- iShares MSCI South Korea Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCISouthKoreaCappedIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000065 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI South Korea Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCISouthKoreaCappedIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCISouthKoreaCappedIndexFundBarChart">
+        <link:definition>000066 - Schedule - Annual Total Returns - iShares MSCI South Korea Capped Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCISouthKoreaCappedIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000067 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI South Korea Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCISouthKoreaCappedIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000068 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI South Korea Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCISouthKoreaCappedIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCISouthKoreaCappedIndexFund">
+        <link:definition>000069 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI South Korea Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCISpainCappedIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCISpainCappedIndexFund">
+        <link:definition>000071 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Spain Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCISpainCappedIndexFund" id="ScheduleShareholderFeesiSharesMSCISpainCappedIndexFund">
+        <link:definition>000072 - Schedule - Shareholder Fees {- iShares MSCI Spain Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCISpainCappedIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCISpainCappedIndexFund">
+        <link:definition>000073 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Spain Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCISpainCappedIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCISpainCappedIndexFund">
+        <link:definition>000074 - Schedule - Expense Example {Transposed} {- iShares MSCI Spain Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCISpainCappedIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCISpainCappedIndexFund">
+        <link:definition>000075 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Spain Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCISpainCappedIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCISpainCappedIndexFundBarChart">
+        <link:definition>000076 - Schedule - Annual Total Returns - iShares MSCI Spain Capped Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCISpainCappedIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCISpainCappedIndexFund">
+        <link:definition>000077 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Spain Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCISpainCappedIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCISpainCappedIndexFund">
+        <link:definition>000078 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Spain Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCISpainCappedIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCISpainCappedIndexFund">
+        <link:definition>000079 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Spain Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCISwitzerlandCappedIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000081 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Switzerland Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCISwitzerlandCappedIndexFund" id="ScheduleShareholderFeesiSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000082 - Schedule - Shareholder Fees {- iShares MSCI Switzerland Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCISwitzerlandCappedIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000083 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Switzerland Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCISwitzerlandCappedIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000084 - Schedule - Expense Example {Transposed} {- iShares MSCI Switzerland Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCISwitzerlandCappedIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000085 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Switzerland Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCISwitzerlandCappedIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCISwitzerlandCappedIndexFundBarChart">
+        <link:definition>000086 - Schedule - Annual Total Returns - iShares MSCI Switzerland Capped Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCISwitzerlandCappedIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000087 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Switzerland Capped Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCISwitzerlandCappedIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000088 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Switzerland Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCISwitzerlandCappedIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCISwitzerlandCappedIndexFund">
+        <link:definition>000089 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Switzerland Capped Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnSummaryUnlabelediSharesMSCIThailandCappedInvestableMarketIndexFund" id="DocumentRiskReturnSummaryUnlabelediSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000091 - Document - Risk/Return Summary {Unlabeled} - iShares MSCI Thailand Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleShareholderFeesiSharesMSCIThailandCappedInvestableMarketIndexFund" id="ScheduleShareholderFeesiSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000092 - Schedule - Shareholder Fees {- iShares MSCI Thailand Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesiSharesMSCIThailandCappedInvestableMarketIndexFund" id="ScheduleAnnualFundOperatingExpensesiSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000093 - Schedule - Annual Fund Operating Expenses {- iShares MSCI Thailand Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIThailandCappedInvestableMarketIndexFund" id="ScheduleAnnualFundOperatingExpensesTransposediSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000093 - Schedule - Annual Fund Operating Expenses {Transposed} {- iShares MSCI Thailand Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleTransposediSharesMSCIThailandCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleTransposediSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000094 - Schedule - Expense Example {Transposed} {- iShares MSCI Thailand Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIThailandCappedInvestableMarketIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposediSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000095 - Schedule - Expense Example, No Redemption {Transposed} {- iShares MSCI Thailand Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAnnualTotalReturnsiSharesMSCIThailandCappedInvestableMarketIndexFundBarChart" id="ScheduleAnnualTotalReturnsiSharesMSCIThailandCappedInvestableMarketIndexFundBarChart">
+        <link:definition>000096 - Schedule - Annual Total Returns - iShares MSCI Thailand Capped Investable Market Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIThailandCappedInvestableMarketIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposediSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000097 - Schedule - Average Annual Total Returns {Transposed} {- iShares MSCI Thailand Capped Investable Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DocumentRiskReturnDetailUnlabelediSharesMSCIThailandCappedInvestableMarketIndexFund" id="DocumentRiskReturnDetailUnlabelediSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000098 - Document - Risk/Return Detail {Unlabeled} - iShares MSCI Thailand Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.iShares.com/role/DisclosureRiskReturnDetailDataElementsiSharesMSCIThailandCappedInvestableMarketIndexFund" id="DisclosureRiskReturnDetailDataElementsiSharesMSCIThailandCappedInvestableMarketIndexFund">
+        <link:definition>000099 - Disclosure - Risk/Return Detail Data {Elements} - iShares MSCI Thailand Capped Investable Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <import namespace="http://xbrl.sec.gov/rr/2012-01-31" schemaLocation="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd" />
+  <import namespace="http://xbrl.sec.gov/dei/2012-01-31" schemaLocation="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd" />
+  <import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <element name="S000004257Member" id="isi15_S000004257Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011961Member" id="isi15_C000011961Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciAustriaInvestableMarketIndexMember" id="isi15_MsciAustriaInvestableMarketIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000004264Member" id="isi15_S000004264Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011968Member" id="isi15_C000011968Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciBrazilIndexMember" id="isi15_MsciBrazilIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000018070Member" id="isi15_S000018070Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000050066Member" id="isi15_C000050066Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciChileInvestableMarketIndexMember" id="isi15_MsciChileInvestableMarketIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000004248Member" id="isi15_S000004248Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011952Member" id="isi15_C000011952Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciItalyIndexMember" id="isi15_MsciItalyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000004251Member" id="isi15_S000004251Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011955Member" id="isi15_C000011955Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciMexicoInvestableMarketIndexMember" id="isi15_MsciMexicoInvestableMarketIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000004258Member" id="isi15_S000004258Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011962Member" id="isi15_C000011962Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciKoreaIndexMember" id="isi15_MsciKoreaIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000004256Member" id="isi15_S000004256Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011960Member" id="isi15_C000011960Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciSpainIndexMember" id="isi15_MsciSpainIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000004260Member" id="isi15_S000004260Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000011964Member" id="isi15_C000011964Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciSwitzerlandIndexMember" id="isi15_MsciSwitzerlandIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000018072Member" id="isi15_S000018072Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000050068Member" id="isi15_C000050068Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciThailandInvestableMarketIndexMember" id="isi15_MsciThailandInvestableMarketIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+</schema>

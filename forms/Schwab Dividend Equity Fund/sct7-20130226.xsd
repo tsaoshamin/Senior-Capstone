@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created by RR Donnelley IM Processor 7.0.0.3 using Fujitsu Interstage XWand-->
+<schema targetNamespace="http://www.schwabfunds.com/20130226" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:sct7="http://www.schwabfunds.com/20130226" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric">
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="sct7-20130226_pre.xml" xlink:title="Presentation Links, all" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="sct7-20130226_cal.xml" xlink:title="Calculation Links, all" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="sct7-20130226_def.xml" xlink:title="Definition Links, all" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="sct7-20130226_lab.xml" xlink:title="Label Links, all" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentDocumentandEntityInformation" id="DocumentDocumentandEntityInformation">
+        <link:definition>000000 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabBalancedFund" id="DocumentRiskReturnSummaryUnlabeledSchwabBalancedFund">
+        <link:definition>000011 - Document - Risk/Return Summary {Unlabeled} - Schwab Balanced Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabBalancedFund" id="ScheduleShareholderFeesSchwabBalancedFund">
+        <link:definition>000012 - Schedule - Shareholder Fees {- Schwab Balanced Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabBalancedFund" id="ScheduleAnnualFundOperatingExpensesSchwabBalancedFund">
+        <link:definition>000013 - Schedule - Annual Fund Operating Expenses {- Schwab Balanced Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabBalancedFund" id="ScheduleExpenseExampleTransposedSchwabBalancedFund">
+        <link:definition>000014 - Schedule - Expense Example {Transposed} {- Schwab Balanced Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabBalancedFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabBalancedFund">
+        <link:definition>000015 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Balanced Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabBalancedFundBarChart" id="ScheduleAnnualTotalReturnsSchwabBalancedFundBarChart">
+        <link:definition>000016 - Schedule - Annual Total Returns - Schwab Balanced Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabBalancedFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabBalancedFund">
+        <link:definition>000017 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Balanced Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabBalancedFund" id="DocumentRiskReturnDetailUnlabeledSchwabBalancedFund">
+        <link:definition>000018 - Document - Risk/Return Detail {Unlabeled} - Schwab Balanced Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabBalancedFund" id="DisclosureRiskReturnDetailDataElementsSchwabBalancedFund">
+        <link:definition>000019 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Balanced Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackAllEquityPortfolio" id="DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000021 - Document - Risk/Return Summary {Unlabeled} - Schwab MarketTrack All Equity Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabMarketTrackAllEquityPortfolio" id="ScheduleShareholderFeesSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000022 - Schedule - Shareholder Fees {- Schwab MarketTrack All Equity Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabMarketTrackAllEquityPortfolio" id="ScheduleAnnualFundOperatingExpensesSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000023 - Schedule - Annual Fund Operating Expenses {- Schwab MarketTrack All Equity Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabMarketTrackAllEquityPortfolio" id="ScheduleExpenseExampleTransposedSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000024 - Schedule - Expense Example {Transposed} {- Schwab MarketTrack All Equity Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackAllEquityPortfolio" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000025 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab MarketTrack All Equity Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabMarketTrackAllEquityPortfolioBarChart" id="ScheduleAnnualTotalReturnsSchwabMarketTrackAllEquityPortfolioBarChart">
+        <link:definition>000026 - Schedule - Annual Total Returns - Schwab MarketTrack All Equity Portfolio [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackAllEquityPortfolio" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000027 - Schedule - Average Annual Total Returns {Transposed} {- Schwab MarketTrack All Equity Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabMarketTrackAllEquityPortfolio" id="DocumentRiskReturnDetailUnlabeledSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000028 - Document - Risk/Return Detail {Unlabeled} - Schwab MarketTrack All Equity Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabMarketTrackAllEquityPortfolio" id="DisclosureRiskReturnDetailDataElementsSchwabMarketTrackAllEquityPortfolio">
+        <link:definition>000029 - Disclosure - Risk/Return Detail Data {Elements} - Schwab MarketTrack All Equity Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackGrowthPortfolio" id="DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000031 - Document - Risk/Return Summary {Unlabeled} - Schwab MarketTrack Growth Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabMarketTrackGrowthPortfolio" id="ScheduleShareholderFeesSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000032 - Schedule - Shareholder Fees {- Schwab MarketTrack Growth Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabMarketTrackGrowthPortfolio" id="ScheduleAnnualFundOperatingExpensesSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000033 - Schedule - Annual Fund Operating Expenses {- Schwab MarketTrack Growth Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabMarketTrackGrowthPortfolio" id="ScheduleExpenseExampleTransposedSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000034 - Schedule - Expense Example {Transposed} {- Schwab MarketTrack Growth Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackGrowthPortfolio" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000035 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab MarketTrack Growth Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabMarketTrackGrowthPortfolioBarChart" id="ScheduleAnnualTotalReturnsSchwabMarketTrackGrowthPortfolioBarChart">
+        <link:definition>000036 - Schedule - Annual Total Returns - Schwab MarketTrack Growth Portfolio [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackGrowthPortfolio" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000037 - Schedule - Average Annual Total Returns {Transposed} {- Schwab MarketTrack Growth Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabMarketTrackGrowthPortfolio" id="DocumentRiskReturnDetailUnlabeledSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000038 - Document - Risk/Return Detail {Unlabeled} - Schwab MarketTrack Growth Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabMarketTrackGrowthPortfolio" id="DisclosureRiskReturnDetailDataElementsSchwabMarketTrackGrowthPortfolio">
+        <link:definition>000039 - Disclosure - Risk/Return Detail Data {Elements} - Schwab MarketTrack Growth Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackBalancedPortfolio" id="DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000041 - Document - Risk/Return Summary {Unlabeled} - Schwab MarketTrack Balanced Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabMarketTrackBalancedPortfolio" id="ScheduleShareholderFeesSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000042 - Schedule - Shareholder Fees {- Schwab MarketTrack Balanced Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabMarketTrackBalancedPortfolio" id="ScheduleAnnualFundOperatingExpensesSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000043 - Schedule - Annual Fund Operating Expenses {- Schwab MarketTrack Balanced Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabMarketTrackBalancedPortfolio" id="ScheduleExpenseExampleTransposedSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000044 - Schedule - Expense Example {Transposed} {- Schwab MarketTrack Balanced Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackBalancedPortfolio" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000045 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab MarketTrack Balanced Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabMarketTrackBalancedPortfolioBarChart" id="ScheduleAnnualTotalReturnsSchwabMarketTrackBalancedPortfolioBarChart">
+        <link:definition>000046 - Schedule - Annual Total Returns - Schwab MarketTrack Balanced Portfolio [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackBalancedPortfolio" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000047 - Schedule - Average Annual Total Returns {Transposed} {- Schwab MarketTrack Balanced Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabMarketTrackBalancedPortfolio" id="DocumentRiskReturnDetailUnlabeledSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000048 - Document - Risk/Return Detail {Unlabeled} - Schwab MarketTrack Balanced Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabMarketTrackBalancedPortfolio" id="DisclosureRiskReturnDetailDataElementsSchwabMarketTrackBalancedPortfolio">
+        <link:definition>000049 - Disclosure - Risk/Return Detail Data {Elements} - Schwab MarketTrack Balanced Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackConservativePortfolio" id="DocumentRiskReturnSummaryUnlabeledSchwabMarketTrackConservativePortfolio">
+        <link:definition>000051 - Document - Risk/Return Summary {Unlabeled} - Schwab MarketTrack Conservative Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabMarketTrackConservativePortfolio" id="ScheduleShareholderFeesSchwabMarketTrackConservativePortfolio">
+        <link:definition>000052 - Schedule - Shareholder Fees {- Schwab MarketTrack Conservative Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabMarketTrackConservativePortfolio" id="ScheduleAnnualFundOperatingExpensesSchwabMarketTrackConservativePortfolio">
+        <link:definition>000053 - Schedule - Annual Fund Operating Expenses {- Schwab MarketTrack Conservative Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabMarketTrackConservativePortfolio" id="ScheduleExpenseExampleTransposedSchwabMarketTrackConservativePortfolio">
+        <link:definition>000054 - Schedule - Expense Example {Transposed} {- Schwab MarketTrack Conservative Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackConservativePortfolio" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabMarketTrackConservativePortfolio">
+        <link:definition>000055 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab MarketTrack Conservative Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabMarketTrackConservativePortfolioBarChart" id="ScheduleAnnualTotalReturnsSchwabMarketTrackConservativePortfolioBarChart">
+        <link:definition>000056 - Schedule - Annual Total Returns - Schwab MarketTrack Conservative Portfolio [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackConservativePortfolio" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabMarketTrackConservativePortfolio">
+        <link:definition>000057 - Schedule - Average Annual Total Returns {Transposed} {- Schwab MarketTrack Conservative Portfolio}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabMarketTrackConservativePortfolio" id="DocumentRiskReturnDetailUnlabeledSchwabMarketTrackConservativePortfolio">
+        <link:definition>000058 - Document - Risk/Return Detail {Unlabeled} - Schwab MarketTrack Conservative Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabMarketTrackConservativePortfolio" id="DisclosureRiskReturnDetailDataElementsSchwabMarketTrackConservativePortfolio">
+        <link:definition>000059 - Disclosure - Risk/Return Detail Data {Elements} - Schwab MarketTrack Conservative Portfolio</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2010Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2010Fund">
+        <link:definition>000061 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2010 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2010Fund" id="ScheduleShareholderFeesSchwabTarget2010Fund">
+        <link:definition>000062 - Schedule - Shareholder Fees {- Schwab Target 2010 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2010Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2010Fund">
+        <link:definition>000063 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2010 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2010Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2010Fund">
+        <link:definition>000064 - Schedule - Expense Example {Transposed} {- Schwab Target 2010 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2010Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2010Fund">
+        <link:definition>000065 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2010 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2010FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2010FundBarChart">
+        <link:definition>000066 - Schedule - Annual Total Returns - Schwab Target 2010 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2010Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2010Fund">
+        <link:definition>000067 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2010 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2010Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2010Fund">
+        <link:definition>000068 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2010 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2010Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2010Fund">
+        <link:definition>000069 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2010 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2015Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2015Fund">
+        <link:definition>000071 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2015 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2015Fund" id="ScheduleShareholderFeesSchwabTarget2015Fund">
+        <link:definition>000072 - Schedule - Shareholder Fees {- Schwab Target 2015 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2015Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2015Fund">
+        <link:definition>000073 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2015 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2015Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2015Fund">
+        <link:definition>000074 - Schedule - Expense Example {Transposed} {- Schwab Target 2015 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2015Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2015Fund">
+        <link:definition>000075 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2015 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2015FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2015FundBarChart">
+        <link:definition>000076 - Schedule - Annual Total Returns - Schwab Target 2015 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2015Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2015Fund">
+        <link:definition>000077 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2015 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2015Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2015Fund">
+        <link:definition>000078 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2015 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2015Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2015Fund">
+        <link:definition>000079 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2015 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2020Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2020Fund">
+        <link:definition>000081 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2020 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2020Fund" id="ScheduleShareholderFeesSchwabTarget2020Fund">
+        <link:definition>000082 - Schedule - Shareholder Fees {- Schwab Target 2020 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2020Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2020Fund">
+        <link:definition>000083 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2020 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2020Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2020Fund">
+        <link:definition>000084 - Schedule - Expense Example {Transposed} {- Schwab Target 2020 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2020Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2020Fund">
+        <link:definition>000085 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2020 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2020FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2020FundBarChart">
+        <link:definition>000086 - Schedule - Annual Total Returns - Schwab Target 2020 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2020Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2020Fund">
+        <link:definition>000087 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2020 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2020Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2020Fund">
+        <link:definition>000088 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2020 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2020Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2020Fund">
+        <link:definition>000089 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2020 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2025Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2025Fund">
+        <link:definition>000091 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2025 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2025Fund" id="ScheduleShareholderFeesSchwabTarget2025Fund">
+        <link:definition>000092 - Schedule - Shareholder Fees {- Schwab Target 2025 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2025Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2025Fund">
+        <link:definition>000093 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2025 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2025Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2025Fund">
+        <link:definition>000094 - Schedule - Expense Example {Transposed} {- Schwab Target 2025 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2025Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2025Fund">
+        <link:definition>000095 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2025 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2025FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2025FundBarChart">
+        <link:definition>000096 - Schedule - Annual Total Returns - Schwab Target 2025 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2025Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2025Fund">
+        <link:definition>000097 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2025 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2025Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2025Fund">
+        <link:definition>000098 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2025 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2025Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2025Fund">
+        <link:definition>000099 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2025 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2030Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2030Fund">
+        <link:definition>000101 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2030 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2030Fund" id="ScheduleShareholderFeesSchwabTarget2030Fund">
+        <link:definition>000102 - Schedule - Shareholder Fees {- Schwab Target 2030 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2030Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2030Fund">
+        <link:definition>000103 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2030 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2030Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2030Fund">
+        <link:definition>000104 - Schedule - Expense Example {Transposed} {- Schwab Target 2030 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2030Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2030Fund">
+        <link:definition>000105 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2030 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2030FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2030FundBarChart">
+        <link:definition>000106 - Schedule - Annual Total Returns - Schwab Target 2030 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2030Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2030Fund">
+        <link:definition>000107 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2030 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2030Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2030Fund">
+        <link:definition>000108 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2030 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2030Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2030Fund">
+        <link:definition>000109 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2030 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2035Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2035Fund">
+        <link:definition>000111 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2035 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2035Fund" id="ScheduleShareholderFeesSchwabTarget2035Fund">
+        <link:definition>000112 - Schedule - Shareholder Fees {- Schwab Target 2035 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2035Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2035Fund">
+        <link:definition>000113 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2035 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2035Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2035Fund">
+        <link:definition>000114 - Schedule - Expense Example {Transposed} {- Schwab Target 2035 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2035Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2035Fund">
+        <link:definition>000115 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2035 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2035FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2035FundBarChart">
+        <link:definition>000116 - Schedule - Annual Total Returns - Schwab Target 2035 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2035Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2035Fund">
+        <link:definition>000117 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2035 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2035Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2035Fund">
+        <link:definition>000118 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2035 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2035Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2035Fund">
+        <link:definition>000119 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2035 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTarget2040Fund" id="DocumentRiskReturnSummaryUnlabeledSchwabTarget2040Fund">
+        <link:definition>000121 - Document - Risk/Return Summary {Unlabeled} - Schwab Target 2040 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTarget2040Fund" id="ScheduleShareholderFeesSchwabTarget2040Fund">
+        <link:definition>000122 - Schedule - Shareholder Fees {- Schwab Target 2040 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTarget2040Fund" id="ScheduleAnnualFundOperatingExpensesSchwabTarget2040Fund">
+        <link:definition>000123 - Schedule - Annual Fund Operating Expenses {- Schwab Target 2040 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTarget2040Fund" id="ScheduleExpenseExampleTransposedSchwabTarget2040Fund">
+        <link:definition>000124 - Schedule - Expense Example {Transposed} {- Schwab Target 2040 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2040Fund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTarget2040Fund">
+        <link:definition>000125 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Target 2040 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTarget2040FundBarChart" id="ScheduleAnnualTotalReturnsSchwabTarget2040FundBarChart">
+        <link:definition>000126 - Schedule - Annual Total Returns - Schwab Target 2040 Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2040Fund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTarget2040Fund">
+        <link:definition>000127 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Target 2040 Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTarget2040Fund" id="DocumentRiskReturnDetailUnlabeledSchwabTarget2040Fund">
+        <link:definition>000128 - Document - Risk/Return Detail {Unlabeled} - Schwab Target 2040 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTarget2040Fund" id="DisclosureRiskReturnDetailDataElementsSchwabTarget2040Fund">
+        <link:definition>000129 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Target 2040 Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabLarge-CapGrowthFund" id="DocumentRiskReturnSummaryUnlabeledSchwabLargeCapGrowthFund">
+        <link:definition>000131 - Document - Risk/Return Summary {Unlabeled} - Schwab Large-Cap Growth Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabLarge-CapGrowthFund" id="ScheduleShareholderFeesSchwabLargeCapGrowthFund">
+        <link:definition>000132 - Schedule - Shareholder Fees {- Schwab Large-Cap Growth Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabLarge-CapGrowthFund" id="ScheduleAnnualFundOperatingExpensesSchwabLargeCapGrowthFund">
+        <link:definition>000133 - Schedule - Annual Fund Operating Expenses {- Schwab Large-Cap Growth Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabLarge-CapGrowthFund" id="ScheduleExpenseExampleTransposedSchwabLargeCapGrowthFund">
+        <link:definition>000134 - Schedule - Expense Example {Transposed} {- Schwab Large-Cap Growth Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabLarge-CapGrowthFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabLargeCapGrowthFund">
+        <link:definition>000135 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Large-Cap Growth Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabLarge-CapGrowthFundBarChart" id="ScheduleAnnualTotalReturnsSchwabLargeCapGrowthFundBarChart">
+        <link:definition>000136 - Schedule - Annual Total Returns - Schwab Large-Cap Growth Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabLarge-CapGrowthFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabLargeCapGrowthFund">
+        <link:definition>000137 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Large-Cap Growth Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabLarge-CapGrowthFund" id="DocumentRiskReturnDetailUnlabeledSchwabLargeCapGrowthFund">
+        <link:definition>000138 - Document - Risk/Return Detail {Unlabeled} - Schwab Large-Cap Growth Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabLarge-CapGrowthFund" id="DisclosureRiskReturnDetailDataElementsSchwabLargeCapGrowthFund">
+        <link:definition>000139 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Large-Cap Growth Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabCoreEquityFund" id="DocumentRiskReturnSummaryUnlabeledSchwabCoreEquityFund">
+        <link:definition>000141 - Document - Risk/Return Summary {Unlabeled} - Schwab Core Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabCoreEquityFund" id="ScheduleShareholderFeesSchwabCoreEquityFund">
+        <link:definition>000142 - Schedule - Shareholder Fees {- Schwab Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabCoreEquityFund" id="ScheduleAnnualFundOperatingExpensesSchwabCoreEquityFund">
+        <link:definition>000143 - Schedule - Annual Fund Operating Expenses {- Schwab Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabCoreEquityFund" id="ScheduleExpenseExampleTransposedSchwabCoreEquityFund">
+        <link:definition>000144 - Schedule - Expense Example {Transposed} {- Schwab Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabCoreEquityFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabCoreEquityFund">
+        <link:definition>000145 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabCoreEquityFundBarChart" id="ScheduleAnnualTotalReturnsSchwabCoreEquityFundBarChart">
+        <link:definition>000146 - Schedule - Annual Total Returns - Schwab Core Equity Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabCoreEquityFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabCoreEquityFund">
+        <link:definition>000147 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabCoreEquityFund" id="DocumentRiskReturnDetailUnlabeledSchwabCoreEquityFund">
+        <link:definition>000148 - Document - Risk/Return Detail {Unlabeled} - Schwab Core Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabCoreEquityFund" id="DisclosureRiskReturnDetailDataElementsSchwabCoreEquityFund">
+        <link:definition>000149 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Core Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabInternationalCoreEquityFund" id="DocumentRiskReturnSummaryUnlabeledSchwabInternationalCoreEquityFund">
+        <link:definition>000151 - Document - Risk/Return Summary {Unlabeled} - Schwab International Core Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabInternationalCoreEquityFund" id="ScheduleShareholderFeesSchwabInternationalCoreEquityFund">
+        <link:definition>000152 - Schedule - Shareholder Fees {- Schwab International Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabInternationalCoreEquityFund" id="ScheduleAnnualFundOperatingExpensesSchwabInternationalCoreEquityFund">
+        <link:definition>000153 - Schedule - Annual Fund Operating Expenses {- Schwab International Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabInternationalCoreEquityFund" id="ScheduleExpenseExampleTransposedSchwabInternationalCoreEquityFund">
+        <link:definition>000154 - Schedule - Expense Example {Transposed} {- Schwab International Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabInternationalCoreEquityFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabInternationalCoreEquityFund">
+        <link:definition>000155 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab International Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabInternationalCoreEquityFundBarChart" id="ScheduleAnnualTotalReturnsSchwabInternationalCoreEquityFundBarChart">
+        <link:definition>000156 - Schedule - Annual Total Returns - Schwab International Core Equity Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabInternationalCoreEquityFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabInternationalCoreEquityFund">
+        <link:definition>000157 - Schedule - Average Annual Total Returns {Transposed} {- Schwab International Core Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabInternationalCoreEquityFund" id="DocumentRiskReturnDetailUnlabeledSchwabInternationalCoreEquityFund">
+        <link:definition>000158 - Document - Risk/Return Detail {Unlabeled} - Schwab International Core Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabInternationalCoreEquityFund" id="DisclosureRiskReturnDetailDataElementsSchwabInternationalCoreEquityFund">
+        <link:definition>000159 - Disclosure - Risk/Return Detail Data {Elements} - Schwab International Core Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabDividendEquityFund" id="DocumentRiskReturnSummaryUnlabeledSchwabDividendEquityFund">
+        <link:definition>000161 - Document - Risk/Return Summary {Unlabeled} - Schwab Dividend Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabDividendEquityFund" id="ScheduleShareholderFeesSchwabDividendEquityFund">
+        <link:definition>000162 - Schedule - Shareholder Fees {- Schwab Dividend Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabDividendEquityFund" id="ScheduleAnnualFundOperatingExpensesSchwabDividendEquityFund">
+        <link:definition>000163 - Schedule - Annual Fund Operating Expenses {- Schwab Dividend Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabDividendEquityFund" id="ScheduleExpenseExampleTransposedSchwabDividendEquityFund">
+        <link:definition>000164 - Schedule - Expense Example {Transposed} {- Schwab Dividend Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabDividendEquityFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabDividendEquityFund">
+        <link:definition>000165 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Dividend Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabDividendEquityFundBarChart" id="ScheduleAnnualTotalReturnsSchwabDividendEquityFundBarChart">
+        <link:definition>000166 - Schedule - Annual Total Returns - Schwab Dividend Equity Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabDividendEquityFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabDividendEquityFund">
+        <link:definition>000167 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Dividend Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabDividendEquityFund" id="DocumentRiskReturnDetailUnlabeledSchwabDividendEquityFund">
+        <link:definition>000168 - Document - Risk/Return Detail {Unlabeled} - Schwab Dividend Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabDividendEquityFund" id="DisclosureRiskReturnDetailDataElementsSchwabDividendEquityFund">
+        <link:definition>000169 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Dividend Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabSmall-CapEquityFund" id="DocumentRiskReturnSummaryUnlabeledSchwabSmallCapEquityFund">
+        <link:definition>000171 - Document - Risk/Return Summary {Unlabeled} - Schwab Small-Cap Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabSmall-CapEquityFund" id="ScheduleShareholderFeesSchwabSmallCapEquityFund">
+        <link:definition>000172 - Schedule - Shareholder Fees {- Schwab Small-Cap Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabSmall-CapEquityFund" id="ScheduleAnnualFundOperatingExpensesSchwabSmallCapEquityFund">
+        <link:definition>000173 - Schedule - Annual Fund Operating Expenses {- Schwab Small-Cap Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabSmall-CapEquityFund" id="ScheduleExpenseExampleTransposedSchwabSmallCapEquityFund">
+        <link:definition>000174 - Schedule - Expense Example {Transposed} {- Schwab Small-Cap Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabSmall-CapEquityFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabSmallCapEquityFund">
+        <link:definition>000175 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Small-Cap Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabSmall-CapEquityFundBarChart" id="ScheduleAnnualTotalReturnsSchwabSmallCapEquityFundBarChart">
+        <link:definition>000176 - Schedule - Annual Total Returns - Schwab Small-Cap Equity Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabSmall-CapEquityFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabSmallCapEquityFund">
+        <link:definition>000177 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Small-Cap Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabSmall-CapEquityFund" id="DocumentRiskReturnDetailUnlabeledSchwabSmallCapEquityFund">
+        <link:definition>000178 - Document - Risk/Return Detail {Unlabeled} - Schwab Small-Cap Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabSmall-CapEquityFund" id="DisclosureRiskReturnDetailDataElementsSchwabSmallCapEquityFund">
+        <link:definition>000179 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Small-Cap Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabHedgedEquityFund" id="DocumentRiskReturnSummaryUnlabeledSchwabHedgedEquityFund">
+        <link:definition>000181 - Document - Risk/Return Summary {Unlabeled} - Schwab Hedged Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabHedgedEquityFund" id="ScheduleShareholderFeesSchwabHedgedEquityFund">
+        <link:definition>000182 - Schedule - Shareholder Fees {- Schwab Hedged Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabHedgedEquityFund" id="ScheduleAnnualFundOperatingExpensesSchwabHedgedEquityFund">
+        <link:definition>000183 - Schedule - Annual Fund Operating Expenses {- Schwab Hedged Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabHedgedEquityFund" id="ScheduleExpenseExampleTransposedSchwabHedgedEquityFund">
+        <link:definition>000184 - Schedule - Expense Example {Transposed} {- Schwab Hedged Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabHedgedEquityFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabHedgedEquityFund">
+        <link:definition>000185 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Hedged Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabHedgedEquityFundBarChart" id="ScheduleAnnualTotalReturnsSchwabHedgedEquityFundBarChart">
+        <link:definition>000186 - Schedule - Annual Total Returns - Schwab Hedged Equity Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabHedgedEquityFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabHedgedEquityFund">
+        <link:definition>000187 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Hedged Equity Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabHedgedEquityFund" id="DocumentRiskReturnDetailUnlabeledSchwabHedgedEquityFund">
+        <link:definition>000188 - Document - Risk/Return Detail {Unlabeled} - Schwab Hedged Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabHedgedEquityFund" id="DisclosureRiskReturnDetailDataElementsSchwabHedgedEquityFund">
+        <link:definition>000189 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Hedged Equity Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabFinancialServicesFund" id="DocumentRiskReturnSummaryUnlabeledSchwabFinancialServicesFund">
+        <link:definition>000191 - Document - Risk/Return Summary {Unlabeled} - Schwab Financial Services Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabFinancialServicesFund" id="ScheduleShareholderFeesSchwabFinancialServicesFund">
+        <link:definition>000192 - Schedule - Shareholder Fees {- Schwab Financial Services Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabFinancialServicesFund" id="ScheduleAnnualFundOperatingExpensesSchwabFinancialServicesFund">
+        <link:definition>000193 - Schedule - Annual Fund Operating Expenses {- Schwab Financial Services Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabFinancialServicesFund" id="ScheduleExpenseExampleTransposedSchwabFinancialServicesFund">
+        <link:definition>000194 - Schedule - Expense Example {Transposed} {- Schwab Financial Services Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabFinancialServicesFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabFinancialServicesFund">
+        <link:definition>000195 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Financial Services Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabFinancialServicesFundBarChart" id="ScheduleAnnualTotalReturnsSchwabFinancialServicesFundBarChart">
+        <link:definition>000196 - Schedule - Annual Total Returns - Schwab Financial Services Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabFinancialServicesFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabFinancialServicesFund">
+        <link:definition>000197 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Financial Services Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabFinancialServicesFund" id="DocumentRiskReturnDetailUnlabeledSchwabFinancialServicesFund">
+        <link:definition>000198 - Document - Risk/Return Detail {Unlabeled} - Schwab Financial Services Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabFinancialServicesFund" id="DisclosureRiskReturnDetailDataElementsSchwabFinancialServicesFund">
+        <link:definition>000199 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Financial Services Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabHealthCareFund" id="DocumentRiskReturnSummaryUnlabeledSchwabHealthCareFund">
+        <link:definition>000201 - Document - Risk/Return Summary {Unlabeled} - Schwab Health Care Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabHealthCareFund" id="ScheduleShareholderFeesSchwabHealthCareFund">
+        <link:definition>000202 - Schedule - Shareholder Fees {- Schwab Health Care Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabHealthCareFund" id="ScheduleAnnualFundOperatingExpensesSchwabHealthCareFund">
+        <link:definition>000203 - Schedule - Annual Fund Operating Expenses {- Schwab Health Care Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabHealthCareFund" id="ScheduleExpenseExampleTransposedSchwabHealthCareFund">
+        <link:definition>000204 - Schedule - Expense Example {Transposed} {- Schwab Health Care Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabHealthCareFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabHealthCareFund">
+        <link:definition>000205 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Health Care Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabHealthCareFundBarChart" id="ScheduleAnnualTotalReturnsSchwabHealthCareFundBarChart">
+        <link:definition>000206 - Schedule - Annual Total Returns - Schwab Health Care Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabHealthCareFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabHealthCareFund">
+        <link:definition>000207 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Health Care Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabHealthCareFund" id="DocumentRiskReturnDetailUnlabeledSchwabHealthCareFund">
+        <link:definition>000208 - Document - Risk/Return Detail {Unlabeled} - Schwab Health Care Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabHealthCareFund" id="DisclosureRiskReturnDetailDataElementsSchwabHealthCareFund">
+        <link:definition>000209 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Health Care Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabS&amp;P500IndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabSP500IndexFund">
+        <link:definition>000211 - Document - Risk/Return Summary {Unlabeled} - Schwab S&amp;P 500 Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabSP500IndexFund" id="ScheduleShareholderFeesSchwabSP500IndexFund">
+        <link:definition>000212 - Schedule - Shareholder Fees {- Schwab S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabSP500IndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabSP500IndexFund">
+        <link:definition>000213 - Schedule - Annual Fund Operating Expenses {- Schwab S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabSP500IndexFund" id="ScheduleExpenseExampleTransposedSchwabSP500IndexFund">
+        <link:definition>000214 - Schedule - Expense Example {Transposed} {- Schwab S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabS&amp;P500IndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabSP500IndexFund">
+        <link:definition>000215 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabSP500IndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabSP500IndexFundBarChart">
+        <link:definition>000216 - Schedule - Annual Total Returns {- Schwab S&amp;P 500 Index Fund [BarChart]}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabSP500IndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabSP500IndexFund">
+        <link:definition>000217 - Schedule - Average Annual Total Returns {Transposed} {- Schwab S&amp;P 500 Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabS&amp;P500IndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabSP500IndexFund">
+        <link:definition>000218 - Document - Risk/Return Detail {Unlabeled} - Schwab S&amp;P 500 Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabS&amp;P500IndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabSP500IndexFund">
+        <link:definition>000219 - Disclosure - Risk/Return Detail Data {Elements} - Schwab S&amp;P 500 Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabSmall-CapIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabSmallCapIndexFund">
+        <link:definition>000221 - Document - Risk/Return Summary {Unlabeled} - Schwab Small-Cap Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabSmall-CapIndexFund" id="ScheduleShareholderFeesSchwabSmallCapIndexFund">
+        <link:definition>000222 - Schedule - Shareholder Fees {- Schwab Small-Cap Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabSmall-CapIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabSmallCapIndexFund">
+        <link:definition>000223 - Schedule - Annual Fund Operating Expenses {- Schwab Small-Cap Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabSmall-CapIndexFund" id="ScheduleExpenseExampleTransposedSchwabSmallCapIndexFund">
+        <link:definition>000224 - Schedule - Expense Example {Transposed} {- Schwab Small-Cap Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabSmall-CapIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabSmallCapIndexFund">
+        <link:definition>000225 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Small-Cap Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabSmall-CapIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabSmallCapIndexFundBarChart">
+        <link:definition>000226 - Schedule - Annual Total Returns - Schwab Small-Cap Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabSmall-CapIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabSmallCapIndexFund">
+        <link:definition>000227 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Small-Cap Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabSmall-CapIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabSmallCapIndexFund">
+        <link:definition>000228 - Document - Risk/Return Detail {Unlabeled} - Schwab Small-Cap Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabSmall-CapIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabSmallCapIndexFund">
+        <link:definition>000229 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Small-Cap Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabTotalStockMarketIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabTotalStockMarketIndexFund">
+        <link:definition>000231 - Document - Risk/Return Summary {Unlabeled} - Schwab Total Stock Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabTotalStockMarketIndexFund" id="ScheduleShareholderFeesSchwabTotalStockMarketIndexFund">
+        <link:definition>000232 - Schedule - Shareholder Fees {- Schwab Total Stock Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabTotalStockMarketIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabTotalStockMarketIndexFund">
+        <link:definition>000233 - Schedule - Annual Fund Operating Expenses {- Schwab Total Stock Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabTotalStockMarketIndexFund" id="ScheduleExpenseExampleTransposedSchwabTotalStockMarketIndexFund">
+        <link:definition>000234 - Schedule - Expense Example {Transposed} {- Schwab Total Stock Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabTotalStockMarketIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabTotalStockMarketIndexFund">
+        <link:definition>000235 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Total Stock Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabTotalStockMarketIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabTotalStockMarketIndexFundBarChart">
+        <link:definition>000236 - Schedule - Annual Total Returns - Schwab Total Stock Market Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabTotalStockMarketIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabTotalStockMarketIndexFund">
+        <link:definition>000237 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Total Stock Market Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabTotalStockMarketIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabTotalStockMarketIndexFund">
+        <link:definition>000238 - Document - Risk/Return Detail {Unlabeled} - Schwab Total Stock Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabTotalStockMarketIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabTotalStockMarketIndexFund">
+        <link:definition>000239 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Total Stock Market Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabInternationalIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabInternationalIndexFund">
+        <link:definition>000241 - Document - Risk/Return Summary {Unlabeled} - Schwab International Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabInternationalIndexFund" id="ScheduleShareholderFeesSchwabInternationalIndexFund">
+        <link:definition>000242 - Schedule - Shareholder Fees {- Schwab International Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabInternationalIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabInternationalIndexFund">
+        <link:definition>000243 - Schedule - Annual Fund Operating Expenses {- Schwab International Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabInternationalIndexFund" id="ScheduleExpenseExampleTransposedSchwabInternationalIndexFund">
+        <link:definition>000244 - Schedule - Expense Example {Transposed} {- Schwab International Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabInternationalIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabInternationalIndexFund">
+        <link:definition>000245 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab International Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabInternationalIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabInternationalIndexFundBarChart">
+        <link:definition>000246 - Schedule - Annual Total Returns - Schwab International Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabInternationalIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabInternationalIndexFund">
+        <link:definition>000247 - Schedule - Average Annual Total Returns {Transposed} {- Schwab International Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabInternationalIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabInternationalIndexFund">
+        <link:definition>000248 - Document - Risk/Return Detail {Unlabeled} - Schwab International Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabInternationalIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabInternationalIndexFund">
+        <link:definition>000249 - Disclosure - Risk/Return Detail Data {Elements} - Schwab International Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabFundamentalUSLargeCompanyIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000251 - Document - Risk/Return Summary {Unlabeled} - Schwab Fundamental US Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabFundamentalUSLargeCompanyIndexFund" id="ScheduleShareholderFeesSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000252 - Schedule - Shareholder Fees {- Schwab Fundamental US Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabFundamentalUSLargeCompanyIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000253 - Schedule - Annual Fund Operating Expenses {- Schwab Fundamental US Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabFundamentalUSLargeCompanyIndexFund" id="ScheduleExpenseExampleTransposedSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000254 - Schedule - Expense Example {Transposed} {- Schwab Fundamental US Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalUSLargeCompanyIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000255 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Fundamental US Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabFundamentalUSLargeCompanyIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabFundamentalUSLargeCompanyIndexFundBarChart">
+        <link:definition>000256 - Schedule - Annual Total Returns - Schwab Fundamental US Large Company Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalUSLargeCompanyIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000257 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Fundamental US Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabFundamentalUSLargeCompanyIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000258 - Document - Risk/Return Detail {Unlabeled} - Schwab Fundamental US Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabFundamentalUSLargeCompanyIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabFundamentalUSLargeCompanyIndexFund">
+        <link:definition>000259 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Fundamental US Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabFundamentalUSSmallCompanyIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000261 - Document - Risk/Return Summary {Unlabeled} - Schwab Fundamental US Small Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabFundamentalUSSmallCompanyIndexFund" id="ScheduleShareholderFeesSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000262 - Schedule - Shareholder Fees {- Schwab Fundamental US Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabFundamentalUSSmallCompanyIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000263 - Schedule - Annual Fund Operating Expenses {- Schwab Fundamental US Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabFundamentalUSSmallCompanyIndexFund" id="ScheduleExpenseExampleTransposedSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000264 - Schedule - Expense Example {Transposed} {- Schwab Fundamental US Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalUSSmallCompanyIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000265 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Fundamental US Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabFundamentalUSSmallCompanyIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabFundamentalUSSmallCompanyIndexFundBarChart">
+        <link:definition>000266 - Schedule - Annual Total Returns - Schwab Fundamental US Small Company Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalUSSmallCompanyIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000267 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Fundamental US Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabFundamentalUSSmallCompanyIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000268 - Document - Risk/Return Detail {Unlabeled} - Schwab Fundamental US Small Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabFundamentalUSSmallCompanyIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabFundamentalUSSmallCompanyIndexFund">
+        <link:definition>000269 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Fundamental US Small Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabFundamentalInternationalLargeCompanyIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000271 - Document - Risk/Return Summary {Unlabeled} - Schwab Fundamental International Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabFundamentalInternationalLargeCompanyIndexFund" id="ScheduleShareholderFeesSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000272 - Schedule - Shareholder Fees {- Schwab Fundamental International Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabFundamentalInternationalLargeCompanyIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000273 - Schedule - Annual Fund Operating Expenses {- Schwab Fundamental International Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabFundamentalInternationalLargeCompanyIndexFund" id="ScheduleExpenseExampleTransposedSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000274 - Schedule - Expense Example {Transposed} {- Schwab Fundamental International Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalInternationalLargeCompanyIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000275 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Fundamental International Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabFundamentalInternationalLargeCompanyIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabFundamentalInternationalLargeCompanyIndexFundBarChart">
+        <link:definition>000276 - Schedule - Annual Total Returns - Schwab Fundamental International Large Company Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalInternationalLargeCompanyIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000277 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Fundamental International Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabFundamentalInternationalLargeCompanyIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000278 - Document - Risk/Return Detail {Unlabeled} - Schwab Fundamental International Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabFundamentalInternationalLargeCompanyIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabFundamentalInternationalLargeCompanyIndexFund">
+        <link:definition>000279 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Fundamental International Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabFundamentalInternationalSmallCompanyIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000281 - Document - Risk/Return Summary {Unlabeled} - Schwab Fundamental International Small Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabFundamentalInternationalSmallCompanyIndexFund" id="ScheduleShareholderFeesSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000282 - Schedule - Shareholder Fees {- Schwab Fundamental International Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabFundamentalInternationalSmallCompanyIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000283 - Schedule - Annual Fund Operating Expenses {- Schwab Fundamental International Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabFundamentalInternationalSmallCompanyIndexFund" id="ScheduleExpenseExampleTransposedSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000284 - Schedule - Expense Example {Transposed} {- Schwab Fundamental International Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalInternationalSmallCompanyIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000285 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Fundamental International Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabFundamentalInternationalSmallCompanyIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabFundamentalInternationalSmallCompanyIndexFundBarChart">
+        <link:definition>000286 - Schedule - Annual Total Returns - Schwab Fundamental International Small Company Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalInternationalSmallCompanyIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000287 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Fundamental International Small Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabFundamentalInternationalSmallCompanyIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000288 - Document - Risk/Return Detail {Unlabeled} - Schwab Fundamental International Small Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabFundamentalInternationalSmallCompanyIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabFundamentalInternationalSmallCompanyIndexFund">
+        <link:definition>000289 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Fundamental International Small Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="DocumentRiskReturnSummaryUnlabeledSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000291 - Document - Risk/Return Summary {Unlabeled} - Schwab Fundamental Emerging Markets Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="ScheduleShareholderFeesSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000292 - Schedule - Shareholder Fees {- Schwab Fundamental Emerging Markets Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="ScheduleAnnualFundOperatingExpensesSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000293 - Schedule - Annual Fund Operating Expenses {- Schwab Fundamental Emerging Markets Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="ScheduleExpenseExampleTransposedSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000294 - Schedule - Expense Example {Transposed} {- Schwab Fundamental Emerging Markets Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="ScheduleExpenseExampleNoRedemptionTransposedSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000295 - Schedule - Expense Example, No Redemption {Transposed} {- Schwab Fundamental Emerging Markets Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsSchwabFundamentalEmergingMarketsLargeCompanyIndexFundBarChart" id="ScheduleAnnualTotalReturnsSchwabFundamentalEmergingMarketsLargeCompanyIndexFundBarChart">
+        <link:definition>000296 - Schedule - Annual Total Returns - Schwab Fundamental Emerging Markets Large Company Index Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="ScheduleAverageAnnualTotalReturnsTransposedSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000297 - Schedule - Average Annual Total Returns {Transposed} {- Schwab Fundamental Emerging Markets Large Company Index Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="DocumentRiskReturnDetailUnlabeledSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000298 - Document - Risk/Return Detail {Unlabeled} - Schwab Fundamental Emerging Markets Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsSchwabFundamentalEmergingMarketsLargeCompanyIndexFund" id="DisclosureRiskReturnDetailDataElementsSchwabFundamentalEmergingMarketsLargeCompanyIndexFund">
+        <link:definition>000299 - Disclosure - Risk/Return Detail Data {Elements} - Schwab Fundamental Emerging Markets Large Company Index Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledLaudusSmall-CapMarketMastersFund" id="DocumentRiskReturnSummaryUnlabeledLaudusSmallCapMarketMastersFund">
+        <link:definition>000301 - Document - Risk/Return Summary {Unlabeled} - Laudus Small-Cap MarketMasters Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesLaudusSmall-CapMarketMastersFund" id="ScheduleShareholderFeesLaudusSmallCapMarketMastersFund">
+        <link:definition>000302 - Schedule - Shareholder Fees {- Laudus Small-Cap MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesLaudusSmall-CapMarketMastersFund" id="ScheduleAnnualFundOperatingExpensesLaudusSmallCapMarketMastersFund">
+        <link:definition>000303 - Schedule - Annual Fund Operating Expenses {- Laudus Small-Cap MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedLaudusSmall-CapMarketMastersFund" id="ScheduleExpenseExampleTransposedLaudusSmallCapMarketMastersFund">
+        <link:definition>000304 - Schedule - Expense Example {Transposed} {- Laudus Small-Cap MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedLaudusSmall-CapMarketMastersFund" id="ScheduleExpenseExampleNoRedemptionTransposedLaudusSmallCapMarketMastersFund">
+        <link:definition>000305 - Schedule - Expense Example, No Redemption {Transposed} {- Laudus Small-Cap MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsLaudusSmall-CapMarketMastersFundBarChart" id="ScheduleAnnualTotalReturnsLaudusSmallCapMarketMastersFundBarChart">
+        <link:definition>000306 - Schedule - Annual Total Returns - Laudus Small-Cap MarketMasters Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedLaudusSmall-CapMarketMastersFund" id="ScheduleAverageAnnualTotalReturnsTransposedLaudusSmallCapMarketMastersFund">
+        <link:definition>000307 - Schedule - Average Annual Total Returns {Transposed} {- Laudus Small-Cap MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledLaudusSmall-CapMarketMastersFund" id="DocumentRiskReturnDetailUnlabeledLaudusSmallCapMarketMastersFund">
+        <link:definition>000308 - Document - Risk/Return Detail {Unlabeled} - Laudus Small-Cap MarketMasters Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsLaudusSmall-CapMarketMastersFund" id="DisclosureRiskReturnDetailDataElementsLaudusSmallCapMarketMastersFund">
+        <link:definition>000309 - Disclosure - Risk/Return Detail Data {Elements} - Laudus Small-Cap MarketMasters Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnSummaryUnlabeledLaudusInternationalMarketMastersFund" id="DocumentRiskReturnSummaryUnlabeledLaudusInternationalMarketMastersFund">
+        <link:definition>000311 - Document - Risk/Return Summary {Unlabeled} - Laudus International MarketMasters Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleShareholderFeesLaudusInternationalMarketMastersFund" id="ScheduleShareholderFeesLaudusInternationalMarketMastersFund">
+        <link:definition>000312 - Schedule - Shareholder Fees {- Laudus International MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualFundOperatingExpensesLaudusInternationalMarketMastersFund" id="ScheduleAnnualFundOperatingExpensesLaudusInternationalMarketMastersFund">
+        <link:definition>000313 - Schedule - Annual Fund Operating Expenses {- Laudus International MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleTransposedLaudusInternationalMarketMastersFund" id="ScheduleExpenseExampleTransposedLaudusInternationalMarketMastersFund">
+        <link:definition>000314 - Schedule - Expense Example {Transposed} {- Laudus International MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleExpenseExampleNoRedemptionTransposedLaudusInternationalMarketMastersFund" id="ScheduleExpenseExampleNoRedemptionTransposedLaudusInternationalMarketMastersFund">
+        <link:definition>000315 - Schedule - Expense Example, No Redemption {Transposed} {- Laudus International MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAnnualTotalReturnsLaudusInternationalMarketMastersFundBarChart" id="ScheduleAnnualTotalReturnsLaudusInternationalMarketMastersFundBarChart">
+        <link:definition>000316 - Schedule - Annual Total Returns - Laudus International MarketMasters Fund [BarChart]</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/ScheduleAverageAnnualTotalReturnsTransposedLaudusInternationalMarketMastersFund" id="ScheduleAverageAnnualTotalReturnsTransposedLaudusInternationalMarketMastersFund">
+        <link:definition>000317 - Schedule - Average Annual Total Returns {Transposed} {- Laudus International MarketMasters Fund}</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DocumentRiskReturnDetailUnlabeledLaudusInternationalMarketMastersFund" id="DocumentRiskReturnDetailUnlabeledLaudusInternationalMarketMastersFund">
+        <link:definition>000318 - Document - Risk/Return Detail {Unlabeled} - Laudus International MarketMasters Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.schwabfunds.com/role/DisclosureRiskReturnDetailDataElementsLaudusInternationalMarketMastersFund" id="DisclosureRiskReturnDetailDataElementsLaudusInternationalMarketMastersFund">
+        <link:definition>000319 - Disclosure - Risk/Return Detail Data {Elements} - Laudus International MarketMasters Fund</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <import namespace="http://xbrl.sec.gov/rr/2012-01-31" schemaLocation="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd" />
+  <import namespace="http://xbrl.sec.gov/dei/2012-01-31" schemaLocation="http://xbrl.sec.gov/dei/2012/dei-2012-01-31.xsd" />
+  <import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <element name="S000006549Member" id="sct7_S000006549Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000017885Member" id="sct7_C000017885Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000017886Member" id="sct7_C000017886Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="ComparativeIndicesSAndPFiveHundredIndexMember" id="sct7_ComparativeIndicesSAndPFiveHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="BarclaysUsAggregateBondMember" id="sct7_BarclaysUsAggregateBondMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="BalancedBlendedIndexMember" id="sct7_BalancedBlendedIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005916Member" id="sct7_S000005916Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016175Member" id="sct7_C000016175Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="AllEquityCompositeIndexMember" id="sct7_AllEquityCompositeIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005917Member" id="sct7_S000005917Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016177Member" id="sct7_C000016177Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016176Member" id="sct7_C000016176Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="SAndPFiveHundredIndexMember" id="sct7_SAndPFiveHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="GrowthCompositeIndexMember" id="sct7_GrowthCompositeIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005918Member" id="sct7_S000005918Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016178Member" id="sct7_C000016178Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="BalancedCompositeIndexMember" id="sct7_BalancedCompositeIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005919Member" id="sct7_S000005919Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016180Member" id="sct7_C000016180Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016179Member" id="sct7_C000016179Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="ConservativeCompositeIndexMember" id="sct7_ConservativeCompositeIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005521Member" id="sct7_S000005521Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015023Member" id="sct7_C000015023Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="DowJonesUsTotalStockMarketIndexDomain" id="sct7_DowJonesUsTotalStockMarketIndexDomain" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyTenMember" id="sct7_TargetTwentyTenMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000020935Member" id="sct7_S000020935Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000059131Member" id="sct7_C000059131Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyFifteenIndexMember" id="sct7_TargetTwentyFifteenIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005522Member" id="sct7_S000005522Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015024Member" id="sct7_C000015024Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyTwentyMember" id="sct7_TargetTwentyTwentyMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000020936Member" id="sct7_S000020936Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000059132Member" id="sct7_C000059132Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyTwentyFiveMember" id="sct7_TargetTwentyTwentyFiveMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005523Member" id="sct7_S000005523Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015025Member" id="sct7_C000015025Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyThirtyIndexMember" id="sct7_TargetTwentyThirtyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000020937Member" id="sct7_S000020937Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000059133Member" id="sct7_C000059133Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyThirtyFiveIndexMember" id="sct7_TargetTwentyThirtyFiveIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005524Member" id="sct7_S000005524Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015026Member" id="sct7_C000015026Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="TargetTwentyFourtyIndexMember" id="sct7_TargetTwentyFourtyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005513Member" id="sct7_S000005513Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015011Member" id="sct7_C000015011Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015012Member" id="sct7_C000015012Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellTenHundredGrowthIndexMember" id="sct7_RussellTenHundredGrowthIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005514Member" id="sct7_S000005514Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015013Member" id="sct7_C000015013Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000022039Member" id="sct7_S000022039Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000063316Member" id="sct7_C000063316Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000063314Member" id="sct7_C000063314Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000063315Member" id="sct7_C000063315Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEafeIndexMember" id="sct7_MsciEafeIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005515Member" id="sct7_S000005515Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015014Member" id="sct7_C000015014Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015015Member" id="sct7_C000015015Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005516Member" id="sct7_S000005516Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015016Member" id="sct7_C000015016Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015017Member" id="sct7_C000015017Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellTwentyHundredIndexMember" id="sct7_RussellTwentyHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005517Member" id="sct7_S000005517Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015019Member" id="sct7_C000015019Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015018Member" id="sct7_C000015018Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005518Member" id="sct7_S000005518Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015020Member" id="sct7_C000015020Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="SAndPFiveHundredSuperCompositeFinancialSectorIndexMember" id="sct7_SAndPFiveHundredSuperCompositeFinancialSectorIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="SAndPMember" id="sct7_SAndPMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005519Member" id="sct7_S000005519Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000015021Member" id="sct7_C000015021Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="DowJonesGlobalHealthCareIndexMember" id="sct7_DowJonesGlobalHealthCareIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005911Member" id="sct7_S000005911Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016167Member" id="sct7_C000016167Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016165Member" id="sct7_C000016165Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016166Member" id="sct7_C000016166Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005912Member" id="sct7_S000005912Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016168Member" id="sct7_C000016168Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016169Member" id="sct7_C000016169Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005913Member" id="sct7_S000005913Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016170Member" id="sct7_C000016170Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016171Member" id="sct7_C000016171Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="DowjonesUsTotalStockMarketIndexMember" id="sct7_DowjonesUsTotalStockMarketIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000005914Member" id="sct7_S000005914Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016172Member" id="sct7_C000016172Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000016173Member" id="sct7_C000016173Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEafeIndexNetMember" id="sct7_MsciEafeIndexNetMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEafeIndexGrossMember" id="sct7_MsciEafeIndexGrossMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000016766Member" id="sct7_S000016766Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046821Member" id="sct7_C000046821Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046819Member" id="sct7_C000046819Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046820Member" id="sct7_C000046820Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellFundamentalUsLargeCompanyIndexMember" id="sct7_RussellFundamentalUsLargeCompanyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="FtseRafiUsTenHundredIndexMember" id="sct7_FtseRafiUsTenHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000016767Member" id="sct7_S000016767Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046824Member" id="sct7_C000046824Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046822Member" id="sct7_C000046822Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046823Member" id="sct7_C000046823Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellFundamentalUsSmallCompanyIndexMember" id="sct7_RussellFundamentalUsSmallCompanyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="FtseRafiUsMidSmallTenFiveHundredIndexMember" id="sct7_FtseRafiUsMidSmallTenFiveHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000016768Member" id="sct7_S000016768Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046827Member" id="sct7_C000046827Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046825Member" id="sct7_C000046825Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000046826Member" id="sct7_C000046826Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellFundamentalDevelopedUsLargeCompanyIndexMember" id="sct7_RussellFundamentalDevelopedUsLargeCompanyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="FtseRafiDevelopedUsTenHundredIndexMember" id="sct7_FtseRafiDevelopedUsTenHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000019901Member" id="sct7_S000019901Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000055855Member" id="sct7_C000055855Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000055853Member" id="sct7_C000055853Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000055854Member" id="sct7_C000055854Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellFundamentalDevelopedExUsSmallCompanyIndexMember" id="sct7_RussellFundamentalDevelopedExUsSmallCompanyIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="FtseRafiDevelopedExUsMidSmallTenHundredIndexMember" id="sct7_FtseRafiDevelopedExUsMidSmallTenHundredIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000019900Member" id="sct7_S000019900Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000055852Member" id="sct7_C000055852Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000055850Member" id="sct7_C000055850Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000055851Member" id="sct7_C000055851Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellFundamentalEmergingMarketsLargeCompanyIndexNetMember" id="sct7_RussellFundamentalEmergingMarketsLargeCompanyIndexNetMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="FtseRafiEmergingIndexMember" id="sct7_FtseRafiEmergingIndexMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000006550Member" id="sct7_S000006550Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000017887Member" id="sct7_C000017887Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000017888Member" id="sct7_C000017888Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="RussellTwentyHundredIndexReflectsMember" id="sct7_RussellTwentyHundredIndexReflectsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="S000006551Member" id="sct7_S000006551Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000017889Member" id="sct7_C000017889Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="C000017890Member" id="sct7_C000017890Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <element name="MsciEafeMember" id="sct7_MsciEafeMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+</schema>

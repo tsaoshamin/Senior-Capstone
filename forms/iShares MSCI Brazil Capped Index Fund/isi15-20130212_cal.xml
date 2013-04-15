@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created by RR Donnelley IM Processor 7.0.0.0 using Fujitsu Interstage XWand-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <roleRef roleURI="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesiSharesMSCIThailandCappedInvestableMarketIndexFund" xlink:type="simple" xlink:href="isi15-20130212.xsd#ScheduleAnnualFundOperatingExpensesiSharesMSCIThailandCappedInvestableMarketIndexFund" />
+  <calculationLink xlink:type="extended" xlink:role="http://www.iShares.com/role/ScheduleAnnualFundOperatingExpensesiSharesMSCIThailandCappedInvestableMarketIndexFund" xlink:title="000093 - Schedule - Annual Fund Operating Expenses {- iShares MSCI Thailand Capped Investable Market Index Fund}">
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ExpensesOverAssets" xlink:label="ExpensesOverAssets" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_ManagementFeesOverAssets" xlink:label="ManagementFeesOverAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="ExpensesOverAssets" xlink:to="ManagementFeesOverAssets" order="10.0" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_DistributionAndService12b1FeesOverAssets" xlink:label="DistributionAndService12b1FeesOverAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="ExpensesOverAssets" xlink:to="DistributionAndService12b1FeesOverAssets" order="20.0" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://xbrl.sec.gov/rr/2012/rr-2012-01-31.xsd#rr_OtherExpensesOverAssets" xlink:label="OtherExpensesOverAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="ExpensesOverAssets" xlink:to="OtherExpensesOverAssets" order="30.0" weight="1" />
+  </calculationLink>
+</linkbase>
