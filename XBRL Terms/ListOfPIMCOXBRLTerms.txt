@@ -1,0 +1,48 @@
+Acquired Fund Fees And Expenses Over Assets
+Amendment Flag
+Annual Fund Operating Expenses Table Text Block
+Bar Chart And Performance Table Heading
+Distribution And Service 12b1 Fees Over Assets
+Document Creation Date
+Document Effective Date
+Document Period End Date
+Document Type
+Entity Central Index Key
+Entity Registrant Name 
+Expense Example By Year Caption
+Expense Example Narrative Text Block
+Expense Example No Redemption By Year Caption
+Expense Example No Redemption Table Text Block
+Expense Example No Redemption Year 01
+Expense Example No Redemption Year 03
+Expense Example With Redemption Table Text Block
+Expense Example Year 01
+Expense Example Year 03
+Expense Heading
+Expense Narrative Text Block
+Expenses Over Assets
+Fee Waiver Or Reimbursement Over Assets
+Fee Waiver Or Reimbursement Over Assets Date Of Termination
+Management Fees Over Assets
+Maximum Deferred Sales Charge Over Offering Price
+Maximum Sales Charge Imposed On Purchases Over Offering Price
+Net Expenses Over Assets
+Objective Heading
+Objective Primary Text Block
+Operating Expenses Caption
+Other Expenses Over Assets
+Performance Availability Website Address
+Performance Narrative Text Block
+Portfolio Turnover Heading
+Portfolio Turnover Text Block
+Prospectus Date
+Risk Heading
+Risk Lose Money
+Risk Narrative Text Block
+Risk Nondiversified Status
+Risk Not Insured Depository Institution
+Risk Return Detail Table Text Block
+Shareholder Fees Caption
+Shareholder Fees Table Text Block
+Strategy Heading
+Strategy Narrative Text Block

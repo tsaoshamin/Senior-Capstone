@@ -1,0 +1,87 @@
+Acquired Fund Fees And Expenses Over Assets
+Amendment Flag
+Annual Fund Operating Expenses Table Text Block
+Annual Return 2003
+Annual Return 2004
+Annual Return 2005
+Annual Return 2006
+Annual Return 2007
+Annual Return 2008
+Annual Return 2009
+Annual Return 2010
+Annual Return 2011
+Annual Return 2012
+Average Annual Return Inception Date
+Average Annual Return Since Inception
+Average Annual Return Year 01
+Average Annual Return Year 10
+Average Annual Return Year05
+Bar Chart And Performance Table Heading
+Bar Chart Closing Text Block
+Bar Chart Heading
+Bar Chart Highest Quarterly Return
+Bar Chart Highest Quarterly Return Date
+Bar Chart Lowest Quarterly Return
+Bar Chart Lowest Quarterly Return Date
+Bar Chart Returns For Class Not Offered In Prospectus
+Bar Chart Table Text Block
+Component 1 Other Expenses Over Assets
+Component 2 Other Expenses Over Assets
+Distribution And Service 12b1 Fees Over Assets
+Document Creation Date
+Document Effective Date
+Document Period End Date
+Document Type
+Entity Central Index Key
+Entity Registrant Name
+Expense Example By Year Heading
+Expense Example Heading
+Expense Example Narrative Text Block
+Expense Example No Redemption Table Text Block
+Expense Example With Redemption Table Text Block
+Expense Example Year 01
+Expense Example Year 03
+Expense Example Year 05
+Expense Example Year 10
+Expense Heading
+Expense Narrative Text Block
+Expenses Not Correlated To Ratio Due To Acquired Fund Fees
+Expenses Over Assets
+Fee Waiver Or Reimbursement Over Assets
+Highest Quarterly Return Label
+Lowest Quarterly Return Label
+Management Fees Over Assets
+Net Expenses Over Assets
+Objective Heading
+Objective Primary Text Block
+Operating Expenses Caption
+Other Expenses Over Assets
+Performance Additional Market Index
+Performance Availability Website Address
+Performance Information Illustrates Variability Of Returns
+Performance Narrative Text Block
+Performance Past Does Not Indicate Future
+Performance Table Explanation After Tax Higher
+Performance Table Heading
+Performance Table Market Index Changed
+Performance Table Narrative Textblock
+Performance Table Not Relevant To Tax Deferred
+Performance Table One Class Of After Tax Shown
+Performance Table Text Block
+Performance Table Uses Highest Federal Rate
+Portfolio Turnover Heading
+Portfolio Turnover Rate
+Portfolio Turnover Text Block
+Prospectus Date
+Redemption Fee Over Redemption
+Risk Heading
+Risk Lose Money
+Risk Money Market Fund
+Risk Narrative Text Block
+Risk Not Insured Depository Institution
+Risk Return Heading
+Share Holder Fees Caption
+Shareholder Fees Table Text Block
+Strategy Heading
+Strategy Narrative Text Block
+Strategy Portfolio Concentration
