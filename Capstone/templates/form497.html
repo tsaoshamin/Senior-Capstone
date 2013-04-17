@@ -6,9 +6,6 @@
 <div id='filterformds'>
 <h2>Research Mutual Funds</h2>
 <form method='post' action='{{ url_for('form497') }}'>
-	<select name="mutualfund_select">
-		<option selected="selected" value="all">All Mutual Funds</option>
-	</select>
 	<select name="company_select">
 		<option selected="selected" value="all">All Companies</option>
 		<option value="BlackRock">BlackRock</option>
@@ -16,6 +13,64 @@
 		<option value="Schwab">Schwab</option>
 		<option value="State Street">State Street</option>
 		<option value="Laudus Funds">Laudus Funds</option>
+	</select>
+	<select name="mutualfund_select">
+		<option selected="selected" value="all">All Mutual Funds</option>
+	</select>
+	<select name="terms_select">
+		<option selected="selected" value="all">All XBRL Terms</option>
+		<optgroup label="Required Terms">
+			<option>Amendment Flag</option>
+			<option>Annual Fund Operating Expenses Table Text Block</option>
+			<option>Bar Chart And Performance Table Heading</option>
+			<option>Distribution And Service 12b1 Fees Over Assets</option>
+			<option>Document Creation Date</option>
+			<option>Document Effective Date</option>
+			<option>Document Period End Date</option>
+			<option>Document Type</option>
+			<option>Expense Example Narrative Text Block</option>
+			<option>Expense Example With Redemption Table Text Block</option>
+			<option>Expense Example Year 01</option>
+			<option>Expense Example Year 03</option>
+			<option>Expense Heading</option>
+			<option>Expense Narrative Text Block</option>
+			<option>Expenses Over Assets</option>
+			<option>Management Fees Over Assets</option>
+			<option>Objective Heading</option>
+			<option>Objective Primary Text Block</option>
+			<option>Operating Expenses Caption</option>
+			<option>Other Expenses Over Assets</option>
+			<option>Performance Availability Website Address</option>
+			<option>Performance Narrative Text Block</option>
+			<option>Portfolio Turnover Heading</option>
+			<option>Portfolio Turnover Text Block</option>
+			<option>Prospectus Date</option>
+			<option>Risk Heading</option>
+			<option>Risk Lose Money</option>
+			<option>Risk Narrative Text Block</option>
+			<option>Strategy Heading</option>
+		</optgroup>
+		<optgroup label="PIMCO Terms">
+			<option>Acquired Fund Fees And Expenses Over Assets</option>
+			<option>Entity Central Index Key</option>
+			<option>Entity Registrant Name </option>
+			<option>Expense Example By Year Caption</option>
+			<option>Expense Example No Redemption By Year Caption</option>
+			<option>Expense Example No Redemption Table Text Block</option>
+			<option>Expense Example No Redemption Year 01</option>
+			<option>Expense Example No Redemption Year 03</option>
+			<option>Fee Waiver Or Reimbursement Over Assets</option>
+			<option>Fee Waiver Or Reimbursement Over Assets Date Of Termination</option>
+			<option>Maximum Deferred Sales Charge Over Offering Price</option>
+			<option>Maximum Sales Charge Imposed On Purchases Over Offering Price</option>
+			<option>Net Expenses Over Assets</option>
+			<option>Risk Nondiversified Status</option>
+			<option>Risk Not Insured Depository Institution</option>
+			<option>Risk Return Detail Table Text Block</option>
+			<option>Shareholder Fees Caption</option>
+			<option>Shareholder Fees Table Text Block</option>
+			<option>Strategy Narrative Text Block</option>
+		</optgroup>
 	</select>
 	<input type='submit' value='Allez!' class='button' />
 </form>
