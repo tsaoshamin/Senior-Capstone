@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Table, ForeignKey, DateTime, Boolean, Date, Numeric
+from sqlalchemy import Column, Integer, String, Table, ForeignKey, DateTime, Boolean, Date, Float
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.ext.associationproxy import association_proxy
 from Capstone.database import Base
@@ -36,18 +36,21 @@ class Ticker(Base):
 	id = Column(Integer, primary_key=True)
 	Name = Column(String(50))
 	Class = Column(String(50))
+	FullName = Column(String(50))
+	Company = Column(String(50))
 	Form497 = relationship("Form497", backref="Ticker")
-
 
 class Form497(Base):
 	__tablename__ = 'Form497'
 	id = Column(Integer, primary_key=True)
-	TickerID = Column(Integer, ForeignKey('Ticker.Name'))
-	ManagementFeesOverAssets = Column(Numeric)
-	DistributionAndService12b1FeesOverAssets = Column(Numeric)
-	AcquiredFundFeesAndExpensesOverAssets = Column(Numeric) 
-	ExpensesOverAssets = Column(Numeric) 
-	AnnualReturn2010 = Column(Numeric)
-	AnnualReturn2011 = Column(Numeric)
-	FeeWaiverOrReimbursementOverAssets = Column(Numeric)
+	TickerID = Column(Integer, ForeignKey('Ticker.id'))
+	url = Column(String(100))
+	SubmissionDate = Column(Date)
+	ManagementFeesOverAssets = Column(Float)
+	DistributionAndService12b1FeesOverAssets = Column(Float)
+	AcquiredFundFeesAndExpensesOverAssets = Column(Float) 
+	ExpensesOverAssets = Column(Float) 
+	AnnualReturn2010 = Column(Float)
+	AnnualReturn2011 = Column(Float)
+	FeeWaiverOrReimbursementOverAssets = Column(Float)
 

@@ -1,0 +1,76 @@
+Amendment Flag
+Annual Fund Operating Expenses Table Text Block
+Annual Return 2002
+Annual Return 2003
+Annual Return 2004
+Annual Return 2005
+Annual Return 2006
+Annual Return 2007
+Annual Return 2008
+Annual Return 2009
+Annual Return 2010
+Annual Return 2011
+Average Annual Return Inception Date
+Average Annual Return Since Inception
+Average Annual Return Year 01
+Average Annual Return Year 05
+Average Annual Return Year 10
+Bar Chart And Performance Table Heading
+Bar Chart Closing Text Block
+Bar Chart Heading
+Bar Chart Highest Quarterly Return
+Bar Chart Highest Quarterly Return Date
+Bar Chart Lowest Quarterly Return
+Bar Chart Lowest Quarterly Return Date
+Bar Chart Table Text Block
+Bar Chart Year To Date Return
+Bar Chart Year To Date Return Date
+Distribution And Service 12b1 Fees Over Assets
+Document Creation Date
+Document Effective Date
+Document Period End Date
+Document Type
+Entity Central Indexkey
+Entity Registrant Name
+Expense Example Heading
+Expense Example Narrative Text Block
+Expense Example With Redemption Table Text Block
+Expense Example Year 01
+Expense Example Year 03
+Expense Example Year 05
+Expense Example Year 10
+Expense Exchange Traded Fund Commissions
+Expense Heading
+Expense Narrative Text Block
+Expenses Over Assets
+Highest Quarterly Return Label
+Lowest Quarterly Return Label
+Management Fees Over Assets
+Objective Heading
+Objective Primary Text Block
+Operating Expenses Caption
+Other Expenses Over Assets
+Performance Availability Phone
+Performance Availability Website Address
+Performance Information Illustrates Variability Of Returns
+Performance Narrative Text Block
+Performance Past Does Not Indicate Future
+Performance Table Explanation After Tax Higher
+Performance Table Heading
+Performance Table Market Index Changed
+Performance Table Not Relevant To Tax Deferred
+Performance Table Text Block
+Performance Table Uses Highest Federal Rate
+Portfolio Turnover Heading
+Portfolio Turnover Rate
+Portfolio Turnover Text Block
+Prospectus Date
+Risk Heading
+Risk Lose Money
+Risk Narrative Text Block
+Risk Nondiversified Status
+Risk Return Heading
+Strategy Heading
+Strategy Narrative Text Block
+Strategy Portfolio Concentration
+Year To Date Return Label

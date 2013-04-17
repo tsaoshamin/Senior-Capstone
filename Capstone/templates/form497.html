@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class='content'>
+<div id='filterformds'>
+<h2>Research Mutual Funds</h2>
+<form method='post' action='{{ url_for('form497') }}'>
+	<select name="mutualfund_select">
+		<option selected="selected" value="all">All Mutual Funds</option>
+	</select>
+	<select name="company_select">
+		<option selected="selected" value="all">All Companies</option>
+		<option value="BlackRock">BlackRock</option>
+		<option value="PIMCO">Pimco</option>
+		<option value="Schwab">Schwab</option>
+		<option value="State Street">State Street</option>
+		<option value="Laudus Funds">Laudus Funds</option>
+	</select>
+	<input type='submit' value='Allez!' class='button' />
+</form>
+</div>
+
+{% if form497s %}
+	<table id="rounded-corner" class="sortable">
+	<thead>
+	<th scope="col" class="rounded-q1">Company</th>
+	<th scope="col">Ticker</th>
+	<th scope="col">Fund Name</th>
+	<th scope="col">Class Type</th>
+	<th scope="col">Submission Date</th>
+	<th scope="col">Management Fees Over Assets</th>
+ 	<th scope="col">Distribution And Service 12b1 Fees Over Assets</th>
+ 	<th scope="col">Acquired Fund Fees And Expenses Over Assets</th>
+ 	<th scope="col">Expenses Over Assets</th>
+ 	<th scope="col">Annual Return 2010</th>
+	<th scope="col">Annual Return 2011</th>
+	<th scope="col" class="rounded-q4">Fee Waiver Or Reimbursement Over Assets</th>
+	</thead>
+	<tfoot>
+    	<tr>
+        	<td colspan="11" class="rounded-foot-left">&nbsp;</td>
+        	<td class="rounded-foot-right">&nbsp;</td>
+        </tr>
+	</tfoot>
+	{% for form497 in form497s %}
+		<tr>
+		<td>{{ form497.Ticker.Company }}</td>
+		<td>{{ form497.Ticker.Name }}</td>
+		<td>{{ form497.Ticker.FullName }}</td>
+		<td>{{ form497.Ticker.Class }}</td>
+		<td>{{ form497.SubmissionDate }}</td>
+		<td>{{ form497.ManagementFeesOverAssets }}%</td>
+		<td>{{ form497.DistributionAndService12b1FeesOverAssets }}%</td>
+		{% if form497.AcquiredFundFeesAndExpensesOverAssets != None %}
+			<td>{{ form497.AcquiredFundFeesAndExpensesOverAssets }}%</td>
+		{% else %}
+			<td>{{ form497.AcquiredFundFeesAndExpensesOverAssets }}</td>
+		{% endif %}
+		{% if form497.ExpensesOverAssets != None %}
+			<td>{{ form497.ExpensesOverAssets }}%</td>
+		{% else %}
+			<td>{{ form497.ExpensesOverAssets }}</td>
+		{% endif %}
+		{% if form497.AnnualReturn2010 != None %}			
+			<td>{{ form497.AnnualReturn2010 }}%</td>
+		{% else %}
+			<td>{{ form497.AnnualReturn2010 }}</td>
+		{% endif %}
+		{% if form497.AnnualReturn2011 != None %}
+			<td>{{ form497.AnnualReturn2011 }}%</td>
+		{% else %}
+			<td>{{ form497.AnnualReturn2011 }}</td>
+		{% endif %}
+		{% if form497.FeeWaiverOrReimbursementOverAssets != None %}
+			<td>{{ form497.FeeWaiverOrReimbursementOverAssets }}%</td>
+		{% else %}
+			<td>{{ form497.FeeWaiverOrReimbursementOverAssets }}</td>
+		{% endif %}
+		</tr>
+	{% endfor %}
+	</table>
+</div>
+{% endif %}
+{% endblock %}

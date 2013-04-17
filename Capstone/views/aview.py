@@ -1,7 +1,7 @@
 from Capstone import app
 from flask import Flask, render_template, request
 from Capstone.database import db_session 
-from Capstone.models import Issuer, FormD
+from Capstone.models import Issuer, FormD, Form497, Ticker
 import datetime 
 from datetime import timedelta
 import locale
@@ -54,3 +54,41 @@ def formd():
 		return render_template('formd.html', dates = dates, formds = formds)
 	else:
 		return render_template('formd.html', dates = dates)
+
+@app.route('/form497', methods=["POST", "GET"])
+def form497():
+	if request.method == 'POST':
+		form497s = Form497.query.all()
+		company = request.form['company_select'] 
+		print company
+		if request.form['mutualfund_select'] == 'all' and company == 'all':
+			form497s = Form497.query.all()
+		else:
+			tickers = Ticker.query.filter(Ticker.Company == company)
+			ts=[]
+			for ticker in tickers:	
+				ts.append(ticker.id)
+			form497s = Form497.query.filter(Form497.TickerID.in_(ts))
+		for form497 in form497s:
+			if form497.ManagementFeesOverAssets is not None:
+				form497.ManagementFeesOverAssets = form497.ManagementFeesOverAssets * 100
+			if form497.DistributionAndService12b1FeesOverAssets is not None:
+				form497.DistributionAndService12b1FeesOverAssets = form497.DistributionAndService12b1FeesOverAssets * 100
+			if form497.AcquiredFundFeesAndExpensesOverAssets is not None:
+				form497.AcquiredFundFeesAndExpensesOverAssets = form497.AcquiredFundFeesAndExpensesOverAssets * 100
+			if form497.ExpensesOverAssets is not None:
+				form497.ExpensesOverAssets = form497.ExpensesOverAssets * 100
+			if form497.FeeWaiverOrReimbursementOverAssets is not None:
+				form497.FeeWaiverOrReimbursementOverAssets = form497.FeeWaiverOrReimbursementOverAssets * 100			
+			if form497.AnnualReturn2010 is not None:
+				form497.AnnualReturn2010 = form497.AnnualReturn2010 * 100
+			if form497.AnnualReturn2011 is not None:
+				form497.AnnualReturn2011 = form497.AnnualReturn2011 * 100
+		return render_template('form497.html', form497s=form497s)
+	else:
+		return render_template('form497.html')
+
+
+@app.route('/feedback')
+def feedback():
+	return render_template('feedback.html')

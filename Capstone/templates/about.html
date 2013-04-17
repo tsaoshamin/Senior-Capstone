@@ -12,34 +12,33 @@
 	This website has been created by three <a href="http://ischool.uw.edu/">Informatics</a> majors studying at the University of Washington.
 	We are Jeff Cairns, Misha Tsao and Cory Eurom. </p> 
 
-	<p>A "Capstone Project" is a six-month long project which requires groups of 3-5 students to solve an
+	<p>A "Capstone Project" is a six-month project which requires groups of 3-5 students to solve an
 	information problem. This information problem is all about gathering, organizing and analyzing data.</p> 
 	 
 	</p>
 
 	<p>
 	In the wake of events such as <a href='http://en.wikipedia.org/wiki/Lehman_Brothers' target='_blank'>Lehman Brothers</a> declaring bankruptcy
-	and <a href='http://en.wikipedia.org/wiki/Bernie_madoff' target='_blank'>Bernie Madoff</a> being born with the perfect name, 
+	and <a href='http://en.wikipedia.org/wiki/Bernie_madoff' target='_blank'>Bernie Madoff</a> having the perfect name, 
 	the federal government has mandated increased transparency throughout the financial sector. Legislation like the <a href='http://en.wikipedia.org/wiki/Dodd–Frank_Wall_Street_Reform_and_Consumer_Protection_Act'
-	target-'_blank'>Dodd-Frank Act</a> requires companies to submit nearly every piece of financial information. This makes investing safe again. That is, if you take
+	target-'_blank'>Dodd-Frank Act</a> require companies to submit nearly every piece of financial information. This makes investing safe again. That is, if you take
 	advantage of the data.</p>
 
 	<p>
-	XBRL is a machine-readable language. Imagine you are the SEC and you legislate <em>every</em> company in the US to submit data to you. There are no technical
-	specifications to the format of the data therefore anything is accepted. Data flows in like a tornado from Kansas; scanned accounting papers, JPEGs,
-	PDFs, XLSX, TXT, anything! Introducing XBRL: The future of financial reporting. XBRL is an extension of XML.
-	It is formatted in the exact same way with minor changes and the inclusion of lateral taxonomies. Read more about it <a href='http://jeffcacapstone.blogspot.com/2013/02/become-familiar-with-xbrl.html' target='_blank'>at Jeff's blog.</a> 
+	XBRL is a machine-readable language. Imagine you are the Securities and Exchange Commissions and you legislate <em>every</em> company in the US to submit data to you. There are no technical
+	specifications to the format of the data therefore anything is accepted. Data flows in like a tornado from Kansas: scanned accounting papers, JPEGs,
+	PDFs, XLSX, TXT, anything! Introducing XBRL: The future of financial reporting. The eXtensible Business Reporting Language is an extension of XML and it follows
+	a very similar format. Read more about it <a href='http://jeffcacapstone.blogspot.com/2013/02/become-familiar-with-xbrl.html' target='_blank'>at Jeff's blog.</a> 
 
 	</p>
 
 	<p>
-	This website collects data from the SEC. The process is as follows:
+	This website collects XBRL-tagged data from the SEC. The process is as follows:
 	<ol>
-	<li>Companies submit financial reports to the Securities and Exchange Commission</li>
-	<li>The data is then available to anyone in the public</li>
-	<li>We receive the latest reports every ten minutes. These reports are sent to a database</li>
-	<li>Users submit PHP requests to the database with specific criteria</li>
-	<li>Poof! There the data is</li>
+	<li>Companies submit financial reports to the SEC</li>
+	<li>The reports are made available to the public</li>
+	<li>We collect Form Ds and Form 497s (Form 485BPOS in some cases) for analysis</li>
+	<li>This website reads our database then allows you to filter, sort and analyze</li>
 	</ol>
 	</p>
 

@@ -1,0 +1,102 @@
+list = [
+"performance availability website address",
+"annual return 2006",
+"highest quarterly return label",
+"bar chart year to date return date",
+"entity registrant name",
+"expenses over assets",
+"objective primary text block",
+"expense example year 01",
+"management fees over assets",
+"performance narrative text block",
+"annual return 2003",
+"money market seven day yield caption",
+"bar chart year to date return",
+"objective heading",
+"amendment flag",
+"strategy heading",
+"lowest quarterly return label",
+"index no deduction for fees expenses taxes",
+"performance table heading",
+"average annual return year 10",
+"document creation date",
+"expense narrative text block",
+"performance table text block",
+"annual return 2008",
+"annual return 2010",
+"expense example heading",
+"bar chart heading",
+"average annual return year 05",
+"risk heading",
+"expense example year 03",
+"document type",
+"annual return 2005",
+"portfolio turnover heading",
+"annual return 2002",
+"average annual return since inception",
+"net expenses over assets",
+"document period end date",
+"bar chart and performance table heading",
+"expense example year 10",
+"performance table uses highest federal rate",
+"bar chart lowest quarterly return",
+"fee waiver or reimbursement over assets",
+"risk not insured depository institution",
+"bar chart highest quarterly return date",
+"annual return 2007",
+"bar chart lowest quarterly return date",
+"bar chart table text block",
+"expense example year 05",
+"expense example with redemption table text block",
+"risk lose money",
+"strategy narrative text block",
+"fee waiver or reimbursement over assets date of termination",
+"entity central index key",
+"bar chart highest quarterly return",
+"year to date return label",
+"portfolio turnover rate",
+"risk narrative text block",
+"annual fund operating expenses table text block",
+"expense example narrative text block",
+"performance table narrative text block",
+"bar chart closing text block",
+"annual return 2004",
+"performance past does not indicate future",
+"prospectus date",
+"average annual return year 01",
+"operating expenses caption",
+"shareholder fee other",
+"performance availability phone",
+"acquired fund fees and expenses over assets",
+"expense heading",
+"share holder fees caption",
+"money market seven day yield phone",
+"performance information illustrates variability of returns",
+"risk money market fund",
+"other expenses over assets",
+"risk nondiversified status",
+"performance table not relevant to tax deferred",
+"portfolio turnover text block",
+"risk return heading",
+"annual return 2009",
+"distribution and service 12b1 fees over assets",
+"annual return 2011",
+"shareholder fees table text block",
+"document effective date"
+]
+
+list.sort()
+list2 = []
+list3 = []
+count = 0
+
+for l in list:
+	words = l.split(" ")
+	for word in words:
+		word = word.capitalize()
+		list2.append(word)
+	list[count] = list2
+	list2 = []
+	count += 1
+
+print list
