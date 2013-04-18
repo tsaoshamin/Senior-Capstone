@@ -72,7 +72,7 @@
 			<option>Strategy Narrative Text Block</option>
 		</optgroup>
 	</select>
-	<input type='submit' value='Allez!' class='button' />
+	<input type='submit' value='Search!' class='button' />
 </form>
 </div>
 
@@ -106,7 +106,11 @@
 		<td>{{ form497.Ticker.Class }}</td>
 		<td>{{ form497.SubmissionDate }}</td>
 		<td>{{ form497.ManagementFeesOverAssets }}%</td>
-		<td>{{ form497.DistributionAndService12b1FeesOverAssets }}%</td>
+		{% if form497.DistributionAndService12b1FeesOverAssets != None %}
+			<td>{{ form497.DistributionAndService12b1FeesOverAssets }}%</td>
+		{% else %}
+			<td>{{ form497.DistributionAndService12b1FeesOverAssets }}</td>
+		{% endif %}
 		{% if form497.AcquiredFundFeesAndExpensesOverAssets != None %}
 			<td>{{ form497.AcquiredFundFeesAndExpensesOverAssets }}%</td>
 		{% else %}
