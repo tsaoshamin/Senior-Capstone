@@ -139,7 +139,8 @@ color:black;
 	border-color:white;
 	padding:30px 40px 40px 40px;
 	margin:50px;
-	min-width:780px;
+	min-width:1100px;
+	
 }
 
 .data{
@@ -155,7 +156,7 @@ color:black;
 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 12px;
-	width: 800px;
+	min-width: 1000px;
 	text-align: left;
 	border-collapse: collapse;
 }
