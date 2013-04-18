@@ -1,5 +1,6 @@
 from Capstone import app
-from flask import Flask, render_template, request
+from functools import wraps
+from flask import Flask, render_template, request, Response
 from Capstone.database import db_session 
 from Capstone.models import Issuer, FormD, Form497, Ticker
 import datetime 
@@ -8,15 +9,44 @@ import locale
 
 locale.setlocale( locale.LC_ALL, '' )
 
+def check_auth(username, password):
+    """This function is called to check if a username /
+    password combination is valid.
+    """
+    return username == 'blk' and password == 'Blk47rock'
+
+def authenticate():
+    """Sends a 401 response that enables basic auth"""
+    return Response(
+    'Could not verify your access level for that URL.\n'
+    'You have to login with proper credentials', 401,
+    {'WWW-Authenticate': 'Basic realm="Login Required"'})
+
+def requires_auth(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        auth = request.authorization
+        if not auth or not check_auth(auth.username, auth.password):
+            return authenticate()
+        return f(*args, **kwargs)
+    return decorated
+
+
+
+
+
 @app.route('/')
+@requires_auth
 def home():	
 	return render_template('home.html')
 
 @app.route('/about')
+@requires_auth
 def about():
 	return render_template('about.html')
 
 @app.route('/formd', methods=["POST", "GET"])
+@requires_auth
 def formd():
 	dates = {}
 	dates["today"] = datetime.datetime.now()
@@ -56,6 +86,7 @@ def formd():
 		return render_template('formd.html', dates = dates)
 
 @app.route('/form497', methods=["POST", "GET"])
+@requires_auth
 def form497():
 	if request.method == 'POST':
 		form497s = Form497.query.all()
