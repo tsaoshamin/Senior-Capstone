@@ -1,92 +1,147 @@
 ﻿body{
-	background: #778899;
-	color:white; 
+	
+	background:rgb(79, 78, 80);
+	 
 	min-width:700px;
 }	
-#top img{
-	float: left; 
-	background-color:black;
-	height:81px;
-	
-}
-#top{
-	
-width: 100%;
-	line-height: 81px; 
-	background-color:black;
-	color:white;
-	font-size:25pt;
-	font-family:Arial, Helvetica, sans-serif;
-	overflow: auto;
-	padding-bottom: 0px;
-}
 
+#top{
+	line-height: 150px;
+	background: none repeat scroll 0 0 #000000;
+    height: 110px !important;
+    position: relative;
+    width: 100% !important;
+    z-index: 10000;
+	color:white;
+}
+a.blkLogo {
+    float: left;
+    height: 84px;
+    left: 0;
+    padding: 26px 0 0;
+    position: static;
+    text-align: left;
+    top: 0;
+    width: 240px;
+}
+a.blkLogo:hover{
+	color:none;
+}
 
 #ischool img{
-	float:right;
-	background-color:white;
-	width:160px;
-	height:auto;
-	margin-top:40px;
-	margin-bottom:0px;
-	margin-right:5px;
-	padding:5px;
+float:right;
+background-color:white;
+width:160px;
+height:auto;
+margin-top:40px;
+margin-bottom:0px;
+margin-right:5px;
+padding:5px;
 }
 
-
-#globalNav{
-	
-	width: 100%;
-	padding-top:10px;
-	margin-top:0px;
-	background:rgb(51, 51, 51);
+#globalNav {
+    background: #5D6B72;
+    position: relative;
+	display: block;
+    padding:1px;
 }
 
-a{
-	color:#FFEB73;
+#menu li a{
+	color:yellow;
 }
 
-a:hover{
+#menu li a:hover{
    color:#FF6840;
 }
 
 #menu {
-	
-	background:url(http://www2.blackrock.com/include/global/css/images/blk_global_nav_level1_bg.png) repeat-x rgb(93, 107, 114);
-	height: 40px;
-	position: relative;
-	/*margin-top: 0;
-	background-color: #9966CC;*/
+	 display: block;
+    height: 32px;
+	padding:3px;
 }
 
 ul{
-	padding-left:0px;
+padding-left:0px;
+padding-bottom:1px;
+margin-bottom:3px;
+margin-top:3.5px;
 }
 
 ul li{
-	display: inline;
-	padding: 3px;
-	margin: 0px 0px 0px 30px;
-	border-style:dotted;
-	border-width:2px;
-	border-color: white;
-	/*color: rgb(255, 255, 255);*/
+display: inline;
+padding: 3px;
+margin: 0px 0px 0px 30px;
+border-style:dotted;
+border-width:2px;
+border-color: white;
+/*color: rgb(255, 255, 255);*/
 }
 
 #menu li {
-	/*display: inline;*/
-	color: white;
+	display: inline;
 	font-size: 11pt;
 	font-family: Georgia, Sans-Serif;
+	
 }
 
 /*#menu li a:visited {
-	color: #CD853F;
+	color: yellow;
 }*/
 
 
 #filterformds {
+	background-image: url("background1.jpg");
+	background-repeat:repeat-x;
+	color:white;
+	margin-left: 80px;
+	margin-right:80px;
+	margin-top: 20px;
+	margin-bottom:0;
+    padding: 35px 0 0 18px;
+    position: relative;
+    width: auto;
+	
+}
+#home{
+	background-image: url("globalmainbanner.jpg");
+	background-repeat:no-repeat;
+	height: auto;
+    left: 10%;
+    min-height: 100%;
+    min-width: 1024px;
+    padding: 155px;
+	margin-top:20px;
+    position: fixed
+   
+}
 
+#about{
+	background-image: url("about.jpg");
+    visibility: visible;
+	border: 0 none;
+    color: #FFFFFF;
+    font-size: 30px;
+    height: 40px;
+    left: 0;
+    margin-left: 80px;
+	margin-right:80px;
+	margin-top: 20px;
+	margin-bottom:0;
+    padding: 125px 0 0 18px;
+    position: relative;
+    width: auto;
+}
+.content{
+	font-family:"Arial";
+	background-color: white;
+	margin-left:80px;
+	margin-right:80px;
+	margin-top:0px;
+	border-color:rgb(0, 121, 193);
+	padding:30px 40px 40px 40px;
+}
+.content.a{
+	color:rgb(0,121,193);
 }
 
 select {
@@ -108,6 +163,7 @@ color:black;
 .button {
 	margin: 1em;
 	margin-left: 30px;
+   	width: 110px;
 	border: 1px solid;
 	padding: .3em;
 	border: 1.5px solid white;
@@ -116,7 +172,7 @@ color:black;
 	font-size: 13px;
 	color: #039;
 	background: #b9c9fe;	
-	display:inline;
+	display:inline-block;
 }
 
 .button:hover {
@@ -132,31 +188,17 @@ color:black;
 #welcome{
 	
 }
-.content{
-	font-family:"Arial";
-	background-color: #363636;
-	border:solid;
-	border-color:white;
-	padding:30px 40px 40px 40px;
-	margin:50px;
-	min-width:1100px;
-	
-}
 
 .data{
 	color:white;
 }
 
-.selected {
-	background-color: white !important;
-}
-
-
 #rounded-corner
 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 12px;
-	min-width: 1000px;
+	margin: 30px;
+	width: 480px;
 	text-align: left;
 	border-collapse: collapse;
 }
@@ -182,7 +224,6 @@ color:black;
 	background: #e8edff;
 	border-top: 1px solid #fff;
 	color: #669;
-	height:3em;
 }
 #rounded-corner tfoot td.rounded-foot-left
 {

@@ -11,8 +11,20 @@ class Issuer(Base):
     City = Column(String(50))
     Country = Column(String(50))
     FormD = relationship("FormD", backref="Issuer")
+    RegionID = Column(Integer, ForeignKey("Region.id"))
+    TierID = Column(Integer, ForeignKey("Tier.id"))
     #more
 
+class Region(Base):
+	__tablename__ = 'Region'
+	id = Column(Integer, primary_key=True)
+	GeographicName = Column(String(50))
+
+class Tier(Base):
+	__tablename__ = 'Tier'
+	id = Column(Integer, primary_key=True)
+	TierName = Column(String(50))
+	
 class FormD(Base):
     __tablename__ = 'FormD'
     id = Column(Integer, primary_key=True)
