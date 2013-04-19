@@ -2,7 +2,7 @@ from Capstone import app
 from functools import wraps
 from flask import Flask, render_template, request, Response
 from Capstone.database import db_session 
-from Capstone.models import Issuer, FormD, Form497, Ticker
+from Capstone.models import Issuer, FormD, Form497, Ticker, Region, Tier
 import datetime 
 from datetime import timedelta
 import locale
