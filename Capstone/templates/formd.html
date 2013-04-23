@@ -32,6 +32,14 @@
 		<option value="Private Equity Fund">Private Equity Funds</option>
 		<option value="Other Investment Fund">Other Investment Funds</option>
 	</select>
+	<select name="region">
+		<option value="ALL">ALL</option>
+		<option value="1">WEST</option>
+		<option value="2">MIDWEST</option>
+		<option value="3">NORTHEAST</option>
+		<option value="4">SOUTH</option>
+		<option value="5">Other</option>
+	</select>
 	<div>
 		<input type='submit' value='Look for Forms' class='button' />
 		<input type="button" id="removeRows" value="Isolate Rows" class="button" />
@@ -46,20 +54,22 @@
 		<th scope="col" class="rounded-q1">Company</th>
 		<th scope="col">Submission Date</th>
 		<th scope="col">Offering</th>
-		<th scope="col" class="rounded-q4">Remaining</th>
+		<th scope="col">Remaining Amount</th>
+		<th scope="col"  class="rounded-q4">Counrty/State</th>
 		</thead>
 		<tfoot>
 	    	<tr>
-	        	<td colspan="3" class="rounded-foot-left">&nbsp;</td>
+	        	<td colspan="4" class="rounded-foot-left">&nbsp;</td>
 	        	<td class="rounded-foot-right">&nbsp;</td>
 	        </tr>
 		</tfoot>
 		{% for formd in formds %}
 			<tr class='selectable'>
-				<td>{{ formd.Issuer.Name }}</td>
+				<td><a href={{formd.url}}> {{ formd.Issuer.Name }}</a> </td>
 				<td>{{ formd.SubmissionDate }}</td>
 				<td>{{ formd.TotalOfferingAmount }}</td>
 				<td>{{ formd.TotalRemaining }}</td>
+				<td>{{ formd.Issuer.Country}}</td>
 			</tr>
 		{% endfor %}
 		</table>
