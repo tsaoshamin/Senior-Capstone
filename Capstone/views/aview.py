@@ -58,24 +58,43 @@ def formd():
 			(offeringLowerBound, offeringHigherBound) = request.form['offering_select'].split('-')
 		amended = request.form['new_amended_select']
 		investmentType = request.form['investment_type_select']
+		region= request.form['region']
 		formds = FormD.query.all()
 		if request.form['offering_select'] != 'Indefinite':
 			if amended == 'new':
 				formds = FormD.query.filter(FormD.SubmissionDate >= date, FormD.TotalOfferingAmount >= offeringLowerBound,
 				FormD.TotalOfferingAmount <= offeringHigherBound, FormD.Amended == 0, FormD.InvestmentFundType == investmentType)
+				if region!='ALL':
+					formds = db_session.query(FormD).join(Issuer).filter(FormD.SubmissionDate >= date, FormD.TotalOfferingAmount >= offeringLowerBound,
+					FormD.TotalOfferingAmount <= offeringHigherBound, FormD.Amended == 0, FormD.InvestmentFundType == investmentType,Issuer.RegionID==region)
 			elif amended == 'amended':
 				formds = FormD.query.filter(FormD.SubmissionDate >= date, FormD.TotalOfferingAmount >= offeringLowerBound,
 				FormD.TotalOfferingAmount <= offeringHigherBound, FormD.Amended == 1, FormD.InvestmentFundType == investmentType)
+				if region!='ALL':
+					formds = db_session.query(FormD).join(Issuer).filter(FormD.SubmissionDate >= date, FormD.TotalOfferingAmount >= offeringLowerBound,
+					FormD.TotalOfferingAmount <= offeringHigherBound, FormD.Amended == 1, FormD.InvestmentFundType == investmentType,Issuer.RegionID==region)
 			else:
 				formds = FormD.query.filter(FormD.SubmissionDate >= date, FormD.TotalOfferingAmount >= offeringLowerBound,
 				FormD.TotalOfferingAmount <= offeringHigherBound, FormD.InvestmentFundType == investmentType)
+				if region!='ALL':
+					formds = db_session.query(FormD).join(Issuer).filter(FormD.SubmissionDate >= date, FormD.TotalOfferingAmount >= offeringLowerBound,
+					FormD.TotalOfferingAmount <= offeringHigherBound, FormD.InvestmentFundType == investmentType,Issuer.RegionID==region)
 		else:
 			if amended == 'new':
 				formds = FormD.query.filter(FormD.SubmissionDate >= date, FormD.IsTotalOfferingAmountIndefinite == 1, FormD.Amended == 0, FormD.InvestmentFundType == investmentType)
+				if region!='ALL':
+					formds = db_session.query(FormD).join(Issuer).filter(FormD.SubmissionDate >= date, FormD.IsTotalOfferingAmountIndefinite == 1, FormD.Amended == 0,
+					FormD.InvestmentFundType == investmentType, Issuer.RegionID==region)
 			elif amended == 'amended':
 				formds = FormD.query.filter(FormD.SubmissionDate >= date, FormD.IsTotalOfferingAmountIndefinite == 1, FormD.Amended == 1, FormD.InvestmentFundType == investmentType)
+				if region!='ALL':
+					formds = db_session.query(FormD).join(Issuer).filter(FormD.SubmissionDate >= date, FormD.IsTotalOfferingAmountIndefinite == 1, FormD.Amended == 1,
+					FormD.InvestmentFundType == investmentType, Issuer.RegionID==region)
 			else:
 				formds = FormD.query.filter(FormD.SubmissionDate >= date, FormD.IsTotalOfferingAmountIndefinite == 1, FormD.InvestmentFundType == investmentType)
+				if region!='ALL':
+					formds = db_session.query(FormD).join(Issuer).filter(FormD.SubmissionDate >= date, FormD.IsTotalOfferingAmountIndefinite == 1,
+					FormD.InvestmentFundType == investmentType,Issuer.RegionID==region)
 		for formd in formds:
 			if formd.IsTotalOfferingAmountIndefinite == 0:
 				formd.TotalOfferingAmount = locale.currency(formd.TotalOfferingAmount, grouping=True)
